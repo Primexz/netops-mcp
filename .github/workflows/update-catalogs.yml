@@ -50,7 +50,7 @@ jobs:
           python-version: "3.15"
       - uses: golangci/golangci-lint-action@ba0d7d2ec06a0ea1cb5fa41b2e4a3ab91d21278a # v9
         with:
-          version: v2.12.2
+          version: v2.15.0
           install-only: true
       # No research cache is restored: every run retrieves current vendor docs.
       - name: Refresh catalog and coverage

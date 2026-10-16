@@ -2,7 +2,7 @@
 
 ## Offline verification
 
-Install Go 1.26, Python 3, and [golangci-lint v2.12.2](https://golangci-lint.run/docs/welcome/install/local/), matching CI. Run `make fmt` to format Go source with the standard `go fmt` command. `make fmt-check` checks formatting without changing files; `.golangci.yml` also selects `gofmt` as its formatter.
+Install Go 1.26, Python 3, and [golangci-lint v2.15.0](https://golangci-lint.run/docs/welcome/install/local/), matching CI. Run `make fmt` to format Go source with the standard `go fmt` command. `make fmt-check` checks formatting without changing files; `.golangci.yml` also selects `gofmt` as its formatter.
 
 Run `make verify` after implementation changes. The Makefile target checks formatting, runs `make lint` with golangci-lint, `go test -race ./...`, Python research tests, `go vet ./...`, offline `--check` in stdio and HTTP configuration modes for both example configs, and builds both binaries. Offline checks do not need appliance passwords or network access. Tests use offline fixtures and local test servers; no appliance credentials are required.
 
