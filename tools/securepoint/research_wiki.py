@@ -100,6 +100,9 @@ def main():
                              linked_pages=links, retrieval_error=page.get("retrieval_error")))
     out = (ROOT / "docs/securepoint/wiki-manifest.json")
     out.parent.mkdir(parents=True, exist_ok=True)
+    if out.exists() and json.loads(out.read_text())["pages"] == manifest:
+        print(f"Unchanged research snapshot: {out}")
+        return
     out.write_text(json.dumps(dict(retrieved_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),
                                    pages=manifest), ensure_ascii=False, indent=2) + "\n")
     print(f"Wrote {out}: {len(manifest)} pages, {sum(bool(p['retrieval_error']) for p in manifest)} failures")
