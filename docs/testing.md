@@ -34,13 +34,21 @@ Securepoint catalog research requires Python 3; MikroTik generation is implement
 
 ## Automated catalog updates
 
-The `.github/workflows/update-catalogs.yml` workflow runs every Monday at 06:23 UTC and supports **Actions → Update catalogs → Run workflow**. Its matrix refreshes Securepoint and MikroTik independently from the default branch, retrieves fresh public documentation without restoring a research cache, and runs `make verify` before proposing changes. A failed vendor job does not cancel the other vendor.
+The `.github/workflows/update-catalogs.yml` workflow runs every Monday at 06:23 UTC and supports **Actions → Update catalogs → Run workflow**. Its matrix refreshes Securepoint and MikroTik independently from `develop`, retrieves fresh public documentation without restoring a research cache, and runs `make verify` before proposing changes. A failed vendor job does not cancel the other vendor.
 
-The workflow maintains one PR per vendor on `chore/catalog-securepoint` and `chore/catalog-mikrotik`. Repeated runs update the existing PR; changes are never merged automatically. Only each vendor's generated catalog and coverage files are included. Raw downloaded documentation, credentials, device evidence files, and local configuration are excluded. Vendor jobs are serialized across workflow runs to avoid concurrent updates to the same PR branch.
+The workflow maintains one PR per vendor on `chore/catalog-securepoint` and `chore/catalog-mikrotik`, targeting `develop`. Repeated runs update the existing PR; changes are never merged automatically. Only each vendor's generated catalog and coverage files are included. Raw downloaded documentation, credentials, device evidence files, and local configuration are excluded. Vendor jobs are serialized across workflow runs to avoid concurrent updates to the same PR branch.
 
-In **Settings → Actions → General → Workflow permissions**, enable **Allow GitHub Actions to create and approve pull requests**. The workflow grants its update jobs `contents: write` and `pull-requests: write` and uses `GITHUB_TOKEN` by default. See the [create-pull-request permissions guidance](https://github.com/peter-evans/create-pull-request#workflow-permissions).
+In **Settings → Actions → General → Workflow permissions**, enable **Allow GitHub Actions to create and approve pull requests**. The workflow grants its update jobs `contents: write`, `pull-requests: write`, and `actions: write` and uses `GITHUB_TOKEN` by default. See the [create-pull-request permissions guidance](https://github.com/peter-evans/create-pull-request#workflow-permissions).
 
-PRs created with `GITHUB_TOKEN` do not trigger ordinary PR workflows, so the refresh job runs full verification before opening the PR. To trigger the separate Verify workflow as well, configure the optional `CATALOG_PR_TOKEN` repository secret with a token allowed to write repository contents and pull requests, following the action's [workflow-triggering guidance](https://github.com/peter-evans/create-pull-request/blob/main/docs/concepts-guidelines.md#triggering-further-workflow-runs). No appliance credentials are needed for catalog refreshes.
+The refresh job runs full verification before opening the PR, then explicitly dispatches Verify on the catalog branch so all six required checks are attached to its commit. This uses GitHub's [supported workflow-dispatch exception for `GITHUB_TOKEN`](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow#triggering-a-workflow-from-a-workflow) and needs no additional secret. The optional `CATALOG_PR_TOKEN` can still supply a separate PR creation identity; dispatch uses the workflow token. No appliance credentials are needed for catalog refreshes.
+
+## Protected branches
+
+`develop` is the default integration branch and the target for feature, fix, and catalog PRs. `master` contains production code: promote `develop` through a PR, or submit a hotfix PR directly to `master` and bring the fix back into `develop`.
+
+Both branches require a pull request, an up-to-date branch, resolved review threads, and all six Verify checks from GitHub Actions. Force pushes, branch deletion, and direct pushes are blocked, including for administrators; no bypass actors are configured. A second person's approval is optional for the current solo-maintainer setup. Every production change, including hotfixes, still follows the PR and CI process.
+
+The applied GitHub ruleset definitions are stored in `.github/rulesets/master.json` and `.github/rulesets/develop.json`. Changes to these files document the intended policy; applying a ruleset update in GitHub requires repository administration access.
 
 ## Current device evidence
 
