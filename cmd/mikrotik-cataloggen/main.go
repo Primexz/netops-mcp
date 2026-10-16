@@ -3,11 +3,13 @@ package main
 import (
 	"context"
 	"encoding/json"
+	"errors"
 	"flag"
 	"fmt"
 	"os"
 	"strings"
 
+	"github.com/Primexz/netops-mcp/internal/mikrotik/catalog"
 	"github.com/Primexz/netops-mcp/internal/mikrotik/research"
 )
 
@@ -31,6 +33,9 @@ func run() error {
 	}
 	cat, err := research.Build(spec, *cache)
 	if err != nil {
+		return err
+	}
+	if err := preserveSourceTimes(cat.Sources, "docs/mikrotik/sources.json"); err != nil {
 		return err
 	}
 	b, err := json.MarshalIndent(cat, "", "  ")
@@ -58,5 +63,32 @@ func run() error {
 		return err
 	}
 	fmt.Fprintf(os.Stderr, "generated %d operations from %d sources\n", len(cat.Operations), len(cat.Sources))
+	return nil
+}
+
+// The ignored cache records the latest fetch. Identical content still belongs
+// to the same published source snapshot and must not rewrite its retrieval date.
+func preserveSourceTimes(sources []catalog.Source, path string) error {
+	b, err := os.ReadFile(path)
+	if errors.Is(err, os.ErrNotExist) {
+		return nil
+	}
+	if err != nil {
+		return fmt.Errorf("read published sources: %w", err)
+	}
+	var previous []catalog.Source
+	if err := json.Unmarshal(b, &previous); err != nil {
+		return fmt.Errorf("decode published sources: %w", err)
+	}
+	byURL := make(map[string]catalog.Source, len(previous))
+	for _, source := range previous {
+		byURL[source.URL] = source
+	}
+	for i, source := range sources {
+		old, ok := byURL[source.URL]
+		if ok && old.Version == source.Version && old.SHA256 == source.SHA256 && old.RetrievedAt != "" {
+			sources[i].RetrievedAt = old.RetrievedAt
+		}
+	}
 	return nil
 }

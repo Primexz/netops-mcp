@@ -29,6 +29,7 @@ build:
 
 test:
 	$(GO) test -race ./...
+	$(PYTHON) -m unittest discover -s tools/securepoint -p 'test_*.py'
 
 check:
 	$(GO) vet ./...
