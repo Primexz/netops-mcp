@@ -27,7 +27,7 @@ The installed Renovate GitHub App reads [`renovate.json`](../renovate.json) and 
 
 Non-major Go module updates are grouped, while major updates remain separate. Renovate runs `go mod tidy` after Go module updates and filters proposals for compatibility with the module's Go version. Updates to golangci-lint are grouped across both workflows, this guide, and the README so CI and local installation instructions remain aligned.
 
-Renovate uses conventional branch names and Conventional Commits with detailed English bodies. Update PRs include Problem, Cause, and Fix sections. Automatic merging is disabled; review the changes and require all six Verify checks before merging.
+Renovate uses its default branch names and commit and pull request formatting. Automatic merging is disabled; review the changes and require all six Verify checks before merging.
 
 Validate configuration changes with Renovate's [configuration validator](https://docs.renovatebot.com/config-validation/):
 

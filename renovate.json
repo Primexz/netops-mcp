@@ -6,13 +6,6 @@
   ],
   "baseBranchPatterns": ["develop"],
   "enabledManagers": ["gomod", "github-actions", "custom.regex"],
-  "branchPrefix": "chore/renovate-",
-  "semanticCommits": "enabled",
-  "semanticCommitType": "chore",
-  "semanticCommitScope": "deps",
-  "commitBody": "Keep dependencies current with upstream releases and fixes.\n\nUpdate the dependency references listed below and regenerate associated checksums when required. Dependency updates are validated by the repository's Verify workflow.",
-  "commitBodyTable": true,
-  "prHeader": "### Problem\n\nDependencies need to stay current with upstream releases and fixes.\n\n### Cause\n\nUpstream dependencies are versioned independently of this repository.\n\n### Fix\n\nUpdate the dependencies listed below. All six Verify checks must pass before merging.\n\n",
   "automerge": false,
   "customManagers": [
     {
