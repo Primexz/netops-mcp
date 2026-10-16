@@ -15,20 +15,23 @@ import (
 	"github.com/Primexz/netops-mcp/internal/mikrotik/catalog"
 	"github.com/Primexz/netops-mcp/internal/mikrotik/config"
 	"github.com/Primexz/netops-mcp/internal/mikrotik/routeros"
+	"github.com/Primexz/netops-mcp/internal/mikrotik/safemode"
 )
 
 type Engine struct {
-	Config  *config.Config
-	Catalog *catalog.Catalog
-	logger  *slog.Logger
-	mu      sync.Mutex
-	clients map[string]*routeros.Client
+	Config   *config.Config
+	Catalog  *catalog.Catalog
+	logger   *slog.Logger
+	mu       sync.Mutex
+	clients  map[string]*routeros.Client
+	SafeMode *safemode.Manager
 }
 
 func New(c *config.Config, cat *catalog.Catalog, logger *slog.Logger) *Engine {
-	return &Engine{Config: c, Catalog: cat, logger: logger, clients: map[string]*routeros.Client{}}
+	return &Engine{Config: c, Catalog: cat, logger: logger, clients: map[string]*routeros.Client{}, SafeMode: safemode.New(c.Profiles, logger)}
 }
 func (e *Engine) Close() {
+	e.SafeMode.Close()
 	e.mu.Lock()
 	defer e.mu.Unlock()
 	for _, c := range e.clients {
@@ -63,7 +66,7 @@ func (e *Engine) Profiles() any {
 				groups = append(groups, g)
 			}
 		}
-		profiles = append(profiles, map[string]any{"name": name, "host": p.Host, "port": p.Port, "read_only": p.IsReadOnly(), "groups": groups})
+		profiles = append(profiles, map[string]any{"name": name, "host": p.Host, "port": p.Port, "read_only": p.IsReadOnly(), "groups": groups, "safe_mode_required": p.SafeMode.Required, "safe_mode_timeout_seconds": p.SafeMode.TimeoutSeconds})
 	}
 	return map[string]any{"profiles": profiles}
 }
@@ -90,6 +93,36 @@ func (e *Engine) Call(ctx context.Context, o catalog.Operation, args map[string]
 	if err != nil {
 		return nil, err
 	}
+	modeID, _ := args["safe_mode_id"].(string)
+	if !o.ReadOnly() && p.SafeMode.Required {
+		out, view, err := e.SafeMode.Do(ctx, profile, modeID, func(ctx context.Context, dispatch func() error) (any, error) {
+			return e.call(ctx, c, profile, o, args, dispatch)
+		})
+		if err == nil {
+			out.(map[string]any)["safe_mode"] = view
+		}
+		return out, err
+	}
+	if modeID != "" {
+		return nil, errors.New("safe_mode_id is only accepted for writes on profiles requiring safe mode")
+	}
+	return e.call(ctx, c, profile, o, args, func() error { return nil })
+}
+
+// ConfirmSafeMode checks REST reachability inside the same window lock used by
+// mutations. This internal safety probe does not expose disabled system tools.
+func (e *Engine) ConfirmSafeMode(ctx context.Context, profile, id string) (safemode.View, error) {
+	return e.SafeMode.Confirm(ctx, profile, id, func(ctx context.Context) error {
+		c, err := e.client(profile)
+		if err != nil {
+			return err
+		}
+		_, err = c.Request(ctx, "GET", "system/resource", "", nil, nil)
+		return err
+	})
+}
+
+func (e *Engine) call(ctx context.Context, c *routeros.Client, profile string, o catalog.Operation, args map[string]any, dispatch func() error) (any, error) {
 	id, _ := args["id"].(string)
 	params, _ := args["parameters"].(map[string]any)
 	if o.StaticOnly && (o.Action == "update" || o.Action == "delete") {
@@ -111,6 +144,9 @@ func (e *Engine) Call(ctx context.Context, o catalog.Operation, args map[string]
 	}
 	if o.Action == "move" {
 		params = map[string]any{".id": id, "destination": args["destination"]}
+		if err := dispatch(); err != nil {
+			return nil, err
+		}
 		value, err := c.Request(ctx, o.Method, o.Path+"/move", "", nil, params)
 		if err != nil {
 			return nil, err
@@ -136,6 +172,11 @@ func (e *Engine) Call(ctx context.Context, o catalog.Operation, args map[string]
 	path := o.Path
 	if o.Singleton && o.Action == "update" {
 		path += "/set"
+	}
+	if !o.ReadOnly() {
+		if err := dispatch(); err != nil {
+			return nil, err
+		}
 	}
 	value, err := c.Request(ctx, o.Method, path, id, query, params)
 	if err != nil {

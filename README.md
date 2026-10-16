@@ -3,7 +3,7 @@
 netops-mcp provides two independent MCP servers for network administration:
 
 - **sp-utm-mcp** manages Securepoint UTM 14.x appliances over verified SSH. Root/support access and restricted SFTP features are optional. Changes use expiring one-shot plans; review and explicitly execute a plan, then activate and save when the operation requires it.
-- **mikrotik-mcp** manages RouterOS 7 over certificate-verified HTTPS REST. Permitted writes take effect immediately. There are no plans, automatic retries, or rollback.
+- **mikrotik-mcp** manages RouterOS 7 over certificate-verified HTTPS REST. Permitted writes take effect immediately. Profiles can require [safe mode](docs/mikrotik/safe-mode.md), with a verified SSH session and an explicit confirmation deadline; expiry requests rollback. Mutations are never automatically retried.
 
 Each server has its own configuration and permissions. Tool namespaces remain `utm_*` and `mikrotik_*`. Profiles are read-only by default, and credentials are loaded from environment variables rather than tool arguments.
 

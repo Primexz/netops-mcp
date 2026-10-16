@@ -111,6 +111,9 @@ func (o Operation) ReadOnly() bool { return o.Method == http.MethodGet }
 func (o Operation) InputSchema() map[string]any {
 	props := map[string]any{"profile": mcpschema.Text("Configured router profile name.")}
 	required := []string{"profile"}
+	if !o.ReadOnly() {
+		props["safe_mode_id"] = map[string]any{"type": "string", "minLength": 1, "maxLength": 128, "description": "Active safe-mode session ID; required when the profile requires safe mode. This control is never sent to RouterOS."}
+	}
 	if o.Action == "list" {
 		// Property names are constrained to this menu; special API options are not filters.
 		filters := map[string]any{}
