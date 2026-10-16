@@ -1,0 +1,88 @@
+name: Update catalogs
+
+on:
+  schedule:
+    - cron: "23 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  update:
+    name: Update ${{ matrix.vendor }} catalog
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+      pull-requests: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - vendor: securepoint
+            paths: |
+              internal/securepoint/catalog/operations.json
+              docs/securepoint/wiki-manifest.json
+              docs/securepoint/coverage-gaps.json
+              docs/securepoint/feature-matrix.json
+              docs/securepoint/coverage.md
+          - vendor: mikrotik
+            paths: |
+              internal/mikrotik/catalog/operations.json
+              docs/mikrotik/sources.json
+              docs/mikrotik/coverage.md
+    concurrency:
+      group: catalog-update-${{ matrix.vendor }}
+      cancel-in-progress: false
+    env:
+      VENDOR: ${{ matrix.vendor }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6
+        with:
+          go-version-file: go.mod
+          cache: true
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        if: matrix.vendor == 'securepoint'
+        with:
+          python-version: "3.13"
+      - uses: golangci/golangci-lint-action@ba0d7d2ec06a0ea1cb5fa41b2e4a3ab91d21278a # v9
+        with:
+          version: v2.12.2
+          install-only: true
+      # No research cache is restored: every run retrieves current vendor docs.
+      - name: Refresh catalog and coverage
+        run: make research catalog VENDOR="$VENDOR"
+      - name: Verify generated catalogs
+        run: make verify
+      - name: Create or update catalog pull request
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8
+        with:
+          token: ${{ secrets.CATALOG_PR_TOKEN || github.token }}
+          branch: chore/catalog-${{ matrix.vendor }}
+          delete-branch: true
+          add-paths: ${{ matrix.paths }}
+          commit-message: |
+            chore(catalog): refresh ${{ matrix.vendor }} documentation data
+
+            Refresh the embedded catalog and coverage metadata from current vendor
+            documentation so administrators can review upstream documentation changes.
+            Preserve documentation gaps and existing live verification evidence.
+          title: "chore(catalog): refresh ${{ matrix.vendor }} catalog"
+          body: |
+            ### Problem
+
+            The ${{ matrix.vendor }} catalog and coverage metadata need to track current vendor documentation.
+
+            ### Cause
+
+            Vendor documentation can change independently of the embedded catalog.
+
+            ### Fix
+
+            Regenerate the catalog and coverage metadata with `make research catalog VENDOR=${{ matrix.vendor }}`.
+            Validate the generated files with `make verify` before creating this pull request.
+            Preserve explicit documentation gaps and existing device verification evidence; this refresh does not perform live device checks.

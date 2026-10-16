@@ -1,0 +1,32 @@
+{
+  "resources": [
+    {"path":"system/identity","group":"system","singleton":true,"actions":["get"]},
+    {"path":"system/resource","group":"system","singleton":true,"actions":["get"]},
+    {"path":"system/health","group":"system","actions":["list"]},
+    {"path":"system/package","group":"system","actions":["list"]},
+    {"path":"interface","group":"interface","actions":["list","update"],"write_fields":["comment","disabled"]},
+    {"path":"interface/bridge","group":"bridge","actions":["list","create","update","delete"],"required":["name"]},
+    {"path":"interface/bridge/port","group":"bridge","actions":["list","create","update","delete"],"required":["bridge","interface"]},
+    {"path":"interface/bridge/vlan","group":"bridge","actions":["list","create","update","delete"],"required":["bridge","vlan-ids"]},
+    {"path":"interface/vlan","group":"vlan","actions":["list","create","update","delete"],"required":["name","interface","vlan-id"]},
+    {"path":"ip/address","group":"address","actions":["list","create","update","delete"],"required":["address","interface"]},
+    {"path":"ipv6/address","group":"address","actions":["list","create","update","delete"],"required":["address","interface"]},
+    {"path":"ip/route","group":"route","static_only":true,"actions":["list","create","update","delete"],"required":["dst-address","gateway"]},
+    {"path":"ipv6/route","group":"route","static_only":true,"actions":["list","create","update","delete"],"required":["dst-address","gateway"]},
+    {"path":"ip/firewall/filter","group":"firewall","actions":["list","create","update","delete","move"],"required":["chain","action"],"ordered":true},
+    {"path":"ip/firewall/nat","group":"firewall","actions":["list","create","update","delete","move"],"required":["chain","action"],"ordered":true},
+    {"path":"ip/firewall/mangle","group":"firewall","actions":["list","create","update","delete","move"],"required":["chain","action"],"ordered":true},
+    {"path":"ip/firewall/raw","group":"firewall","actions":["list","create","update","delete","move"],"required":["chain","action"],"ordered":true},
+    {"path":"ipv6/firewall/filter","group":"firewall","actions":["list","create","update","delete","move"],"required":["chain","action"],"ordered":true},
+    {"path":"ipv6/firewall/nat","group":"firewall","actions":["list","create","update","delete","move"],"required":["chain","action"],"ordered":true},
+    {"path":"ipv6/firewall/mangle","group":"firewall","actions":["list","create","update","delete","move"],"required":["chain","action"],"ordered":true},
+    {"path":"ipv6/firewall/raw","group":"firewall","actions":["list","create","update","delete","move"],"required":["chain","action"],"ordered":true},
+    {"path":"ip/firewall/address-list","group":"firewall","actions":["list","create","update","delete"],"required":["list","address"]},
+    {"path":"ipv6/firewall/address-list","group":"firewall","actions":["list","create","update","delete"],"required":["list","address"]},
+    {"path":"ip/dhcp-server","group":"dhcp","actions":["list"]},
+    {"path":"ip/dhcp-server/lease","group":"dhcp","static_only":true,"actions":["list","create","update","delete"],"required":["address","mac-address"],"exclude_fields":["script"]},
+    {"path":"ip/dns","group":"dns","singleton":true,"actions":["get","update"]},
+    {"path":"ip/dns/static","group":"dns","actions":["list","create","update","delete"],"required":["name"]},
+    {"path":"log","group":"log","actions":["list"]}
+  ]
+}

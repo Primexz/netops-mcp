@@ -1,0 +1,17 @@
+/.cache/
+/.local/
+/bin/
+/dist/
+/artifacts/
+/config.toml
+/configs/*.toml
+!/configs/*.example.toml
+/certs/
+.env
+.env.*
+*.key
+*.test
+coverage.out
+.DS_Store
+__pycache__/
+*.pyc

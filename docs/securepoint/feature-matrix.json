@@ -1,0 +1,3335 @@
+[
+  {
+    "title": "CLI/Cert",
+    "url": "https://wiki.securepoint.de/index.php?title=CLI%2FCert&oldid=86422",
+    "revision": 86422,
+    "operation_ids": [
+      "utm_cert_acme_account_delete",
+      "utm_cert_acme_account_get",
+      "utm_cert_acme_account_new",
+      "utm_cert_acme_account_reset",
+      "utm_cert_acme_account_set",
+      "utm_cert_acme_names_get",
+      "utm_cert_acme_names_status",
+      "utm_cert_acme_names_verify",
+      "utm_cert_delete_cert",
+      "utm_cert_delete_crl",
+      "utm_cert_delete_key",
+      "utm_cert_export_crl",
+      "utm_cert_export_pkcs12",
+      "utm_cert_export_privatekey",
+      "utm_cert_export_x509",
+      "utm_cert_extension_add",
+      "utm_cert_extension_delete",
+      "utm_cert_get",
+      "utm_cert_import",
+      "utm_cert_new",
+      "utm_cert_revoke",
+      "utm_cert_set",
+      "utm_cert_unrevoke"
+    ],
+    "referenced_command_groups": [
+      "cert"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Anwendungsstatus",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FAnwendungsstatus&oldid=98157",
+    "revision": 98157,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Azure-AD",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FAzure-AD&oldid=100886",
+    "revision": 100886,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Azure-OAuth",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FAzure-OAuth&oldid=98165",
+    "revision": 98165,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Azure-OAuth-Smarthost",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FAzure-OAuth-Smarthost&oldid=103453",
+    "revision": 103453,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Captive Portal",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FCaptive+Portal&oldid=101871",
+    "revision": 101871,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Captive Portal extern-lokal",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FCaptive+Portal+extern-lokal&oldid=101817",
+    "revision": 101817,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Captive Portal extern-lokal2",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FCaptive+Portal+extern-lokal2&oldid=101819",
+    "revision": 101819,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Captive Portal-extern",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FCaptive+Portal-extern&oldid=101829",
+    "revision": 101829,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Captive Portal-lokal",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FCaptive+Portal-lokal&oldid=101831",
+    "revision": 101831,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Connection-Rate-Limit",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FConnection-Rate-Limit&oldid=109222",
+    "revision": 109222,
+    "operation_ids": [],
+    "referenced_command_groups": [
+      "system"
+    ],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Entra-OpenID-Connect",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FEntra-OpenID-Connect&oldid=102790",
+    "revision": 102790,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Firewall Nameserver",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FFirewall+Nameserver&oldid=109246",
+    "revision": 109246,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/HTTP Proxy",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FHTTP+Proxy&oldid=109342",
+    "revision": 109342,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/HTTP Proxy-Authentifizierung",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FHTTP+Proxy-Authentifizierung&oldid=109162",
+    "revision": 109162,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/HTTP Proxy-Authentifizierungsausnahmen",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FHTTP+Proxy-Authentifizierungsausnahmen&oldid=102418",
+    "revision": 102418,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/HTTP Proxy-Captive Portal",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FHTTP+Proxy-Captive+Portal&oldid=79476",
+    "revision": 79476,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/HTTP Proxy-Captive Portal extern-lokal",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FHTTP+Proxy-Captive+Portal+extern-lokal&oldid=74125",
+    "revision": 74125,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/HTTP Proxy-Captive Portal-extern",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FHTTP+Proxy-Captive+Portal-extern&oldid=74127",
+    "revision": 74127,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/HTTP Proxy-Captive Portal-lokal",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FHTTP+Proxy-Captive+Portal-lokal&oldid=69017",
+    "revision": 69017,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/HTTP Proxy-Host-header-forgery",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FHTTP+Proxy-Host-header-forgery&oldid=101837",
+    "revision": 101837,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/HTTP Proxy-ITunes",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FHTTP+Proxy-ITunes&oldid=81948",
+    "revision": 81948,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/HTTP Proxy-Transparenter Modus",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FHTTP+Proxy-Transparenter+Modus&oldid=115168",
+    "revision": 115168,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/HTTP Proxy-Virenscanner",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FHTTP+Proxy-Virenscanner&oldid=100300",
+    "revision": 100300,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/IDS-IPS",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FIDS-IPS&oldid=109555",
+    "revision": 109555,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/IDS-IPS/TIF ausschalten",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FIDS-IPS%2FTIF+ausschalten&oldid=109315",
+    "revision": 109315,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/IGMP Proxy",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FIGMP+Proxy&oldid=90019",
+    "revision": 90019,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Mail Connector",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FMail+Connector&oldid=98141",
+    "revision": 98141,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Mailfilter",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FMailfilter&oldid=109387",
+    "revision": 109387,
+    "operation_ids": [
+      "utm_mail_filterng_tag_add",
+      "utm_mail_filterng_tag_get",
+      "utm_mail_filterng_tag_purge",
+      "utm_mail_filterng_tag_remove",
+      "utm_mail_filterng_tag_set"
+    ],
+    "referenced_command_groups": [],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Mailfilter Spamreport",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FMailfilter+Spamreport&oldid=109567",
+    "revision": 109567,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Mailrelay",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FMailrelay&oldid=109414",
+    "revision": 109414,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Mailrelay vor Office 365",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FMailrelay+vor+Office+365&oldid=97665",
+    "revision": 97665,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Mailrelay-Best Practice",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FMailrelay-Best+Practice&oldid=109393",
+    "revision": 109393,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Mailrelay-Issue",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FMailrelay-Issue&oldid=93470",
+    "revision": 93470,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Nameserver",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FNameserver&oldid=109558",
+    "revision": 109558,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Nameserver-Allgemein",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FNameserver-Allgemein&oldid=109300",
+    "revision": 109300,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Nameserver-Allgemein DNSSEC",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FNameserver-Allgemein+DNSSEC&oldid=82657",
+    "revision": 82657,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Nameserver-DNS Forwarding",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FNameserver-DNS+Forwarding&oldid=109294",
+    "revision": 109294,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Nameserver-DNS Rebinding Prevention",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FNameserver-DNS+Rebinding+Prevention&oldid=109276",
+    "revision": 109276,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Nameserver-Recordtypen",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FNameserver-Recordtypen&oldid=98183",
+    "revision": 98183,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Nameserver-Zonen",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FNameserver-Zonen&oldid=109561",
+    "revision": 109561,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Regex",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FRegex&oldid=87661",
+    "revision": 87661,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Reverse Proxy",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FReverse+Proxy&oldid=111136",
+    "revision": 111136,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Reverse Proxy-Exchange",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FReverse+Proxy-Exchange&oldid=100775",
+    "revision": 100775,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/SSL-Interception",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FSSL-Interception&oldid=115162",
+    "revision": 115162,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/TI Proxy",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FTI+Proxy&oldid=112918",
+    "revision": 112918,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/VoIP-Proxy",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FVoIP-Proxy&oldid=71587",
+    "revision": 71587,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Web-Mailfilter-Regel",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FWeb-Mailfilter-Regel&oldid=100844",
+    "revision": 100844,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Webfilter",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FWebfilter&oldid=113431",
+    "revision": 113431,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Webfilter-Beispiel",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FWebfilter-Beispiel&oldid=102556",
+    "revision": 102556,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Webfilter-CF Kategorien",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FWebfilter-CF+Kategorien&oldid=86979",
+    "revision": 86979,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Webfilter-v11.5",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FWebfilter-v11.5&oldid=89730",
+    "revision": 89730,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/mDNS-Repeater",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FmDNS-Repeater&oldid=99580",
+    "revision": 99580,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/APP/Ähnlichkeitserkennung",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2F%C3%84hnlichkeitserkennung&oldid=102406",
+    "revision": 102406,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/AD Anbindung",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FAD+Anbindung&oldid=114421",
+    "revision": 114421,
+    "operation_ids": [],
+    "referenced_command_groups": [
+      "user"
+    ],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/AD Anbindung-v11.4",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FAD+Anbindung-v11.4&oldid=94067",
+    "revision": 94067,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/Benutzerverwaltung",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FBenutzerverwaltung&oldid=114349",
+    "revision": 114349,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/Benutzerverwaltung Gruppen Mailfilter",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FBenutzerverwaltung+Gruppen+Mailfilter&oldid=104344",
+    "revision": 104344,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/Benutzerverwaltung SSL-VPN",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FBenutzerverwaltung+SSL-VPN&oldid=105523",
+    "revision": 105523,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/Benutzerverwaltung-Gruppen-SSL-VPN",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FBenutzerverwaltung-Gruppen-SSL-VPN&oldid=98001",
+    "revision": 98001,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/Captive Portal Benutzer",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FCaptive+Portal+Benutzer&oldid=97993",
+    "revision": 97993,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/Datenschutz",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FDatenschutz&oldid=94151",
+    "revision": 94151,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/Kennwortregeln",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FKennwortregeln&oldid=114475",
+    "revision": 114475,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/OAuth2",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FOAuth2&oldid=109396",
+    "revision": 109396,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/OTP",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FOTP&oldid=114397",
+    "revision": 114397,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/OTP-AD",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FOTP-AD&oldid=110422",
+    "revision": 110422,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/RSA-Keys",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FRSA-Keys&oldid=82519",
+    "revision": 82519,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/Radius",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FRadius&oldid=94835",
+    "revision": 94835,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/SSH",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FSSH&oldid=94837",
+    "revision": 94837,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/SSL-VPN-AD",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FSSL-VPN-AD&oldid=88822",
+    "revision": 88822,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/Schluessel",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FSchluessel&oldid=109330",
+    "revision": 109330,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/Verschlüsselung",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FVerschl%C3%BCsselung&oldid=109546",
+    "revision": 109546,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/Zertifikate",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FZertifikate&oldid=101645",
+    "revision": 101645,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/Zertifikate-ACME",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FZertifikate-ACME&oldid=106057",
+    "revision": 106057,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/Zertifikate-Importformat",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FZertifikate-Importformat&oldid=98859",
+    "revision": 98859,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/Zertifikate-Status",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FZertifikate-Status&oldid=98861",
+    "revision": 98861,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/AUTH/Zertifikate/Drittanbieter",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAUTH%2FZertifikate%2FDrittanbieter&oldid=96630",
+    "revision": 96630,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/Administration",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAdministration&oldid=99396",
+    "revision": 99396,
+    "operation_ids": [],
+    "referenced_command_groups": [
+      "manager",
+      "system"
+    ],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Alertingcenter",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FAlertingcenter&oldid=91922",
+    "revision": 91922,
+    "operation_ids": [
+      "utm_alertingcenter_alerts_get",
+      "utm_alertingcenter_alerts_program_get",
+      "utm_alertingcenter_collectd_get",
+      "utm_alertingcenter_collectd_set",
+      "utm_alertingcenter_report_create",
+      "utm_alertingcenter_severity_get",
+      "utm_alertingcenter_severity_set",
+      "utm_alertingcenter_syslog_expression_get",
+      "utm_alertingcenter_syslog_pattern_get",
+      "utm_alertingcenter_syslog_patterngroup_get",
+      "utm_alertingcenter_syslog_patterngroup_set",
+      "utm_alertingcenter_test"
+    ],
+    "referenced_command_groups": [],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Appmgmt",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FAppmgmt&oldid=99579",
+    "revision": 99579,
+    "operation_ids": [
+      "utm_appmgmt_config",
+      "utm_appmgmt_get",
+      "utm_appmgmt_restart",
+      "utm_appmgmt_restart2",
+      "utm_appmgmt_set",
+      "utm_appmgmt_start",
+      "utm_appmgmt_status",
+      "utm_appmgmt_stop",
+      "utm_appmgmt_update"
+    ],
+    "referenced_command_groups": [
+      "appmgmt"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Captiveportal",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FCaptiveportal&oldid=91904",
+    "revision": 91904,
+    "operation_ids": [
+      "utm_captiveportal_delete",
+      "utm_captiveportal_get",
+      "utm_captiveportal_image_new",
+      "utm_captiveportal_new",
+      "utm_captiveportal_set"
+    ],
+    "referenced_command_groups": [
+      "captiveportal"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Clientlessvpn",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FClientlessvpn&oldid=98439",
+    "revision": 98439,
+    "operation_ids": [
+      "utm_clientlessvpn_delete",
+      "utm_clientlessvpn_get",
+      "utm_clientlessvpn_group_delete",
+      "utm_clientlessvpn_group_get",
+      "utm_clientlessvpn_group_new",
+      "utm_clientlessvpn_group_set",
+      "utm_clientlessvpn_list",
+      "utm_clientlessvpn_new",
+      "utm_clientlessvpn_set"
+    ],
+    "referenced_command_groups": [
+      "clientlessvpn"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Cluster",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FCluster&oldid=109480",
+    "revision": 109480,
+    "operation_ids": [
+      "utm_cluster_info",
+      "utm_cluster_maintainance_get",
+      "utm_cluster_maintainance_set",
+      "utm_system_config_synchronize"
+    ],
+    "referenced_command_groups": [
+      "system"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/DHCP",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FDHCP&oldid=98412",
+    "revision": 98412,
+    "operation_ids": [
+      "utm_dhcp_lease_delete",
+      "utm_dhcp_lease_get",
+      "utm_dhcp_lease_list",
+      "utm_dhcp_lease_new",
+      "utm_dhcp_lease_set",
+      "utm_dhcp_option_delete",
+      "utm_dhcp_option_get",
+      "utm_dhcp_option_new",
+      "utm_dhcp_option_set",
+      "utm_dhcp_param_delete",
+      "utm_dhcp_param_get",
+      "utm_dhcp_param_new",
+      "utm_dhcp_param_set",
+      "utm_dhcp_pool_delete",
+      "utm_dhcp_pool_get",
+      "utm_dhcp_pool_new",
+      "utm_dhcp_pool_set"
+    ],
+    "referenced_command_groups": [],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/DNS",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FDNS&oldid=98418",
+    "revision": 98418,
+    "operation_ids": [
+      "utm_dns_get",
+      "utm_dns_record_delete",
+      "utm_dns_record_new",
+      "utm_dns_record_set",
+      "utm_dns_zone_delete",
+      "utm_dns_zone_new",
+      "utm_dns_zone_set"
+    ],
+    "referenced_command_groups": [
+      "dns"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Debug",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FDebug&oldid=99394",
+    "revision": 99394,
+    "operation_ids": [
+      "utm_debug_kmod_delete",
+      "utm_debug_kmod_get",
+      "utm_debug_kmod_list",
+      "utm_debug_kmod_load",
+      "utm_debug_kmod_unload",
+      "utm_debug_show_validators"
+    ],
+    "referenced_command_groups": [],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Extc",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FExtc&oldid=96470",
+    "revision": 96470,
+    "operation_ids": [
+      "utm_extc_application_get",
+      "utm_extc_cleanup_execute",
+      "utm_extc_cleanup_overview",
+      "utm_extc_delete",
+      "utm_extc_global_defaults",
+      "utm_extc_global_get",
+      "utm_extc_global_new",
+      "utm_extc_global_reset",
+      "utm_extc_global_set",
+      "utm_extc_new",
+      "utm_extc_runtimevar_delete",
+      "utm_extc_runtimevar_get",
+      "utm_extc_runtimevar_set",
+      "utm_extc_template_get",
+      "utm_extc_template_getdiff",
+      "utm_extc_template_set",
+      "utm_extc_value_default",
+      "utm_extc_value_get",
+      "utm_extc_value_reset",
+      "utm_extc_value_set",
+      "utm_extc_valuelist_default",
+      "utm_extc_valuelist_get",
+      "utm_extc_valuelist_get_with_state",
+      "utm_extc_valuelist_set",
+      "utm_extc_variable_get"
+    ],
+    "referenced_command_groups": [
+      "extc",
+      "rule"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Extc/spupdater",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FExtc%2Fspupdater&oldid=98041",
+    "revision": 98041,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Geolocation",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FGeolocation&oldid=91906",
+    "revision": 91906,
+    "operation_ids": [
+      "utm_geolocation_info",
+      "utm_geolocation_update"
+    ],
+    "referenced_command_groups": [
+      "geolocation"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Interface",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
+    "revision": 115132,
+    "operation_ids": [
+      "utm_interface_address_delete",
+      "utm_interface_address_get",
+      "utm_interface_address_get_old_list",
+      "utm_interface_address_new",
+      "utm_interface_address_set",
+      "utm_interface_delete",
+      "utm_interface_get",
+      "utm_interface_mobile_bearer_delete",
+      "utm_interface_mobile_bearer_get",
+      "utm_interface_mobile_bearer_new",
+      "utm_interface_mobile_bearer_set",
+      "utm_interface_mobile_modem_delete",
+      "utm_interface_mobile_modem_disable",
+      "utm_interface_mobile_modem_enable",
+      "utm_interface_mobile_modem_get",
+      "utm_interface_mobile_modem_new",
+      "utm_interface_mobile_modem_set",
+      "utm_interface_mobile_sim_change",
+      "utm_interface_mobile_sim_disable",
+      "utm_interface_mobile_sim_enable",
+      "utm_interface_mobile_sim_sendpin",
+      "utm_interface_mobile_sim_sendpuk",
+      "utm_interface_mobile_status",
+      "utm_interface_neighbor_get",
+      "utm_interface_new",
+      "utm_interface_rename",
+      "utm_interface_set",
+      "utm_interface_zone_delete",
+      "utm_interface_zone_get",
+      "utm_interface_zone_new",
+      "utm_interface_zone_set"
+    ],
+    "referenced_command_groups": [
+      "interface",
+      "system"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Ipsec",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FIpsec&oldid=91847",
+    "revision": 91847,
+    "operation_ids": [
+      "utm_ipsec_chiper_get",
+      "utm_ipsec_delete",
+      "utm_ipsec_get",
+      "utm_ipsec_load_shared_secrets",
+      "utm_ipsec_new",
+      "utm_ipsec_restart",
+      "utm_ipsec_set",
+      "utm_ipsec_status",
+      "utm_ipsec_subnet_delete",
+      "utm_ipsec_subnet_new",
+      "utm_ipsec_subnet_set",
+      "utm_ipsec_update"
+    ],
+    "referenced_command_groups": [
+      "ipsec"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Mail",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FMail&oldid=98434",
+    "revision": 98434,
+    "operation_ids": [
+      "utm_mail_archive_content_get",
+      "utm_mail_archive_count",
+      "utm_mail_archive_get",
+      "utm_mail_archive_preview",
+      "utm_mail_archive_recipients",
+      "utm_mail_archive_resend",
+      "utm_mail_archive_senders",
+      "utm_mail_archive_update",
+      "utm_mail_dkimsign_domain_get",
+      "utm_mail_dkimsign_domain_set",
+      "utm_mail_dkimsign_get",
+      "utm_mail_dkimsign_update",
+      "utm_mail_fetch_delete",
+      "utm_mail_fetch_envelop_get",
+      "utm_mail_fetch_get",
+      "utm_mail_fetch_map_delete",
+      "utm_mail_fetch_map_set",
+      "utm_mail_fetch_new",
+      "utm_mail_fetch_set",
+      "utm_mail_fetch_update",
+      "utm_mail_filterng_delete",
+      "utm_mail_filterng_get",
+      "utm_mail_filterng_new",
+      "utm_mail_filterng_set",
+      "utm_mail_filterng_update",
+      "utm_mail_queue_delete",
+      "utm_mail_queue_flush",
+      "utm_mail_queue_get",
+      "utm_mail_rescan_get",
+      "utm_mail_stats_get",
+      "utm_mail_stats_users"
+    ],
+    "referenced_command_groups": [],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Manager",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FManager&oldid=91844",
+    "revision": 91844,
+    "operation_ids": [
+      "utm_manager_get",
+      "utm_manager_new",
+      "utm_manager_set"
+    ],
+    "referenced_command_groups": [
+      "manager"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Node",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FNode&oldid=92807",
+    "revision": 92807,
+    "operation_ids": [
+      "utm_node_delete",
+      "utm_node_geoip_delete",
+      "utm_node_geoip_generate",
+      "utm_node_get",
+      "utm_node_group_add",
+      "utm_node_group_delete",
+      "utm_node_group_get",
+      "utm_node_group_new",
+      "utm_node_group_rem",
+      "utm_node_group_set",
+      "utm_node_new",
+      "utm_node_set"
+    ],
+    "referenced_command_groups": [
+      "node"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Object",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FObject&oldid=92684",
+    "revision": 92684,
+    "operation_ids": [
+      "utm_object_attribute_get",
+      "utm_object_attribute_set",
+      "utm_object_get"
+    ],
+    "referenced_command_groups": [
+      "object"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Openvpn",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FOpenvpn&oldid=100185",
+    "revision": 100185,
+    "operation_ids": [
+      "utm_openvpn_cipher_get_available",
+      "utm_openvpn_delete",
+      "utm_openvpn_digest_algorithm_get_available",
+      "utm_openvpn_disconnect",
+      "utm_openvpn_export",
+      "utm_openvpn_get",
+      "utm_openvpn_new",
+      "utm_openvpn_option_get",
+      "utm_openvpn_option_info",
+      "utm_openvpn_option_set",
+      "utm_openvpn_push_subnet_delete",
+      "utm_openvpn_push_subnet_new",
+      "utm_openvpn_remote_delete",
+      "utm_openvpn_remote_get",
+      "utm_openvpn_remote_new",
+      "utm_openvpn_remote_set",
+      "utm_openvpn_set",
+      "utm_openvpn_status",
+      "utm_openvpn_update"
+    ],
+    "referenced_command_groups": [
+      "cert",
+      "interface",
+      "openvpn"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Pkey",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FPkey&oldid=91920",
+    "revision": 91920,
+    "operation_ids": [
+      "utm_pkey_delete",
+      "utm_pkey_export",
+      "utm_pkey_get",
+      "utm_pkey_import",
+      "utm_pkey_new"
+    ],
+    "referenced_command_groups": [
+      "pkey"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Qos",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FQos&oldid=92686",
+    "revision": 92686,
+    "operation_ids": [
+      "utm_qos_delete",
+      "utm_qos_get",
+      "utm_qos_new",
+      "utm_qos_set"
+    ],
+    "referenced_command_groups": [
+      "qos"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/RSA",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FRSA&oldid=91831",
+    "revision": 91831,
+    "operation_ids": [
+      "utm_rsa_delete",
+      "utm_rsa_export",
+      "utm_rsa_get",
+      "utm_rsa_import",
+      "utm_rsa_new"
+    ],
+    "referenced_command_groups": [
+      "rsa"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Route",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FRoute&oldid=92681",
+    "revision": 92681,
+    "operation_ids": [
+      "utm_route_delete",
+      "utm_route_get",
+      "utm_route_get_db_list",
+      "utm_route_get_old_list",
+      "utm_route_get_sys_list",
+      "utm_route_new",
+      "utm_route_set"
+    ],
+    "referenced_command_groups": [
+      "route"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Rproxy",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FRproxy&oldid=92530",
+    "revision": 92530,
+    "operation_ids": [
+      "utm_rproxy_acl_delete",
+      "utm_rproxy_acl_get",
+      "utm_rproxy_acl_new",
+      "utm_rproxy_acl_set",
+      "utm_rproxy_aclsetgroup_delete",
+      "utm_rproxy_aclsetgroup_get",
+      "utm_rproxy_aclsetgroup_new",
+      "utm_rproxy_aclsetgroup_set",
+      "utm_rproxy_site_delete",
+      "utm_rproxy_site_get",
+      "utm_rproxy_site_new",
+      "utm_rproxy_site_set"
+    ],
+    "referenced_command_groups": [],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Rule",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FRule&oldid=99584",
+    "revision": 99584,
+    "operation_ids": [
+      "utm_rule_delete",
+      "utm_rule_get",
+      "utm_rule_group_delete",
+      "utm_rule_group_get",
+      "utm_rule_group_move",
+      "utm_rule_group_new",
+      "utm_rule_group_set",
+      "utm_rule_implied_group_get",
+      "utm_rule_implied_group_set",
+      "utm_rule_implied_rule_get",
+      "utm_rule_implied_rule_set",
+      "utm_rule_move",
+      "utm_rule_new",
+      "utm_rule_set",
+      "utm_rule_timeprofile_delete",
+      "utm_rule_timeprofile_get",
+      "utm_rule_timeprofile_new",
+      "utm_rule_timeprofile_set"
+    ],
+    "referenced_command_groups": [
+      "rule",
+      "system"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/SIP-Proxy",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FSIP-Proxy&oldid=100981",
+    "revision": 100981,
+    "operation_ids": [],
+    "referenced_command_groups": [
+      "system"
+    ],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/SSH",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FSSH&oldid=91837",
+    "revision": 91837,
+    "operation_ids": [
+      "utm_ssh_delete",
+      "utm_ssh_generate",
+      "utm_ssh_get",
+      "utm_ssh_remote_delete",
+      "utm_ssh_remote_get",
+      "utm_ssh_remote_set"
+    ],
+    "referenced_command_groups": [
+      "ssh"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Server",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FServer&oldid=92612",
+    "revision": 92612,
+    "operation_ids": [
+      "utm_server_delete",
+      "utm_server_get",
+      "utm_server_new",
+      "utm_server_set"
+    ],
+    "referenced_command_groups": [
+      "server"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Service",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FService&oldid=92688",
+    "revision": 92688,
+    "operation_ids": [
+      "utm_service_ct_helper_get",
+      "utm_service_delete",
+      "utm_service_get",
+      "utm_service_group_add",
+      "utm_service_group_delete",
+      "utm_service_group_get",
+      "utm_service_group_new",
+      "utm_service_group_rem",
+      "utm_service_group_set",
+      "utm_service_new",
+      "utm_service_set"
+    ],
+    "referenced_command_groups": [
+      "service"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Syslog",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FSyslog&oldid=92692",
+    "revision": 92692,
+    "operation_ids": [
+      "utm_syslog_backlog_get",
+      "utm_syslog_backlog_set",
+      "utm_syslog_export",
+      "utm_syslog_get",
+      "utm_syslog_reset",
+      "utm_syslog_server_delete",
+      "utm_syslog_server_get",
+      "utm_syslog_server_new"
+    ],
+    "referenced_command_groups": [
+      "server",
+      "syslog"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/System",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FSystem&oldid=110155",
+    "revision": 110155,
+    "operation_ids": [
+      "utm_system_activedirectory_join",
+      "utm_system_activedirectory_leave",
+      "utm_system_activedirectory_lsgroups",
+      "utm_system_activedirectory_testjoin",
+      "utm_system_ciphers",
+      "utm_system_cloudbackup_delete",
+      "utm_system_cloudbackup_get",
+      "utm_system_cloudbackup_password_status_get",
+      "utm_system_cloudbackup_restore",
+      "utm_system_cloudbackup_set",
+      "utm_system_cloudbackup_store",
+      "utm_system_config_clone",
+      "utm_system_config_delete",
+      "utm_system_config_export",
+      "utm_system_config_factorysettings",
+      "utm_system_config_get",
+      "utm_system_config_import",
+      "utm_system_config_load",
+      "utm_system_config_load_dryrun",
+      "utm_system_config_new",
+      "utm_system_config_otpexport",
+      "utm_system_config_report",
+      "utm_system_config_save",
+      "utm_system_config_set",
+      "utm_system_config_synchronize_dryrun",
+      "utm_system_config_xmlreport",
+      "utm_system_contentfilter_categorize",
+      "utm_system_contentfilter_get",
+      "utm_system_date_get",
+      "utm_system_date_set",
+      "utm_system_features",
+      "utm_system_generate_dhparams",
+      "utm_system_generate_sshdkeys",
+      "utm_system_generate_webservercert",
+      "utm_system_info",
+      "utm_system_interface_info",
+      "utm_system_lsrrd",
+      "utm_system_poweroff",
+      "utm_system_predictable_interface_names",
+      "utm_system_reboot",
+      "utm_system_register",
+      "utm_system_remote_get_cur",
+      "utm_system_remote_get_new",
+      "utm_system_remote_get_old",
+      "utm_system_remote_sync_ipdeny",
+      "utm_system_remote_sync_status",
+      "utm_system_remote_sync_virus_pattern",
+      "utm_system_remote_upgrade_abort",
+      "utm_system_remote_upgrade_cur",
+      "utm_system_remote_upgrade_new",
+      "utm_system_remote_upgrade_status",
+      "utm_system_restrictions_get",
+      "utm_system_restrictions_update",
+      "utm_system_rrd_refresh",
+      "utm_system_rule_engine_get",
+      "utm_system_rule_engine_set",
+      "utm_system_specs",
+      "utm_system_ssh_pubkey_delete",
+      "utm_system_ssh_pubkey_disable",
+      "utm_system_ssh_pubkey_enable",
+      "utm_system_ssh_pubkey_get",
+      "utm_system_ssh_pubkey_new",
+      "utm_system_supportinfo",
+      "utm_system_sysctl_delete",
+      "utm_system_sysctl_get",
+      "utm_system_sysctl_new",
+      "utm_system_sysctl_set",
+      "utm_system_sysctl_update",
+      "utm_system_tools_host",
+      "utm_system_tools_ping",
+      "utm_system_tools_route",
+      "utm_system_tools_traceroute",
+      "utm_system_tools_wake",
+      "utm_system_update_interface",
+      "utm_system_update_qos",
+      "utm_system_update_route",
+      "utm_system_update_rule",
+      "utm_system_update_system",
+      "utm_system_update_tif",
+      "utm_system_upgrade_confirm_eula",
+      "utm_system_upgrade_confirm_privacy",
+      "utm_system_upgrade_decline_eula",
+      "utm_system_upgrade_decline_privacy",
+      "utm_system_upgrade_dryrun",
+      "utm_system_upgrade_eula_get",
+      "utm_system_upgrade_finalize",
+      "utm_system_upgrade_forceupdate",
+      "utm_system_upgrade_hint",
+      "utm_system_upgrade_info",
+      "utm_system_upgrade_privacy_get",
+      "utm_system_upgrade_rollback",
+      "utm_system_upgrade_update",
+      "utm_system_upgrade_updatehint",
+      "utm_system_upgrade_updatelatest",
+      "utm_system_upgrade_updatelatestcheck"
+    ],
+    "referenced_command_groups": [
+      "system"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Usc vhost",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FUsc+vhost&oldid=92198",
+    "revision": 92198,
+    "operation_ids": [
+      "utm_usc_vhost_delete",
+      "utm_usc_vhost_get",
+      "utm_usc_vhost_set"
+    ],
+    "referenced_command_groups": [
+      "usc_vhost"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/User",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FUser&oldid=100219",
+    "revision": 100219,
+    "operation_ids": [
+      "utm_user_attribute_delete",
+      "utm_user_attribute_get",
+      "utm_user_attribute_otpsecret",
+      "utm_user_attribute_set",
+      "utm_user_captiveportal_delete",
+      "utm_user_captiveportal_get",
+      "utm_user_captiveportal_new",
+      "utm_user_captiveportal_set",
+      "utm_user_check",
+      "utm_user_checkotp",
+      "utm_user_delete",
+      "utm_user_get",
+      "utm_user_group_attribute_delete",
+      "utm_user_group_attribute_get",
+      "utm_user_group_attribute_set",
+      "utm_user_group_delete",
+      "utm_user_group_get",
+      "utm_user_group_new",
+      "utm_user_group_set",
+      "utm_user_new",
+      "utm_user_set",
+      "utm_user_support_new",
+      "utm_user_who"
+    ],
+    "referenced_command_groups": [
+      "captiveportal",
+      "user"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Webfilter",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FWebfilter&oldid=92694",
+    "revision": 92694,
+    "operation_ids": [
+      "utm_webfilter_rule_delete",
+      "utm_webfilter_rule_get",
+      "utm_webfilter_rule_new",
+      "utm_webfilter_rule_set",
+      "utm_webfilter_ruleset_delete",
+      "utm_webfilter_ruleset_get",
+      "utm_webfilter_ruleset_new",
+      "utm_webfilter_ruleset_set",
+      "utm_webfilter_rulesetgroup_delete",
+      "utm_webfilter_rulesetgroup_get",
+      "utm_webfilter_rulesetgroup_new",
+      "utm_webfilter_rulesetgroup_set"
+    ],
+    "referenced_command_groups": [
+      "rule"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Wireguard",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FWireguard&oldid=92696",
+    "revision": 92696,
+    "operation_ids": [
+      "utm_wireguard_export",
+      "utm_wireguard_get",
+      "utm_wireguard_interface_delete",
+      "utm_wireguard_interface_get",
+      "utm_wireguard_interface_new",
+      "utm_wireguard_interface_set",
+      "utm_wireguard_peer_delete",
+      "utm_wireguard_peer_get",
+      "utm_wireguard_peer_new",
+      "utm_wireguard_peer_set",
+      "utm_wireguard_ping",
+      "utm_wireguard_update"
+    ],
+    "referenced_command_groups": [
+      "interface",
+      "wireguard"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/Wlan",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FWlan&oldid=98766",
+    "revision": 98766,
+    "operation_ids": [
+      "utm_wlan_get",
+      "utm_wlan_list",
+      "utm_wlan_scan_dump",
+      "utm_wlan_scan_trigger",
+      "utm_wlan_set"
+    ],
+    "referenced_command_groups": [
+      "wlan"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CLI/spf2bd",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2Fspf2bd&oldid=92690",
+    "revision": 92690,
+    "operation_ids": [
+      "utm_spf2bd_del",
+      "utm_spf2bd_get",
+      "utm_spf2bd_ip_get",
+      "utm_spf2bd_ip_remove",
+      "utm_spf2bd_new",
+      "utm_spf2bd_set"
+    ],
+    "referenced_command_groups": [
+      "spf2bd"
+    ],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Cloudbackup",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FCloudbackup&oldid=104452",
+    "revision": 104452,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Cloudbackup einspielen",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FCloudbackup+einspielen&oldid=101811",
+    "revision": 101811,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/CloudbackupG5",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FCloudbackupG5&oldid=101736",
+    "revision": 101736,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/ErsteSchritteAnmeldung",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FErsteSchritteAnmeldung&oldid=110473",
+    "revision": 110473,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Import G3 in G5",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FImport+G3+in+G5&oldid=91873",
+    "revision": 91873,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent&oldid=110476",
+    "revision": 110476,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-BlackDwarf",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-Cloud-Restore-G5-BlackDwarf&oldid=101710",
+    "revision": 101710,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-BlackDwarfPro",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-Cloud-Restore-G5-BlackDwarfPro&oldid=101779",
+    "revision": 101779,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC100",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-Cloud-Restore-G5-RC100&oldid=101761",
+    "revision": 101761,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC1000R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-Cloud-Restore-G5-RC1000R&oldid=101712",
+    "revision": 101712,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC200",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-Cloud-Restore-G5-RC200&oldid=101722",
+    "revision": 101722,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC300S",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-Cloud-Restore-G5-RC300S&oldid=101755",
+    "revision": 101755,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC350R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-Cloud-Restore-G5-RC350R&oldid=101775",
+    "revision": 101775,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC350S",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-Cloud-Restore-G5-RC350S&oldid=101718",
+    "revision": 101718,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC400",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-Cloud-Restore-G5-RC400&oldid=101714",
+    "revision": 101714,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC400R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-Cloud-Restore-G5-RC400R&oldid=101785",
+    "revision": 101785,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G6-RC1000R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-Cloud-Restore-G6-RC1000R&oldid=101688",
+    "revision": 101688,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G6-RC2000R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-Cloud-Restore-G6-RC2000R&oldid=101690",
+    "revision": 101690,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G6-RC350R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-Cloud-Restore-G6-RC350R&oldid=101720",
+    "revision": 101720,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G6-RC400R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-Cloud-Restore-G6-RC400R&oldid=101686",
+    "revision": 101686,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-G5-BlackDwarf",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-G5-BlackDwarf&oldid=101771",
+    "revision": 101771,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-G5-BlackDwarfPro",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-G5-BlackDwarfPro&oldid=101793",
+    "revision": 101793,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-G5-RC100",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-G5-RC100&oldid=101783",
+    "revision": 101783,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-G5-RC1000R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-G5-RC1000R&oldid=101740",
+    "revision": 101740,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-G5-RC200",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-G5-RC200&oldid=101763",
+    "revision": 101763,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-G5-RC300S",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-G5-RC300S&oldid=101728",
+    "revision": 101728,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-G5-RC350R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-G5-RC350R&oldid=101767",
+    "revision": 101767,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-G5-RC400",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-G5-RC400&oldid=101742",
+    "revision": 101742,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-G5-RC400R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-G5-RC400R&oldid=101787",
+    "revision": 101787,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-G6-RC1000R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-G6-RC1000R&oldid=101696",
+    "revision": 101696,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-G6-RC2000R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-G6-RC2000R&oldid=101698",
+    "revision": 101698,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-G6-RC350R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-G6-RC350R&oldid=101726",
+    "revision": 101726,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-G6-RC400R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-G6-RC400R&oldid=101694",
+    "revision": 101694,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Installationsassistent-UTM",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent-UTM&oldid=101700",
+    "revision": 101700,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Konfigurationsverwaltung",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FKonfigurationsverwaltung&oldid=109474",
+    "revision": 109474,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Konfigurationsverwaltung-Import",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FKonfigurationsverwaltung-Import&oldid=109510",
+    "revision": 109510,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Lizenzmigration Terra",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FLizenzmigration+Terra&oldid=100585",
+    "revision": 100585,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Restore",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FRestore&oldid=110470",
+    "revision": 110470,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Restore-G5-BlackDwarf",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FRestore-G5-BlackDwarf&oldid=101734",
+    "revision": 101734,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Restore-G5-BlackDwarfPro",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FRestore-G5-BlackDwarfPro&oldid=101704",
+    "revision": 101704,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Restore-G5-RC100",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FRestore-G5-RC100&oldid=101706",
+    "revision": 101706,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Restore-G5-RC1000R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FRestore-G5-RC1000R&oldid=101738",
+    "revision": 101738,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Restore-G5-RC200",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FRestore-G5-RC200&oldid=101724",
+    "revision": 101724,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Restore-G5-RC300S",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FRestore-G5-RC300S&oldid=101773",
+    "revision": 101773,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Restore-G5-RC350R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FRestore-G5-RC350R&oldid=101765",
+    "revision": 101765,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Restore-G5-RC400",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FRestore-G5-RC400&oldid=101781",
+    "revision": 101781,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Restore-G5-RC400R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FRestore-G5-RC400R&oldid=101746",
+    "revision": 101746,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Restore-G6-RC1000R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FRestore-G6-RC1000R&oldid=101680",
+    "revision": 101680,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Restore-G6-RC2000R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FRestore-G6-RC2000R&oldid=101682",
+    "revision": 101682,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Restore-G6-RC350R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FRestore-G6-RC350R&oldid=101744",
+    "revision": 101744,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Restore-G6-RC400R",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FRestore-G6-RC400R&oldid=101678",
+    "revision": 101678,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Restore-UTM",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FRestore-UTM&oldid=101769",
+    "revision": 101769,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Schnittstellen-Konfiguration",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FSchnittstellen-Konfiguration&oldid=91337",
+    "revision": 91337,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Setup",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FSetup&oldid=101653",
+    "revision": 101653,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/CONFIG/Werkseinstellungen",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FWerkseinstellungen&oldid=93824",
+    "revision": 93824,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/EXTRAS/CLI",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768",
+    "revision": 98768,
+    "operation_ids": [
+      "utm_alertingcenter_alerts_count_get",
+      "utm_alertingcenter_alerts_set",
+      "utm_alertingcenter_syslog_expressions_get",
+      "utm_cluster_maintenance_get",
+      "utm_cluster_maintenance_set",
+      "utm_ctproxy_status",
+      "utm_debug_show",
+      "utm_debug_show_commit-id",
+      "utm_debug_validate",
+      "utm_dhcp_extra_delete",
+      "utm_dhcp_extra_get",
+      "utm_dhcp_extra_options",
+      "utm_dhcp_extra_set",
+      "utm_dns_filter_delete",
+      "utm_dns_filter_get",
+      "utm_dns_filter_get_automatic_mode_addresses",
+      "utm_dns_filter_new",
+      "utm_dns_filter_set",
+      "utm_httpproxy_clientnw_delete",
+      "utm_httpproxy_clientnw_get",
+      "utm_httpproxy_clientnw_new",
+      "utm_httpproxy_clientnw_set",
+      "utm_ipsec_cipher_get",
+      "utm_mail_dkimsign_dns_get",
+      "utm_mail_dkimsign_domain_delete",
+      "utm_mail_dkimsign_domain_new",
+      "utm_mail_dkimsign_header_delete",
+      "utm_mail_dkimsign_header_get",
+      "utm_mail_dkimsign_selector_delete",
+      "utm_mail_dkimsign_selector_get",
+      "utm_mail_dkimsign_selector_new",
+      "utm_mail_dkimsign_selector_set",
+      "utm_mail_filterng_selector_delete",
+      "utm_mail_filterng_selector_get",
+      "utm_mail_filterng_selector_item_delete",
+      "utm_mail_filterng_selector_item_get",
+      "utm_mail_filterng_selector_item_new",
+      "utm_mail_filterng_selector_item_set",
+      "utm_mail_filterng_selector_new",
+      "utm_mail_filterng_selector_set",
+      "utm_model_get",
+      "utm_nwkview_get",
+      "utm_oauth_account_delete",
+      "utm_oauth_account_get",
+      "utm_oauth_account_new",
+      "utm_oauth_account_set",
+      "utm_oauth_get",
+      "utm_oauth_oidc_info",
+      "utm_oauth_update",
+      "utm_oauth_user_delete",
+      "utm_oauth_user_get",
+      "utm_rule_transparent_add",
+      "utm_rule_transparent_delete",
+      "utm_rule_transparent_get",
+      "utm_rule_transparent_set",
+      "utm_spdmsimd_allowlist_get",
+      "utm_spdmsimd_allowlist_set",
+      "utm_spdmsimd_test",
+      "utm_system_config_export_zip",
+      "utm_system_httpreports_get",
+      "utm_system_postsync",
+      "utm_system_upgrade_decline",
+      "utm_system_upgrade_eula_getdiff",
+      "utm_system_upgrade_privacy_getdiff",
+      "utm_tcpdump_clean",
+      "utm_tcpdump_download",
+      "utm_tcpdump_show",
+      "utm_tcpdump_start",
+      "utm_tcpdump_status",
+      "utm_tcpdump_stop",
+      "utm_userbulk_new",
+      "utm_wgmodel_apply",
+      "utm_wgmodel_cleanup",
+      "utm_wgmodel_delete",
+      "utm_wgmodel_get",
+      "utm_wgmodel_list",
+      "utm_wgmodel_rw_get",
+      "utm_wgmodel_set"
+    ],
+    "referenced_command_groups": [],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/EXTRAS/CLI/view",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI%2Fview&oldid=100491",
+    "revision": 100491,
+    "operation_ids": [
+      "utm_view_supportuser",
+      "utm_view_webuser"
+    ],
+    "referenced_command_groups": [],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/EXTRAS/Erweiterte Einstellungen",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FErweiterte+Einstellungen&oldid=109336",
+    "revision": 109336,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/EXTRAS/Firmware Update",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FFirmware+Update&oldid=97971",
+    "revision": 97971,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/EXTRAS/Firmware Update-CLI",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FFirmware+Update-CLI&oldid=94847",
+    "revision": 94847,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/EXTRAS/Paket-Mitschnitte",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FPaket-Mitschnitte&oldid=100846",
+    "revision": 100846,
+    "operation_ids": [
+      "utm_diagnostics_tcpdump"
+    ],
+    "referenced_command_groups": [],
+    "review_status": "catalog_mapped",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/EXTRAS/Templates",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FTemplates&oldid=94849",
+    "revision": 94849,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/6in4",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2F6in4&oldid=94854",
+    "revision": 94854,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Administration",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FAdministration&oldid=89341",
+    "revision": 89341,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Amdosoft",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FAmdosoft&oldid=70145",
+    "revision": 70145,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Bird",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FBird&oldid=97935",
+    "revision": 97935,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Bond",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FBond&oldid=94856",
+    "revision": 94856,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Bridge-Ethernet",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FBridge-Ethernet&oldid=104488",
+    "revision": 104488,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Bridge-WLAN",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FBridge-WLAN&oldid=104491",
+    "revision": 104491,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Cluster",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FCluster&oldid=109402",
+    "revision": 109402,
+    "operation_ids": [],
+    "referenced_command_groups": [
+      "openvpn"
+    ],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Cluster-Management",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FCluster-Management&oldid=109507",
+    "revision": 109507,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Cluster-Updateverfahren",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FCluster-Updateverfahren&oldid=86970",
+    "revision": 86970,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/DHCP Relay",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Relay&oldid=106069",
+    "revision": 106069,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/DHCP Relay-v4",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Relay-v4&oldid=79562",
+    "revision": 79562,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/DHCP Relay-v6",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Relay-v6&oldid=79572",
+    "revision": 79572,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/DHCP Server-v4",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Server-v4&oldid=100304",
+    "revision": 100304,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/DHCP Server-v6",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Server-v6&oldid=100308",
+    "revision": 100308,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Default-Route",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDefault-Route&oldid=109621",
+    "revision": 109621,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Ethernet",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FEthernet&oldid=109357",
+    "revision": 109357,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Ethernet-DynDNS",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FEthernet-DynDNS&oldid=109519",
+    "revision": 109519,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Fallback",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FFallback&oldid=111847",
+    "revision": 111847,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/GRE",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FGRE&oldid=89705",
+    "revision": 89705,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/IDS-IPS",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FIDS-IPS&oldid=109978",
+    "revision": 109978,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/IPv6Prefix-Delegation",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FIPv6Prefix-Delegation&oldid=97933",
+    "revision": 97933,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/IPv6Prefix-Delegation mit Fritzbox",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FIPv6Prefix-Delegation+mit+Fritzbox&oldid=93335",
+    "revision": 93335,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Mobile",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FMobile&oldid=101859",
+    "revision": 101859,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Mobile Provider",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FMobile+Provider&oldid=92775",
+    "revision": 92775,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Mobile-Signalqualität",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FMobile-Signalqualit%C3%A4t&oldid=12053",
+    "revision": 12053,
+    "operation_ids": [],
+    "referenced_command_groups": [
+      "interface"
+    ],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Multipathrouting",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FMultipathrouting&oldid=109792",
+    "revision": 109792,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Mutlipathrouting",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FMutlipathrouting&oldid=109795",
+    "revision": 109795,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Nameserver",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FNameserver&oldid=109048",
+    "revision": 109048,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Nameserver-Allgemein",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FNameserver-Allgemein&oldid=108994",
+    "revision": 108994,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Nameserver-DNS Forwarding",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FNameserver-DNS+Forwarding&oldid=109090",
+    "revision": 109090,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Nameserver-DNS Rebinding Prevention",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FNameserver-DNS+Rebinding+Prevention&oldid=109102",
+    "revision": 109102,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Nameserver-Zonen",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FNameserver-Zonen&oldid=109054",
+    "revision": 109054,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Netzwerkschnittstellen",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FNetzwerkschnittstellen&oldid=109354",
+    "revision": 109354,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Netzwerkwerkzeuge",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FNetzwerkwerkzeuge&oldid=99356",
+    "revision": 99356,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/PPP",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FPPP&oldid=89376",
+    "revision": 89376,
+    "operation_ids": [],
+    "referenced_command_groups": [
+      "interface"
+    ],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/PPPoE",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FPPPoE&oldid=110416",
+    "revision": 110416,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/PPPoE-Fehleranalyse",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FPPPoE-Fehleranalyse&oldid=89557",
+    "revision": 89557,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/PPTP",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FPPTP&oldid=91659",
+    "revision": 91659,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/PingIPv6",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FPingIPv6&oldid=99366",
+    "revision": 99366,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Proxy",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FProxy&oldid=89232",
+    "revision": 89232,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/QoS",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FQoS&oldid=91671",
+    "revision": 91671,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Rulerouting",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FRulerouting&oldid=94864",
+    "revision": 94864,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/SNMP",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FSNMP&oldid=94866",
+    "revision": 94866,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/SNMP-OIDs",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FSNMP-OIDs&oldid=100170",
+    "revision": 100170,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/SSL VPN-Roadwarrior-iOS-11.6",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FSSL+VPN-Roadwarrior-iOS-11.6&oldid=12019",
+    "revision": 12019,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Servereinstellungen",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FServereinstellungen&oldid=100856",
+    "revision": 100856,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Sourcerouting",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FSourcerouting&oldid=97035",
+    "revision": 97035,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Syslog",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FSyslog&oldid=90012",
+    "revision": 90012,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Syslog-PRTG",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FSyslog-PRTG&oldid=82755",
+    "revision": 82755,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Szenario Drittanbieter-Router",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FSzenario+Drittanbieter-Router&oldid=94868",
+    "revision": 94868,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/VDSL",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FVDSL&oldid=87655",
+    "revision": 87655,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/VLAN",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FVLAN&oldid=98244",
+    "revision": 98244,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/VLAN-Switch",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FVLAN-Switch&oldid=81022",
+    "revision": 81022,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/WLAN",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FWLAN&oldid=101861",
+    "revision": 101861,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/NET/Zoneneinstellungen",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FZoneneinstellungen&oldid=101863",
+    "revision": 101863,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/Dienste",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FDienste&oldid=109486",
+    "revision": 109486,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/HTTP Proxy",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FHTTP+Proxy&oldid=10145",
+    "revision": 10145,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/HTTP Proxy-Authentifizierung",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FHTTP+Proxy-Authentifizierung&oldid=10143",
+    "revision": 10143,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/HTTP Proxy-Authentifizierungsausnahmen",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FHTTP+Proxy-Authentifizierungsausnahmen&oldid=10141",
+    "revision": 10141,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/HTTP Proxy-Transparenter Modus",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FHTTP+Proxy-Transparenter+Modus&oldid=10137",
+    "revision": 10137,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/Hidenat Exclude",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FHidenat+Exclude&oldid=91680",
+    "revision": 91680,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/IDS-IPS",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FIDS-IPS&oldid=109012",
+    "revision": 109012,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/Implizite Regeln",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FImplizite+Regeln&oldid=109000",
+    "revision": 109000,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/Implizite Regeln-GeoIP",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FImplizite+Regeln-GeoIP&oldid=109036",
+    "revision": 109036,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/Multi-IP",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FMulti-IP&oldid=89489",
+    "revision": 89489,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/Netzwerkobjekte",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FNetzwerkobjekte&oldid=109420",
+    "revision": 109420,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/Netzwerktopologie",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FNetzwerktopologie&oldid=94370",
+    "revision": 94370,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/Paketfilter",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FPaketfilter&oldid=104458",
+    "revision": 104458,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/Portfilter",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FPortfilter&oldid=88857",
+    "revision": 88857,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/Portumleitung",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FPortumleitung&oldid=91661",
+    "revision": 91661,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/Portumleitung-Intern",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FPortumleitung-Intern&oldid=94874",
+    "revision": 94874,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/Portweiterleitung",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FPortweiterleitung&oldid=111928",
+    "revision": 111928,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/Regel Assistent",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FRegel+Assistent&oldid=98529",
+    "revision": 98529,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/Zeitprofile",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2FZeitprofile&oldid=98035",
+    "revision": 98035,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/RULE/ibf",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FRULE%2Fibf&oldid=91667",
+    "revision": 91667,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/Blackhole",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FBlackhole&oldid=114361",
+    "revision": 114361,
+    "operation_ids": [],
+    "referenced_command_groups": [
+      "route"
+    ],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/ClientlessVPN",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FClientlessVPN&oldid=109501",
+    "revision": 109501,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/Cloud-Konzentrator",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FCloud-Konzentrator&oldid=94882",
+    "revision": 94882,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/DNS Relay",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FDNS+Relay&oldid=109126",
+    "revision": 109126,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec - Fritzbox-Exposed Host",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec+-+Fritzbox-Exposed+Host&oldid=87944",
+    "revision": 87944,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec Arten",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec+Arten&oldid=83079",
+    "revision": 83079,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec Verbindungen bei Multipathrouting",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec+Verbindungen+bei+Multipathrouting&oldid=90302",
+    "revision": 90302,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec-DHCP",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-DHCP&oldid=91086",
+    "revision": 91086,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec-EAP",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-EAP&oldid=94887",
+    "revision": 94887,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec-EAP-Windows",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-EAP-Windows&oldid=94885",
+    "revision": 94885,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec-Fritzbox-Multi",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-Fritzbox-Multi&oldid=94888",
+    "revision": 94888,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec-HTTP",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-HTTP&oldid=94890",
+    "revision": 94890,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec-Phase1-2",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-Phase1-2&oldid=98123",
+    "revision": 98123,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec-Roadwarrior",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-Roadwarrior&oldid=13036",
+    "revision": 13036,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec-S2E",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-S2E&oldid=98131",
+    "revision": 98131,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec-S2S",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-S2S&oldid=112969",
+    "revision": 112969,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec-S2S Beispiele",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-S2S+Beispiele&oldid=89043",
+    "revision": 89043,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec-SP-Lancom",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-SP-Lancom&oldid=91817",
+    "revision": 91817,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec-SP-Sophos",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-SP-Sophos&oldid=84365",
+    "revision": 84365,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/IPSec-Troubleshooting",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-Troubleshooting&oldid=88853",
+    "revision": 88853,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/L2TP",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FL2TP&oldid=99147",
+    "revision": 99147,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/Netmap",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FNetmap&oldid=94895",
+    "revision": 94895,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/PPTP",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FPPTP&oldid=61173",
+    "revision": 61173,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/Routing Andere UTM",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FRouting+Andere+UTM&oldid=115174",
+    "revision": 115174,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/SSL VPN zu IPSec-Ziel",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN+zu+IPSec-Ziel&oldid=94557",
+    "revision": 94557,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/SSL VPN-RW an S2S-BestPractice",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-RW+an+S2S-BestPractice&oldid=100208",
+    "revision": 100208,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/SSL VPN-Roadwarrior",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-Roadwarrior&oldid=115156",
+    "revision": 115156,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/SSL VPN-Roadwarrior-MacOS",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-Roadwarrior-MacOS&oldid=94897",
+    "revision": 94897,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/SSL VPN-Roadwarrior-Netmap",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-Roadwarrior-Netmap&oldid=91675",
+    "revision": 91675,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/SSL VPN-Roadwarrior-iOS",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-Roadwarrior-iOS&oldid=88843",
+    "revision": 88843,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/SSL VPN-S2S",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-S2S&oldid=114391",
+    "revision": 114391,
+    "operation_ids": [],
+    "referenced_command_groups": [
+      "openvpn"
+    ],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/SSL VPN-S2S-Fallback",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-S2S-Fallback&oldid=84974",
+    "revision": 84974,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/SSL VPN-Troubleshooting",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-Troubleshooting&oldid=109309",
+    "revision": 109309,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/SSL-VPN-Tap-Signierung2019",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL-VPN-Tap-Signierung2019&oldid=30283",
+    "revision": 30283,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/WireGuard",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard&oldid=98347",
+    "revision": 98347,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/WireGuard-BestPractice",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-BestPractice&oldid=111148",
+    "revision": 111148,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/WireGuard-Konfig",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-Konfig&oldid=114493",
+    "revision": 114493,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/WireGuard-Logging",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-Logging&oldid=94570",
+    "revision": 94570,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/WireGuard-Peer",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-Peer&oldid=94902",
+    "revision": 94902,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/WireGuard-S2E",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-S2E&oldid=114373",
+    "revision": 114373,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/WireGuard-S2S",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-S2S&oldid=114367",
+    "revision": 114367,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/WireGuard-SP-Fritzbox",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-SP-Fritzbox&oldid=115150",
+    "revision": 115150,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  },
+  {
+    "title": "UTM/VPN/Übersicht",
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2F%C3%9Cbersicht&oldid=112966",
+    "revision": 112966,
+    "operation_ids": [],
+    "referenced_command_groups": [],
+    "review_status": "guide_retrieved",
+    "live_verified": false
+  }
+]

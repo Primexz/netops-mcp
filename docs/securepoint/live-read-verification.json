@@ -1,0 +1,202 @@
+{
+  "protocol": "2025-06-18",
+  "tool_count": 565,
+  "profiles": 1,
+  "checked_at": "2026-10-16T17:40:33.943152+00:00",
+  "commands": [
+    "system info",
+    "node get",
+    "node group get",
+    "service get",
+    "service group get",
+    "rule get",
+    "rule group get",
+    "rule timeprofile get",
+    "interface get",
+    "interface zone get",
+    "interface address get",
+    "route get",
+    "dns get",
+    "ipsec status",
+    "openvpn status",
+    "wireguard interface get",
+    "appmgmt get",
+    "system config get",
+    "extc application get",
+    "dhcp pool get",
+    "dhcp lease get",
+    "dhcp lease list",
+    "webfilter rule get",
+    "webfilter ruleset get",
+    "oauth get",
+    "ctproxy status",
+    "dns filter get"
+  ],
+  "results": [
+    {
+      "command": "system info",
+      "success": true,
+      "format": "json",
+      "total": 57
+    },
+    {
+      "command": "node get",
+      "success": true,
+      "format": "json",
+      "total": 284
+    },
+    {
+      "command": "node group get",
+      "success": true,
+      "format": "json",
+      "total": 4
+    },
+    {
+      "command": "service get",
+      "success": true,
+      "format": "json",
+      "total": 155
+    },
+    {
+      "command": "service group get",
+      "success": true,
+      "format": "json",
+      "total": 14
+    },
+    {
+      "command": "rule get",
+      "success": true,
+      "format": "json",
+      "total": 39
+    },
+    {
+      "command": "rule group get",
+      "success": true,
+      "format": "json",
+      "total": 12
+    },
+    {
+      "command": "rule timeprofile get",
+      "success": true,
+      "format": "json",
+      "total": 0
+    },
+    {
+      "command": "interface get",
+      "success": true,
+      "format": "json",
+      "total": 2
+    },
+    {
+      "command": "interface zone get",
+      "success": true,
+      "format": "json",
+      "total": 9
+    },
+    {
+      "command": "interface address get",
+      "success": true,
+      "format": "json",
+      "total": 4
+    },
+    {
+      "command": "route get",
+      "success": true,
+      "format": "json",
+      "total": 21
+    },
+    {
+      "command": "dns get",
+      "success": true,
+      "format": "json",
+      "total": 0
+    },
+    {
+      "command": "ipsec status",
+      "success": true,
+      "format": "json",
+      "total": 0
+    },
+    {
+      "command": "openvpn status",
+      "success": true,
+      "format": "json",
+      "total": 0
+    },
+    {
+      "command": "wireguard interface get",
+      "success": true,
+      "format": "json",
+      "total": 1
+    },
+    {
+      "command": "appmgmt get",
+      "success": true,
+      "format": "json",
+      "total": 67
+    },
+    {
+      "command": "system config get",
+      "success": true,
+      "format": "json",
+      "total": 4
+    },
+    {
+      "command": "extc application get",
+      "success": true,
+      "format": "json",
+      "total": 67
+    },
+    {
+      "command": "dhcp pool get",
+      "success": true,
+      "format": "json",
+      "total": 0
+    },
+    {
+      "command": "dhcp lease get",
+      "success": true,
+      "format": "json",
+      "total": 0
+    },
+    {
+      "command": "dhcp lease list",
+      "success": true,
+      "format": "json",
+      "total": 0
+    },
+    {
+      "command": "webfilter rule get",
+      "success": true,
+      "format": "json",
+      "total": 13
+    },
+    {
+      "command": "webfilter ruleset get",
+      "success": true,
+      "format": "json",
+      "total": 3
+    },
+    {
+      "command": "oauth get",
+      "success": true,
+      "format": "json",
+      "total": 0
+    },
+    {
+      "command": "ctproxy status",
+      "success": true,
+      "format": "json",
+      "total": 0
+    },
+    {
+      "command": "dns filter get",
+      "success": true,
+      "format": "json",
+      "total": 0
+    }
+  ],
+  "writes_attempted": 0,
+  "firmware": "14.1.5",
+  "advertised_commands": 564
+}

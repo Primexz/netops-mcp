@@ -1,0 +1,34 @@
+version: "2"
+
+run:
+  timeout: 5m
+  modules-download-mode: readonly
+
+linters:
+  default: standard
+  enable:
+    - bodyclose
+    - errorlint
+    - modernize
+    - nilerr
+    - nilnesserr
+    - nolintlint
+  settings:
+    nolintlint:
+      require-explanation: true
+      require-specific: true
+  exclusions:
+    rules:
+      # MCP tool failures belong in CallToolResult, with a nil protocol error.
+      - path: internal/(mikrotik|securepoint)/mcpserver/server\.go
+        source: 'return failure\('
+        linters:
+          - nilerr
+
+formatters:
+  enable:
+    - gofmt
+
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0

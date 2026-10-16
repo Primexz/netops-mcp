@@ -1,0 +1,56 @@
+# Copy to .local/sp-utm.toml and edit for your devices.
+# Relative paths resolve beside this file; ~/ expands to your home directory.
+artifact_dir = "artifacts/sp-utm"
+# Omit groups to expose the complete catalog. Profile groups further restrict calls.
+groups = ["node", "service", "rule", "interface", "route", "dhcp", "dns", "system", "extc", "appmgmt", "user", "cert", "ipsec", "openvpn", "wireguard"]
+
+[server]
+transport = "stdio" # Select "http", or use --transport http at startup.
+
+[server.http]
+listen = "127.0.0.1:8080"
+token_env = "SP_UTM_MCP_HTTP_TOKEN"
+max_request_bytes = 16777216
+# A nonempty token takes precedence over token_env. Set a random bearer token
+# of 32..4096 ASCII token characters at HTTP startup; --check needs no secrets.
+# token = ""
+# Hostnames/IPs without ports. A loopback bind defaults to loopback names.
+# allowed_hosts = ["mcp.example.com"]
+# Browser clients need exact origins; clients without Origin need no entry.
+# allowed_origins = ["https://client.example.com", "https://mcp.example.com"]
+# Listeners outside loopback require both TLS files. Wildcard listeners also
+# require explicit allowed_hosts; a proxy preserving a public Host needs it listed.
+# tls_cert_file = "certs/sp-utm-server.pem"
+# tls_key_file = "certs/sp-utm-server-key.pem"
+
+[profiles.headquarters]
+host = "192.0.2.10"
+port = 22
+username = "admin"
+password_env = "SP_UTM_HQ_PASSWORD"
+known_hosts = "known_hosts/sp-utm"
+read_only = true
+timeout_seconds = 30
+max_output_bytes = 4194304
+allow_diagnostics = false
+allow_sensitive_exports = false
+allow_file_transfer = false
+allow_lifecycle = false
+# Documentation-derived mutations require allow_unverified=true in addition
+# to read_only=false and the corresponding operation permission.
+allow_unverified = false
+
+[profiles.branch]
+host = "192.0.2.20"
+username = "admin"
+password_env = "SP_UTM_BRANCH_PASSWORD"
+known_hosts = "known_hosts/sp-utm"
+read_only = true
+groups = ["node", "service", "rule", "system"]
+
+# Key authentication is supported when enabled on your UTM. Use key_file or
+# ssh_agent=true instead of password_env. Encrypted keys use key_passphrase_env.
+# Root/support users entering the Linux shell must set root_cli=true. SFTP and
+# tcpdump need a separate root profile with the corresponding permissions.
+# For root profiles, json_output=true enables structured CLI results and the
+# complete command inventory.

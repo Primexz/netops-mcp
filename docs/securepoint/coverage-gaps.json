@@ -1,0 +1,137 @@
+[
+  {
+    "command": "cert parse",
+    "reason": "Interactive/internal command or malformed documentation heading; use the explicit corrected operation where present.",
+    "source": "https://wiki.securepoint.de/index.php?title=CLI%2FCert&oldid=86422"
+  },
+  {
+    "command": "system config save name",
+    "reason": "Interactive/internal command or malformed documentation heading; use the explicit corrected operation where present.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FCluster&oldid=109480"
+  },
+  {
+    "command": "extc value get application",
+    "reason": "Interactive/internal command or malformed documentation heading; use the explicit corrected operation where present.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FCluster&oldid=109480"
+  },
+  {
+    "command": "extc value set application",
+    "reason": "Interactive/internal command or malformed documentation heading; use the explicit corrected operation where present.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FCluster&oldid=109480"
+  },
+  {
+    "command": "extc template edit",
+    "reason": "Interactive/internal command or malformed documentation heading; use the explicit corrected operation where present.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FExtc&oldid=96470"
+  },
+  {
+    "command": "rule implied rule set implied_group",
+    "reason": "Interactive/internal command or malformed documentation heading; use the explicit corrected operation where present.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FExtc&oldid=96470"
+  },
+  {
+    "command": "system sysctl new name net",
+    "reason": "Interactive/internal command or malformed documentation heading; use the explicit corrected operation where present.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FSIP-Proxy&oldid=100981"
+  },
+  {
+    "command": "system config setup",
+    "reason": "Interactive/internal command or malformed documentation heading; use the explicit corrected operation where present.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FSystem&oldid=110155"
+  },
+  {
+    "command": "system upgrade confirm",
+    "reason": "Interactive/internal command or malformed documentation heading; use the explicit corrected operation where present.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FSystem&oldid=110155"
+  },
+  {
+    "command": "system upgrade privacy",
+    "reason": "Interactive/internal command or malformed documentation heading; use the explicit corrected operation where present.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FSystem&oldid=110155"
+  },
+  {
+    "command": "cert import",
+    "reason": "The wiki marks this interactive syntax as obsolete since firmware 11.4; validate on 14.x first.",
+    "source": "https://wiki.securepoint.de/index.php?title=CLI%2FCert&oldid=86422"
+  },
+  {
+    "command": "mail dkimsign domain set",
+    "reason": "The wiki supplies neither parameters nor an example.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FMail&oldid=98434"
+  },
+  {
+    "command": "debug show",
+    "reason": "Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768"
+  },
+  {
+    "command": "debug validate",
+    "reason": "Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768"
+  },
+  {
+    "command": "mail dkimsign domain delete",
+    "reason": "Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768"
+  },
+  {
+    "command": "mail dkimsign domain new",
+    "reason": "Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768"
+  },
+  {
+    "command": "mail dkimsign header delete",
+    "reason": "Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768"
+  },
+  {
+    "command": "mail dkimsign selector delete",
+    "reason": "Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768"
+  },
+  {
+    "command": "mail dkimsign selector new",
+    "reason": "Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768"
+  },
+  {
+    "command": "mail dkimsign selector set",
+    "reason": "Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768"
+  },
+  {
+    "command": "oauth account delete",
+    "reason": "Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768"
+  },
+  {
+    "command": "oauth account new",
+    "reason": "Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768"
+  },
+  {
+    "command": "oauth account set",
+    "reason": "Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768"
+  },
+  {
+    "command": "oauth user delete",
+    "reason": "Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768"
+  },
+  {
+    "command": "rule transparent add",
+    "reason": "Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768"
+  },
+  {
+    "command": "rule transparent delete",
+    "reason": "Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768"
+  },
+  {
+    "command": "rule transparent set",
+    "reason": "Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.",
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768"
+  }
+]
