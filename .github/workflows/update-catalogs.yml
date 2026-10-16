@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     permissions:
+      actions: write
       contents: write
       pull-requests: write
     strategy:
@@ -40,7 +41,7 @@ jobs:
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
-          ref: ${{ github.event.repository.default_branch }}
+          ref: develop
       - uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6
         with:
           go-version-file: go.mod
@@ -59,9 +60,11 @@ jobs:
       - name: Verify generated catalogs
         run: make verify
       - name: Create or update catalog pull request
+        id: catalog-pr
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8
         with:
           token: ${{ secrets.CATALOG_PR_TOKEN || github.token }}
+          base: develop
           branch: chore/catalog-${{ matrix.vendor }}
           delete-branch: true
           add-paths: ${{ matrix.paths }}
@@ -86,3 +89,9 @@ jobs:
             Regenerate the catalog and coverage metadata with `make research catalog VENDOR=${{ matrix.vendor }}`.
             Validate the generated files with `make verify` before creating this pull request.
             Preserve explicit documentation gaps and existing device verification evidence; this refresh does not perform live device checks.
+      - name: Start required checks for the catalog PR
+        if: steps.catalog-pr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: gh workflow run verify.yml --ref "chore/catalog-$VENDOR"
