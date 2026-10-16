@@ -9,7 +9,7 @@ Each server has its own configuration and permissions. Tool namespaces remain `u
 
 ## Setup
 
-Requirements: Go 1.26, Python 3, and [golangci-lint](https://golangci-lint.run/docs/welcome/install/local/) v2.12.2. The Go module is `github.com/Primexz/netops-mcp`. Create local configs from the examples, edit profile addresses and settings, then validate and build:
+Requirements: Go 1.26, Python 3, and [golangci-lint](https://golangci-lint.run/docs/welcome/install/local/) v2.15.0. The Go module is `github.com/Primexz/netops-mcp`. Create local configs from the examples, edit profile addresses and settings, then validate and build:
 
 ```sh
 mkdir -p .local
