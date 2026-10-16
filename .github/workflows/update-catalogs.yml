@@ -14,7 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     permissions:
-      actions: write
       contents: write
       pull-requests: write
     strategy:
@@ -60,7 +59,6 @@ jobs:
       - name: Verify generated catalogs
         run: make verify
       - name: Create or update catalog pull request
-        id: catalog-pr
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8
         with:
           token: ${{ secrets.CATALOG_PR_TOKEN || github.token }}
@@ -89,9 +87,3 @@ jobs:
             Regenerate the catalog and coverage metadata with `make research catalog VENDOR=${{ matrix.vendor }}`.
             Validate the generated files with `make verify` before creating this pull request.
             Preserve explicit documentation gaps and existing device verification evidence; this refresh does not perform live device checks.
-      - name: Start required checks for the catalog PR
-        if: steps.catalog-pr.outputs.pull-request-number
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
-        run: gh workflow run verify.yml --ref "chore/catalog-$VENDOR"
