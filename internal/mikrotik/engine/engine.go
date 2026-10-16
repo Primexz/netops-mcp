@@ -179,7 +179,7 @@ func (e *Engine) Discover(ctx context.Context, profile string) (any, error) {
 		return nil, err
 	}
 	packages, packageErr := c.Request(ctx, "GET", "system/package", "", nil, nil)
-	out := map[string]any{"profile": profile, "resource": resource, "packages": packages, "complete_capability_probe": false, "live_write_verified": false}
+	out := map[string]any{"profile": profile, "resource": resource, "packages": packages, "complete_capability_probe": false}
 	if packageErr != nil {
 		if re, ok := errors.AsType[*routeros.Error](packageErr); ok {
 			out["packages_error"] = re

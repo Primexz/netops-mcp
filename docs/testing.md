@@ -4,7 +4,7 @@
 
 Install Go 1.26, Python 3, and [golangci-lint v2.12.2](https://golangci-lint.run/docs/welcome/install/local/), matching CI. Run `make fmt` to format Go source with the standard `go fmt` command. `make fmt-check` checks formatting without changing files; `.golangci.yml` also selects `gofmt` as its formatter.
 
-Run `make verify` after implementation changes. The Makefile target checks formatting, runs `make lint` with golangci-lint, `go test -race ./...`, `go vet ./...`, offline `--check` in stdio and HTTP configuration modes for both example configs, and builds both binaries. Offline checks do not need appliance passwords or network access. Do not use production appliances for mutation tests; tests use offline fixtures unless a dedicated write-test device is explicitly configured.
+Run `make verify` after implementation changes. The Makefile target checks formatting, runs `make lint` with golangci-lint, `go test -race ./...`, Python research tests, `go vet ./...`, offline `--check` in stdio and HTTP configuration modes for both example configs, and builds both binaries. Offline checks do not need appliance passwords or network access. Tests use offline fixtures and local test servers; no appliance credentials are required.
 
 Linting uses golangci-lint's version 2 configuration with its standard correctness checks plus HTTP response cleanup, error wrapping, modern Go idioms, nil-error checks, and explained, specific `nolint` directives. CI validates the entire codebase and uses the same lint and formatting commands as local development.
 
@@ -30,13 +30,13 @@ make research catalog VENDOR=securepoint
 make research catalog VENDOR=mikrotik
 ```
 
-Securepoint catalog research requires Python 3; MikroTik generation is implemented in Go. Working caches and artifacts belong under ignored `.cache/<vendor>`. Reviewed embedded source data is under `internal/<vendor>/catalog`; human-authored vendor guides are under `docs/<vendor>`. Preserve unavailable documentation entries and existing verification evidence. A catalog refresh does not establish live device compatibility.
+Securepoint catalog research requires Python 3; MikroTik generation is implemented in Go. Working caches and artifacts belong under ignored `.cache/<vendor>`. Reviewed embedded source data is under `internal/<vendor>/catalog`; human-authored vendor guides are under `docs/<vendor>`. Use the vendor documentation as the source of support and preserve unavailable documentation entries.
 
 ## Automated catalog updates
 
 The `.github/workflows/update-catalogs.yml` workflow runs every Monday at 06:23 UTC and supports **Actions → Update catalogs → Run workflow**. Its matrix refreshes Securepoint and MikroTik independently from `develop`, retrieves fresh public documentation without restoring a research cache, and runs `make verify` before proposing changes. A failed vendor job does not cancel the other vendor.
 
-The workflow maintains one PR per vendor on `chore/catalog-securepoint` and `chore/catalog-mikrotik`, targeting `develop`. Repeated runs update the existing PR; changes are never merged automatically. Only each vendor's generated catalog and coverage files are included. Raw downloaded documentation, credentials, device evidence files, and local configuration are excluded. Vendor jobs are serialized across workflow runs to avoid concurrent updates to the same PR branch.
+The workflow maintains one PR per vendor on `chore/catalog-securepoint` and `chore/catalog-mikrotik`, targeting `develop`. Repeated runs update the existing PR; changes are never merged automatically. Only each vendor's generated catalog and coverage files are included. Raw downloaded documentation, credentials, and local configuration are excluded. Vendor jobs are serialized across workflow runs to avoid concurrent updates to the same PR branch.
 
 Identical upstream documentation retains the published snapshot's retrieval dates, so a refresh without source changes produces no PR. MikroTik matches sources by URL, version, and content hash; Securepoint compares complete page metadata, including revisions, hashes, links, and retrieval failures. Real source changes remain reviewable. Fresh fetch dates remain in MikroTik's ignored research cache and the workflow logs rather than creating timestamp-only commits.
 
@@ -53,7 +53,3 @@ For automatic PR checks without that approval prompt, configure the optional `CA
 Both branches require a pull request, an up-to-date branch, resolved review threads, and all six Verify checks from GitHub Actions. Force pushes, branch deletion, and direct pushes are blocked, including for administrators; no bypass actors are configured. A second person's approval is optional for the current solo-maintainer setup. Every production change, including hotfixes, still follows the PR and CI process.
 
 The applied GitHub ruleset definitions are stored in `.github/rulesets/master.json` and `.github/rulesets/develop.json`. Changes to these files document the intended policy; applying a ruleset update in GitHub requires repository administration access.
-
-## Current device evidence
-
-Securepoint live read evidence covers 27 operations on observed firmware 14.1.5. No Securepoint writes, activation/save actions, or file transfers are verified. MikroTik has no live-router verification. Catalog documentation and offline tests are not proof of live compatibility. See [Securepoint verification](securepoint/verification.md) and the vendor coverage reports for current scope.

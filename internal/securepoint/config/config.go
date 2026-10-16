@@ -34,7 +34,6 @@ type Profile struct {
 	AllowSensitiveExports bool     `toml:"allow_sensitive_exports"`
 	AllowFileTransfer     bool     `toml:"allow_file_transfer"`
 	AllowLifecycle        bool     `toml:"allow_lifecycle"`
-	AllowUnverified       bool     `toml:"allow_unverified"`
 	TimeoutSeconds        int      `toml:"timeout_seconds"`
 	MaxOutputBytes        int      `toml:"max_output_bytes"`
 	Groups                []string `toml:"groups"`

@@ -46,7 +46,7 @@ func session(t *testing.T, write bool) (*mcp.ClientSession, *fixtureRunner) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	c := &config.Config{ArtifactDir: t.TempDir(), Profiles: map[string]config.Profile{"main": {Host: "192.0.2.1", Username: "admin", PasswordEnv: "PASS", ReadOnly: new(!write), AllowUnverified: write}}}
+	c := &config.Config{ArtifactDir: t.TempDir(), Profiles: map[string]config.Profile{"main": {Host: "192.0.2.1", Username: "admin", PasswordEnv: "PASS", ReadOnly: new(!write)}}}
 	if err := c.Normalize(t.TempDir()); err != nil {
 		t.Fatal(err)
 	}

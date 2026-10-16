@@ -107,7 +107,7 @@ func TestProfileValidation(t *testing.T) {
 func TestPreservesPermissionsAndSSHAuthentication(t *testing.T) {
 	for _, auth := range []string{"password", "key", "agent"} {
 		t.Run(auth, func(t *testing.T) {
-			p := Profile{Host: "2001:db8::1", Username: "root", RootCLI: true, JSONOutput: true, ReadOnly: new(false), AllowDiagnostics: true, AllowSensitiveExports: true, AllowFileTransfer: true, AllowLifecycle: true, AllowUnverified: true, Groups: []string{"system"}}
+			p := Profile{Host: "2001:db8::1", Username: "root", RootCLI: true, JSONOutput: true, ReadOnly: new(false), AllowDiagnostics: true, AllowSensitiveExports: true, AllowFileTransfer: true, AllowLifecycle: true, Groups: []string{"system"}}
 			switch auth {
 			case "password":
 				p.PasswordEnv = "SP_UTM_CONFIG_TEST_PASSWORD"
@@ -122,7 +122,7 @@ func TestPreservesPermissionsAndSSHAuthentication(t *testing.T) {
 				t.Fatal(err)
 			}
 			p = c.Profiles["main"]
-			if p.IsReadOnly() || !p.RootCLI || !p.JSONOutput || !p.AllowDiagnostics || !p.AllowSensitiveExports || !p.AllowFileTransfer || !p.AllowLifecycle || !p.AllowUnverified || len(p.Groups) != 1 || p.Address() != "[2001:db8::1]:22" {
+			if p.IsReadOnly() || !p.RootCLI || !p.JSONOutput || !p.AllowDiagnostics || !p.AllowSensitiveExports || !p.AllowFileTransfer || !p.AllowLifecycle || len(p.Groups) != 1 || p.Address() != "[2001:db8::1]:22" {
 				t.Fatalf("profile behavior changed: %+v", p)
 			}
 		})

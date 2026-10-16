@@ -219,7 +219,7 @@ func Build(spec Spec, cacheDir string) (*catalog.Catalog, error) {
 				fields = slices.DeleteFunc(fields, func(p catalog.Property) bool { return !p.ReadOnly && !slices.Contains(r.WriteFields, p.Name) })
 			}
 			name := "mikrotik_" + strings.NewReplacer("/", "_", "-", "_").Replace(r.Path) + "_" + action
-			desc := fmt.Sprintf("%s /%s on the named RouterOS profile. Documentation-derived; live compatibility unverified.", strings.ToUpper(action[:1])+action[1:], r.Path)
+			desc := fmt.Sprintf("%s /%s on the named RouterOS profile. Based on the vendor documentation.", strings.ToUpper(action[:1])+action[1:], r.Path)
 			if method != "GET" {
 				desc += " Applies immediately; requires read_only=false."
 			}

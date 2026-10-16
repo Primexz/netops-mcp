@@ -54,8 +54,8 @@ func (f *fakeRunner) Run(ctx context.Context, p config.Profile, r transport.Requ
 func testEngine(t *testing.T) (*Engine, *fakeRunner, *bytes.Buffer) {
 	t.Helper()
 	c := &config.Config{ArtifactDir: t.TempDir(), Profiles: map[string]config.Profile{
-		"first":  {Host: "192.0.2.1", Username: "admin", PasswordEnv: "PASS", ReadOnly: new(false), AllowUnverified: true},
-		"second": {Host: "192.0.2.2", Username: "admin", PasswordEnv: "PASS", ReadOnly: new(false), AllowUnverified: true},
+		"first":  {Host: "192.0.2.1", Username: "admin", PasswordEnv: "PASS", ReadOnly: new(false)},
+		"second": {Host: "192.0.2.2", Username: "admin", PasswordEnv: "PASS", ReadOnly: new(false)},
 	}}
 	if err := c.Normalize(t.TempDir()); err != nil {
 		t.Fatal(err)
@@ -147,10 +147,9 @@ func TestDefaultReadOnlyAndPermissions(t *testing.T) {
 		t.Fatalf("%v, calls %v", err, f.calls)
 	}
 	p.ReadOnly = new(false)
-	p.AllowUnverified = false
 	e.Config.Profiles["first"] = p
-	if _, err := e.Call(t.Context(), "first", "utm_node_delete", map[string]any{"id": "1"}, 0, 100); err == nil {
-		t.Fatal("unverified mutation allowed without permission")
+	if result, err := e.Call(t.Context(), "first", "utm_node_delete", map[string]any{"id": "1"}, 0, 100); err != nil || result.Plan == nil {
+		t.Fatalf("writable profile did not prepare a change plan: %#v, %v", result, err)
 	}
 	if _, err := e.Call(t.Context(), "first", "utm_system_reboot", nil, 0, 100); err == nil {
 		t.Fatal("lifecycle permission bypassed")

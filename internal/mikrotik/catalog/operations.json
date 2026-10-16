@@ -182,7 +182,7 @@
       "path": "interface/bridge",
       "action": "create",
       "method": "PUT",
-      "description": "Create /interface/bridge on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /interface/bridge on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -1172,8 +1172,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: name",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_bridge_delete",
@@ -1181,7 +1180,7 @@
       "path": "interface/bridge",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /interface/bridge on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /interface/bridge on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -2171,8 +2170,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: name",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_bridge_list",
@@ -2180,7 +2178,7 @@
       "path": "interface/bridge",
       "action": "list",
       "method": "GET",
-      "description": "List /interface/bridge on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /interface/bridge on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -3170,8 +3168,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: name",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_bridge_port_create",
@@ -3179,7 +3176,7 @@
       "path": "interface/bridge/port",
       "action": "create",
       "method": "PUT",
-      "description": "Create /interface/bridge/port on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /interface/bridge/port on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -4376,8 +4373,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: bridge, interface",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_bridge_port_delete",
@@ -4385,7 +4381,7 @@
       "path": "interface/bridge/port",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /interface/bridge/port on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /interface/bridge/port on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -5582,8 +5578,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: bridge, interface",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_bridge_port_list",
@@ -5591,7 +5586,7 @@
       "path": "interface/bridge/port",
       "action": "list",
       "method": "GET",
-      "description": "List /interface/bridge/port on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /interface/bridge/port on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -6788,8 +6783,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: bridge, interface",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_bridge_port_update",
@@ -6797,7 +6791,7 @@
       "path": "interface/bridge/port",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /interface/bridge/port on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /interface/bridge/port on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -7994,8 +7988,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: bridge, interface",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_bridge_update",
@@ -8003,7 +7996,7 @@
       "path": "interface/bridge",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /interface/bridge on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /interface/bridge on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -8993,8 +8986,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: name",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_bridge_vlan_create",
@@ -9002,7 +8994,7 @@
       "path": "interface/bridge/vlan",
       "action": "create",
       "method": "PUT",
-      "description": "Create /interface/bridge/vlan on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /interface/bridge/vlan on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -9175,8 +9167,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: bridge, vlan-ids",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_bridge_vlan_delete",
@@ -9184,7 +9175,7 @@
       "path": "interface/bridge/vlan",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /interface/bridge/vlan on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /interface/bridge/vlan on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -9357,8 +9348,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: bridge, vlan-ids",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_bridge_vlan_list",
@@ -9366,7 +9356,7 @@
       "path": "interface/bridge/vlan",
       "action": "list",
       "method": "GET",
-      "description": "List /interface/bridge/vlan on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /interface/bridge/vlan on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -9539,8 +9529,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: bridge, vlan-ids",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_bridge_vlan_update",
@@ -9548,7 +9537,7 @@
       "path": "interface/bridge/vlan",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /interface/bridge/vlan on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /interface/bridge/vlan on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -9721,8 +9710,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: bridge, vlan-ids",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_list",
@@ -9730,7 +9718,7 @@
       "path": "interface",
       "action": "list",
       "method": "GET",
-      "description": "List /interface on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /interface on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -10394,8 +10382,7 @@
         "Added standard property omitted by this page: comment",
         "Writable fields restricted to: comment, disabled",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_update",
@@ -10403,7 +10390,7 @@
       "path": "interface",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /interface on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /interface on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -11017,8 +11004,7 @@
         "Added standard property omitted by this page: comment",
         "Writable fields restricted to: comment, disabled",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_vlan_create",
@@ -11026,7 +11012,7 @@
       "path": "interface/vlan",
       "action": "create",
       "method": "PUT",
-      "description": "Create /interface/vlan on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /interface/vlan on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -11403,8 +11389,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: name, interface, vlan-id",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_vlan_delete",
@@ -11412,7 +11397,7 @@
       "path": "interface/vlan",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /interface/vlan on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /interface/vlan on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -11789,8 +11774,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: name, interface, vlan-id",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_vlan_list",
@@ -11798,7 +11782,7 @@
       "path": "interface/vlan",
       "action": "list",
       "method": "GET",
-      "description": "List /interface/vlan on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /interface/vlan on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -12175,8 +12159,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: name, interface, vlan-id",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_interface_vlan_update",
@@ -12184,7 +12167,7 @@
       "path": "interface/vlan",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /interface/vlan on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /interface/vlan on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -12561,8 +12544,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: name, interface, vlan-id",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_address_create",
@@ -12570,7 +12552,7 @@
       "path": "ip/address",
       "action": "create",
       "method": "PUT",
-      "description": "Create /ip/address on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ip/address on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -12766,8 +12748,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: address, interface",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_address_delete",
@@ -12775,7 +12756,7 @@
       "path": "ip/address",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /ip/address on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ip/address on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -12971,8 +12952,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: address, interface",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_address_list",
@@ -12980,7 +12960,7 @@
       "path": "ip/address",
       "action": "list",
       "method": "GET",
-      "description": "List /ip/address on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ip/address on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -13176,8 +13156,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: address, interface",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_address_update",
@@ -13185,7 +13164,7 @@
       "path": "ip/address",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /ip/address on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ip/address on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -13381,8 +13360,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: address, interface",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_dhcp_server_lease_create",
@@ -13391,7 +13369,7 @@
       "action": "create",
       "method": "PUT",
       "static_only": true,
-      "description": "Create /ip/dhcp-server/lease on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ip/dhcp-server/lease on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -13952,8 +13930,7 @@
         "Excluded property by reviewed scope override: script",
         "Reviewed creation requirements: address, mac-address",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_dhcp_server_lease_delete",
@@ -13962,7 +13939,7 @@
       "action": "delete",
       "method": "DELETE",
       "static_only": true,
-      "description": "Delete /ip/dhcp-server/lease on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ip/dhcp-server/lease on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -14523,8 +14500,7 @@
         "Excluded property by reviewed scope override: script",
         "Reviewed creation requirements: address, mac-address",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_dhcp_server_lease_list",
@@ -14533,7 +14509,7 @@
       "action": "list",
       "method": "GET",
       "static_only": true,
-      "description": "List /ip/dhcp-server/lease on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ip/dhcp-server/lease on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -15094,8 +15070,7 @@
         "Excluded property by reviewed scope override: script",
         "Reviewed creation requirements: address, mac-address",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_dhcp_server_lease_update",
@@ -15104,7 +15079,7 @@
       "action": "update",
       "method": "PATCH",
       "static_only": true,
-      "description": "Update /ip/dhcp-server/lease on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ip/dhcp-server/lease on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -15665,8 +15640,7 @@
         "Excluded property by reviewed scope override: script",
         "Reviewed creation requirements: address, mac-address",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_dhcp_server_list",
@@ -15674,7 +15648,7 @@
       "path": "ip/dhcp-server",
       "action": "list",
       "method": "GET",
-      "description": "List /ip/dhcp-server on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ip/dhcp-server on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -16166,8 +16140,7 @@
       "override_notes": [
         "Added standard property omitted by this page: .id",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_dns_get",
@@ -16176,7 +16149,7 @@
       "action": "get",
       "method": "GET",
       "singleton": true,
-      "description": "Get /ip/dns on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "Get /ip/dns on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": "address-list-extra-time",
@@ -16468,8 +16441,7 @@
       "source_url": "https://manual.mikrotik.com/docs/cli-reference/ip/dns/",
       "override_notes": [
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_dns_static_create",
@@ -16477,7 +16449,7 @@
       "path": "ip/dns/static",
       "action": "create",
       "method": "PUT",
-      "description": "Create /ip/dns/static on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ip/dns/static on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -16776,8 +16748,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: name",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_dns_static_delete",
@@ -16785,7 +16756,7 @@
       "path": "ip/dns/static",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /ip/dns/static on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ip/dns/static on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -17084,8 +17055,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: name",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_dns_static_list",
@@ -17093,7 +17063,7 @@
       "path": "ip/dns/static",
       "action": "list",
       "method": "GET",
-      "description": "List /ip/dns/static on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ip/dns/static on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -17392,8 +17362,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: name",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_dns_static_update",
@@ -17401,7 +17370,7 @@
       "path": "ip/dns/static",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /ip/dns/static on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ip/dns/static on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -17700,8 +17669,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: name",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_dns_update",
@@ -17710,7 +17678,7 @@
       "action": "update",
       "method": "POST",
       "singleton": true,
-      "description": "Update /ip/dns on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ip/dns on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": "address-list-extra-time",
@@ -18002,8 +17970,7 @@
       "source_url": "https://manual.mikrotik.com/docs/cli-reference/ip/dns/",
       "override_notes": [
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_address_list_create",
@@ -18011,7 +17978,7 @@
       "path": "ip/firewall/address-list",
       "action": "create",
       "method": "PUT",
-      "description": "Create /ip/firewall/address-list on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ip/firewall/address-list on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -18130,8 +18097,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: list, address",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_address_list_delete",
@@ -18139,7 +18105,7 @@
       "path": "ip/firewall/address-list",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /ip/firewall/address-list on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ip/firewall/address-list on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -18258,8 +18224,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: list, address",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_address_list_list",
@@ -18267,7 +18232,7 @@
       "path": "ip/firewall/address-list",
       "action": "list",
       "method": "GET",
-      "description": "List /ip/firewall/address-list on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ip/firewall/address-list on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -18386,8 +18351,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: list, address",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_address_list_update",
@@ -18395,7 +18359,7 @@
       "path": "ip/firewall/address-list",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /ip/firewall/address-list on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ip/firewall/address-list on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -18514,8 +18478,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: list, address",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_filter_create",
@@ -18523,7 +18486,7 @@
       "path": "ip/firewall/filter",
       "action": "create",
       "method": "PUT",
-      "description": "Create /ip/firewall/filter on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ip/firewall/filter on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -19259,8 +19222,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_filter_delete",
@@ -19268,7 +19230,7 @@
       "path": "ip/firewall/filter",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /ip/firewall/filter on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ip/firewall/filter on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -20004,8 +19966,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_filter_list",
@@ -20013,7 +19974,7 @@
       "path": "ip/firewall/filter",
       "action": "list",
       "method": "GET",
-      "description": "List /ip/firewall/filter on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ip/firewall/filter on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -20749,8 +20710,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_filter_move",
@@ -20758,7 +20718,7 @@
       "path": "ip/firewall/filter",
       "action": "move",
       "method": "POST",
-      "description": "Move /ip/firewall/filter on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Move /ip/firewall/filter on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -21494,8 +21454,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_filter_update",
@@ -21503,7 +21462,7 @@
       "path": "ip/firewall/filter",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /ip/firewall/filter on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ip/firewall/filter on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -22239,8 +22198,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_mangle_create",
@@ -22248,7 +22206,7 @@
       "path": "ip/firewall/mangle",
       "action": "create",
       "method": "PUT",
-      "description": "Create /ip/firewall/mangle on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ip/firewall/mangle on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -23104,8 +23062,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_mangle_delete",
@@ -23113,7 +23070,7 @@
       "path": "ip/firewall/mangle",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /ip/firewall/mangle on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ip/firewall/mangle on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -23969,8 +23926,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_mangle_list",
@@ -23978,7 +23934,7 @@
       "path": "ip/firewall/mangle",
       "action": "list",
       "method": "GET",
-      "description": "List /ip/firewall/mangle on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ip/firewall/mangle on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -24834,8 +24790,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_mangle_move",
@@ -24843,7 +24798,7 @@
       "path": "ip/firewall/mangle",
       "action": "move",
       "method": "POST",
-      "description": "Move /ip/firewall/mangle on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Move /ip/firewall/mangle on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -25699,8 +25654,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_mangle_update",
@@ -25708,7 +25662,7 @@
       "path": "ip/firewall/mangle",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /ip/firewall/mangle on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ip/firewall/mangle on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -26564,8 +26518,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_nat_create",
@@ -26573,7 +26526,7 @@
       "path": "ip/firewall/nat",
       "action": "create",
       "method": "PUT",
-      "description": "Create /ip/firewall/nat on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ip/firewall/nat on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -27331,8 +27284,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_nat_delete",
@@ -27340,7 +27292,7 @@
       "path": "ip/firewall/nat",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /ip/firewall/nat on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ip/firewall/nat on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -28098,8 +28050,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_nat_list",
@@ -28107,7 +28058,7 @@
       "path": "ip/firewall/nat",
       "action": "list",
       "method": "GET",
-      "description": "List /ip/firewall/nat on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ip/firewall/nat on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -28865,8 +28816,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_nat_move",
@@ -28874,7 +28824,7 @@
       "path": "ip/firewall/nat",
       "action": "move",
       "method": "POST",
-      "description": "Move /ip/firewall/nat on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Move /ip/firewall/nat on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -29632,8 +29582,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_nat_update",
@@ -29641,7 +29590,7 @@
       "path": "ip/firewall/nat",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /ip/firewall/nat on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ip/firewall/nat on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -30399,8 +30348,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_raw_create",
@@ -30408,7 +30356,7 @@
       "path": "ip/firewall/raw",
       "action": "create",
       "method": "PUT",
-      "description": "Create /ip/firewall/raw on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ip/firewall/raw on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -31002,8 +30950,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_raw_delete",
@@ -31011,7 +30958,7 @@
       "path": "ip/firewall/raw",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /ip/firewall/raw on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ip/firewall/raw on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -31605,8 +31552,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_raw_list",
@@ -31614,7 +31560,7 @@
       "path": "ip/firewall/raw",
       "action": "list",
       "method": "GET",
-      "description": "List /ip/firewall/raw on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ip/firewall/raw on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -32208,8 +32154,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_raw_move",
@@ -32217,7 +32162,7 @@
       "path": "ip/firewall/raw",
       "action": "move",
       "method": "POST",
-      "description": "Move /ip/firewall/raw on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Move /ip/firewall/raw on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -32811,8 +32756,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_firewall_raw_update",
@@ -32820,7 +32764,7 @@
       "path": "ip/firewall/raw",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /ip/firewall/raw on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ip/firewall/raw on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -33414,8 +33358,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_route_create",
@@ -33424,7 +33367,7 @@
       "action": "create",
       "method": "PUT",
       "static_only": true,
-      "description": "Create /ip/route on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ip/route on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -33984,8 +33927,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: dst-address, gateway",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_route_delete",
@@ -33994,7 +33936,7 @@
       "action": "delete",
       "method": "DELETE",
       "static_only": true,
-      "description": "Delete /ip/route on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ip/route on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -34554,8 +34496,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: dst-address, gateway",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_route_list",
@@ -34564,7 +34505,7 @@
       "action": "list",
       "method": "GET",
       "static_only": true,
-      "description": "List /ip/route on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ip/route on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -35124,8 +35065,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: dst-address, gateway",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ip_route_update",
@@ -35134,7 +35074,7 @@
       "action": "update",
       "method": "PATCH",
       "static_only": true,
-      "description": "Update /ip/route on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ip/route on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -35694,8 +35634,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: dst-address, gateway",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_address_create",
@@ -35703,7 +35642,7 @@
       "path": "ipv6/address",
       "action": "create",
       "method": "PUT",
-      "description": "Create /ipv6/address on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ipv6/address on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -36073,8 +36012,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: address, interface",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_address_delete",
@@ -36082,7 +36020,7 @@
       "path": "ipv6/address",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /ipv6/address on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ipv6/address on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -36452,8 +36390,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: address, interface",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_address_list",
@@ -36461,7 +36398,7 @@
       "path": "ipv6/address",
       "action": "list",
       "method": "GET",
-      "description": "List /ipv6/address on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ipv6/address on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -36831,8 +36768,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: address, interface",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_address_update",
@@ -36840,7 +36776,7 @@
       "path": "ipv6/address",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /ipv6/address on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ipv6/address on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -37210,8 +37146,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: address, interface",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_address_list_create",
@@ -37219,7 +37154,7 @@
       "path": "ipv6/firewall/address-list",
       "action": "create",
       "method": "PUT",
-      "description": "Create /ipv6/firewall/address-list on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ipv6/firewall/address-list on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -37338,8 +37273,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: list, address",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_address_list_delete",
@@ -37347,7 +37281,7 @@
       "path": "ipv6/firewall/address-list",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /ipv6/firewall/address-list on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ipv6/firewall/address-list on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -37466,8 +37400,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: list, address",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_address_list_list",
@@ -37475,7 +37408,7 @@
       "path": "ipv6/firewall/address-list",
       "action": "list",
       "method": "GET",
-      "description": "List /ipv6/firewall/address-list on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ipv6/firewall/address-list on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -37594,8 +37527,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: list, address",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_address_list_update",
@@ -37603,7 +37535,7 @@
       "path": "ipv6/firewall/address-list",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /ipv6/firewall/address-list on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ipv6/firewall/address-list on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -37722,8 +37654,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: list, address",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_filter_create",
@@ -37731,7 +37662,7 @@
       "path": "ipv6/firewall/filter",
       "action": "create",
       "method": "PUT",
-      "description": "Create /ipv6/firewall/filter on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ipv6/firewall/filter on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -38384,8 +38315,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_filter_delete",
@@ -38393,7 +38323,7 @@
       "path": "ipv6/firewall/filter",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /ipv6/firewall/filter on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ipv6/firewall/filter on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -39046,8 +38976,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_filter_list",
@@ -39055,7 +38984,7 @@
       "path": "ipv6/firewall/filter",
       "action": "list",
       "method": "GET",
-      "description": "List /ipv6/firewall/filter on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ipv6/firewall/filter on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -39708,8 +39637,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_filter_move",
@@ -39717,7 +39645,7 @@
       "path": "ipv6/firewall/filter",
       "action": "move",
       "method": "POST",
-      "description": "Move /ipv6/firewall/filter on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Move /ipv6/firewall/filter on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -40370,8 +40298,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_filter_update",
@@ -40379,7 +40306,7 @@
       "path": "ipv6/firewall/filter",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /ipv6/firewall/filter on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ipv6/firewall/filter on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -41032,8 +40959,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_mangle_create",
@@ -41041,7 +40967,7 @@
       "path": "ipv6/firewall/mangle",
       "action": "create",
       "method": "PUT",
-      "description": "Create /ipv6/firewall/mangle on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ipv6/firewall/mangle on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -41856,8 +41782,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_mangle_delete",
@@ -41865,7 +41790,7 @@
       "path": "ipv6/firewall/mangle",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /ipv6/firewall/mangle on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ipv6/firewall/mangle on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -42680,8 +42605,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_mangle_list",
@@ -42689,7 +42613,7 @@
       "path": "ipv6/firewall/mangle",
       "action": "list",
       "method": "GET",
-      "description": "List /ipv6/firewall/mangle on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ipv6/firewall/mangle on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -43504,8 +43428,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_mangle_move",
@@ -43513,7 +43436,7 @@
       "path": "ipv6/firewall/mangle",
       "action": "move",
       "method": "POST",
-      "description": "Move /ipv6/firewall/mangle on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Move /ipv6/firewall/mangle on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -44328,8 +44251,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_mangle_update",
@@ -44337,7 +44259,7 @@
       "path": "ipv6/firewall/mangle",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /ipv6/firewall/mangle on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ipv6/firewall/mangle on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -45152,8 +45074,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_nat_create",
@@ -45161,7 +45082,7 @@
       "path": "ipv6/firewall/nat",
       "action": "create",
       "method": "PUT",
-      "description": "Create /ipv6/firewall/nat on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ipv6/firewall/nat on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -45804,8 +45725,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_nat_delete",
@@ -45813,7 +45733,7 @@
       "path": "ipv6/firewall/nat",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /ipv6/firewall/nat on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ipv6/firewall/nat on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -46456,8 +46376,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_nat_list",
@@ -46465,7 +46384,7 @@
       "path": "ipv6/firewall/nat",
       "action": "list",
       "method": "GET",
-      "description": "List /ipv6/firewall/nat on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ipv6/firewall/nat on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -47108,8 +47027,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_nat_move",
@@ -47117,7 +47035,7 @@
       "path": "ipv6/firewall/nat",
       "action": "move",
       "method": "POST",
-      "description": "Move /ipv6/firewall/nat on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Move /ipv6/firewall/nat on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -47760,8 +47678,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_nat_update",
@@ -47769,7 +47686,7 @@
       "path": "ipv6/firewall/nat",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /ipv6/firewall/nat on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ipv6/firewall/nat on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -48412,8 +48329,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_raw_create",
@@ -48421,7 +48337,7 @@
       "path": "ipv6/firewall/raw",
       "action": "create",
       "method": "PUT",
-      "description": "Create /ipv6/firewall/raw on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ipv6/firewall/raw on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -48984,8 +48900,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_raw_delete",
@@ -48993,7 +48908,7 @@
       "path": "ipv6/firewall/raw",
       "action": "delete",
       "method": "DELETE",
-      "description": "Delete /ipv6/firewall/raw on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ipv6/firewall/raw on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -49556,8 +49471,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_raw_list",
@@ -49565,7 +49479,7 @@
       "path": "ipv6/firewall/raw",
       "action": "list",
       "method": "GET",
-      "description": "List /ipv6/firewall/raw on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ipv6/firewall/raw on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -50128,8 +50042,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_raw_move",
@@ -50137,7 +50050,7 @@
       "path": "ipv6/firewall/raw",
       "action": "move",
       "method": "POST",
-      "description": "Move /ipv6/firewall/raw on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Move /ipv6/firewall/raw on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -50700,8 +50613,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_firewall_raw_update",
@@ -50709,7 +50621,7 @@
       "path": "ipv6/firewall/raw",
       "action": "update",
       "method": "PATCH",
-      "description": "Update /ipv6/firewall/raw on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ipv6/firewall/raw on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -51272,8 +51184,7 @@
         "Added standard property omitted by this page: place-before",
         "Reviewed creation requirements: chain, action",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_route_create",
@@ -51282,7 +51193,7 @@
       "action": "create",
       "method": "PUT",
       "static_only": true,
-      "description": "Create /ipv6/route on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Create /ipv6/route on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -51854,8 +51765,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: dst-address, gateway",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_route_delete",
@@ -51864,7 +51774,7 @@
       "action": "delete",
       "method": "DELETE",
       "static_only": true,
-      "description": "Delete /ipv6/route on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Delete /ipv6/route on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -52436,8 +52346,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: dst-address, gateway",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_route_list",
@@ -52446,7 +52355,7 @@
       "action": "list",
       "method": "GET",
       "static_only": true,
-      "description": "List /ipv6/route on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /ipv6/route on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -53018,8 +52927,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: dst-address, gateway",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_ipv6_route_update",
@@ -53028,7 +52936,7 @@
       "action": "update",
       "method": "PATCH",
       "static_only": true,
-      "description": "Update /ipv6/route on the named RouterOS profile. Documentation-derived; live compatibility unverified. Applies immediately; requires read_only=false.",
+      "description": "Update /ipv6/route on the named RouterOS profile. Based on the vendor documentation. Applies immediately; requires read_only=false.",
       "properties": [
         {
           "name": ".id",
@@ -53600,8 +53508,7 @@
         "Added standard property omitted by this page: comment",
         "Reviewed creation requirements: dst-address, gateway",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_log_list",
@@ -53609,7 +53516,7 @@
       "path": "log",
       "action": "list",
       "method": "GET",
-      "description": "List /log on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /log on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -53682,8 +53589,7 @@
       "override_notes": [
         "Added standard property omitted by this page: .id",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_system_health_list",
@@ -53691,7 +53597,7 @@
       "path": "system/health",
       "action": "list",
       "method": "GET",
-      "description": "List /system/health on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /system/health on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -54261,8 +54167,7 @@
       "override_notes": [
         "Added standard property omitted by this page: .id",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_system_identity_get",
@@ -54271,7 +54176,7 @@
       "action": "get",
       "method": "GET",
       "singleton": true,
-      "description": "Get /system/identity on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "Get /system/identity on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": "name",
@@ -54287,8 +54192,7 @@
       "source_url": "https://manual.mikrotik.com/docs/cli-reference/system/identity/",
       "override_notes": [
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_system_package_list",
@@ -54296,7 +54200,7 @@
       "path": "system/package",
       "action": "list",
       "method": "GET",
-      "description": "List /system/package on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "List /system/package on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": ".id",
@@ -54436,8 +54340,7 @@
       "override_notes": [
         "Added standard property omitted by this page: .id",
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     },
     {
       "name": "mikrotik_system_resource_get",
@@ -54446,7 +54349,7 @@
       "action": "get",
       "method": "GET",
       "singleton": true,
-      "description": "Get /system/resource on the named RouterOS profile. Documentation-derived; live compatibility unverified.",
+      "description": "Get /system/resource on the named RouterOS profile. Based on the vendor documentation.",
       "properties": [
         {
           "name": "architecture-name",
@@ -54750,8 +54653,7 @@
       "source_url": "https://manual.mikrotik.com/docs/cli-reference/system/resource/",
       "override_notes": [
         "Operations explicitly selected in tools/mikrotik/catalog-spec.json; generic REST method mapping comes from the REST guide."
-      ],
-      "live_verified": false
+      ]
     }
   ]
 }

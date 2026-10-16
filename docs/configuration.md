@@ -8,7 +8,7 @@ The Securepoint example refers to `known_hosts/sp-utm`, relative to `.local/sp-u
 
 Both formats define top-level `groups`, `[server]`, `[server.http]`, and `[profiles.NAME]` groups. Profile fields include `host`, `port`, `username`, `password_env`, `read_only`, `timeout_seconds`, `max_output_bytes`, and optional `groups`. Profiles default to read-only; credentials are never tool arguments. Use environment variables such as `SP_UTM_HQ_PASSWORD`, `SP_UTM_BRANCH_PASSWORD`, `MIKROTIK_HQ_PASSWORD`, and `MIKROTIK_BRANCH_PASSWORD` for passwords.
 
-Securepoint profiles can also configure `known_hosts`, `key_file`, `key_passphrase_env`, `ssh_agent`, `root_cli`, `json_output`, and separately permissioned diagnostics, sensitive exports, file transfer, lifecycle operations, and unverified catalog operations. SSH host keys are verified. Root/support CLI and SFTP are optional. SFTP uploads are staged in the restricted remote directory `/tmp/sp-utm-mcp`.
+Securepoint profiles can also configure `known_hosts`, `key_file`, `key_passphrase_env`, `ssh_agent`, `root_cli`, `json_output`, and separately permissioned diagnostics, sensitive exports, file transfer, and lifecycle operations. SSH host keys are verified. Root/support CLI and SFTP are optional. SFTP uploads are staged in the restricted remote directory `/tmp/sp-utm-mcp`.
 
 MikroTik profiles can set `ca_file` to add a PEM trust certificate; otherwise the system trust store is used. The connection is HTTPS and certificate validation remains enabled.
 

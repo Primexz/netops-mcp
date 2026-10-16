@@ -2,7 +2,7 @@
 """Extract structured CLI tables and apply reviewed semantic overrides.
 
 Run research_wiki.py first. This does not execute commands on an appliance.
-Generated schemas are documentation-derived, not live interoperability claims.
+Generated schemas use the vendor wiki as their source of support.
 """
 import concurrent.futures
 import html
