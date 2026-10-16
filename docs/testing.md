@@ -8,6 +8,8 @@ Run `make verify` after implementation changes. The Makefile target checks forma
 
 Linting uses golangci-lint's version 2 configuration with its standard correctness checks plus HTTP response cleanup, error wrapping, modern Go idioms, nil-error checks, and explained, specific `nolint` directives. CI validates the entire codebase and uses the same lint and formatting commands as local development.
 
+The Verify workflow runs six independent jobs in parallel: formatting, lint, race-enabled tests, vet and configuration checks, native builds, and cross-builds. Each job reports its own result, so failures in one check do not prevent the other checks from running. Locally, `make verify` runs formatting, lint, tests, checks, and native builds together; `make cross-build` runs the cross-builds.
+
 Run an individual offline configuration/catalog check with:
 
 ```sh
