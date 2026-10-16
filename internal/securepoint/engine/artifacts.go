@@ -25,9 +25,6 @@ func filePermissions(p config.Profile, upload bool) error {
 	if upload && p.IsReadOnly() {
 		return errors.New("profile is read-only")
 	}
-	if upload && !p.AllowUnverified {
-		return errors.New("file transfer has not been live-verified; allow_unverified is required")
-	}
 	return nil
 }
 

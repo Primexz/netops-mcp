@@ -48,7 +48,6 @@ type Operation struct {
 	Properties    []Property `json:"properties"`
 	SourceURL     string     `json:"source_url"`
 	OverrideNotes []string   `json:"override_notes,omitempty"`
-	LiveVerified  bool       `json:"live_verified"`
 }
 
 func Load() (*Catalog, error) {

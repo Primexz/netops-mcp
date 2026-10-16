@@ -41,14 +41,11 @@ type Operation struct {
 	SensitiveOutput   bool        `json:"sensitive_output,omitzero"`
 	Diagnostic        bool        `json:"diagnostic,omitzero"`
 	Lifecycle         bool        `json:"lifecycle,omitzero"`
-	LiveVerified      bool        `json:"live_verified"`
 	Shell             bool        `json:"shell,omitzero"`
 	Activation        []string    `json:"activation,omitempty"`
 	Snapshot          []string    `json:"snapshot,omitempty"`
 	Persistable       bool        `json:"persistable"`
 	UnavailableReason string      `json:"unavailable_reason,omitempty"`
-	ObservedFirmware  string      `json:"observed_firmware,omitempty"`
-	Syntax            string      `json:"syntax,omitempty"`
 }
 
 type Catalog struct {

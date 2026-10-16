@@ -16,9 +16,6 @@ func TestAllGeneratedSchemas(t *testing.T) {
 		if _, err := mcpschema.Resolve(o.InputSchema()); err != nil {
 			t.Errorf("%s: %v", o.Name, err)
 		}
-		if o.LiveVerified {
-			t.Errorf("unsubstantiated live verification: %s", o.Name)
-		}
 		if o.ReadOnly() {
 			continue
 		}

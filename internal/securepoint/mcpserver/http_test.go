@@ -23,7 +23,7 @@ func httpFixture(t *testing.T, write bool) (*mcp.Server, *fixtureRunner) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	c := &config.Config{Groups: []string{"node", "system"}, ArtifactDir: t.TempDir(), Profiles: map[string]config.Profile{"main": {Host: "192.0.2.1", Username: "admin", PasswordEnv: "PASS", ReadOnly: new(!write), AllowUnverified: write}}}
+	c := &config.Config{Groups: []string{"node", "system"}, ArtifactDir: t.TempDir(), Profiles: map[string]config.Profile{"main": {Host: "192.0.2.1", Username: "admin", PasswordEnv: "PASS", ReadOnly: new(!write)}}}
 	if err := c.Normalize(t.TempDir()); err != nil {
 		t.Fatal(err)
 	}

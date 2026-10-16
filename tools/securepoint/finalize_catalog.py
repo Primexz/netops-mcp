@@ -139,7 +139,7 @@ def main():
     # Commands whose documentation explicitly says it does not know the syntax.
     unresolved = {'mail fetch map set':'The wiki leaves mapping parameters unspecified.',
                   'mail dkimsign domain set':'The wiki supplies neither parameters nor an example.',
-                  'cert import':'The wiki marks this interactive syntax as obsolete since firmware 11.4; validate on 14.x first.'}
+                  'cert import':'The wiki marks this interactive syntax as obsolete since firmware 11.4 and supplies no current 14.x syntax.'}
     # Activation metadata: only documented commands, no guessed daemon restarts.
     activation = {'node':['system update rule'],'service':['system update rule'],'rule':['system update rule'],
                   'interface':['system update interface'],'route':['system update route'],'qos':['system update qos'],
@@ -155,7 +155,6 @@ def main():
         o['sensitive_output']=c in SENSITIVE_OUTPUT or c=='user attribute otpsecret'
         o['lifecycle']=c in DISRUPTIVE or c.startswith(('system upgrade ', 'system remote upgrade ')) and o['kind']!='read'
         o['diagnostic']=c.startswith('debug kmod ') and o['kind']!='read'
-        o['live_verified']=False
         o['minimum_firmware']='14.0.0'
         if c=='extc valuelist get_with_state':o['minimum_firmware']='14.0.1'
         o['activation']=activation.get(o['group'],[]) if o['kind']=='change' else []
@@ -213,84 +212,12 @@ def main():
         if c=='wireguard export':o['sensitive_output']=True
         o.pop('examples',None)
 
-    # Built-in help on 14.1.5 exposes newer local interfaces absent from the
-    # wiki's command tables. Preserve its grammar and provenance separately.
-    live_path=(ROOT / 'docs/securepoint/appliance-command-schema.json')
-    if live_path.exists():
-        live=json.loads(live_path.read_text())
-        overview=next(p for p in manifest if p['title']=='UTM/EXTRAS/CLI')
-        excluded={'wrapper','help','quit','exit','logout','clear','cli json','cli echo on','cli echo off','system config setup','extc template edit','cert parse','transaction start','transaction commit','transaction rollback','usc_profile set','usc unlock','usc status'}
-        for item in live['commands']:
-            c=item['command']
-            if c in excluded or c.startswith('system rsp '):continue
-            syntax=item['usage']+' '+' '.join(item['additional_syntax'])
-            body=syntax
-            while body.startswith(c+' '):body=body[len(c):].strip()
-            found=[]
-            for m in re.finditer(r'\b([a-z_][a-z0-9_-]*)\s+(<[^>]*>|\{|\([^)]*\))',body):
-                before=body[:m.start()]
-                if before.count('{')!=before.count('}'):continue
-                name,typ=m[1],m[2]
-                if name in {p['name'] for p in found}:continue
-                ptype='value' if typ=='{' else 'array' if '_array' in typ or typ=='<flags>' else 'scalar'
-                if name in ARRAYS:ptype='array'
-                found.append(dict(name=name,type=ptype,required=False,description='Securepoint CLI parameter '+name+'.'))
-            if c not in ops:
-                read=c.split()[-1] in READ_TAILS or c in {'system httpreports get','model get','nwkview get','debug show commit-id','ipsec cipher get'}
-                o=dict(id='utm_'+c.replace(' ','_'),command=c,group=c.split()[0],kind='read' if read else 'change',
-                       description=('Read ' if read else 'Prepare ')+c+' on the selected UTM.',
-                       parameters=found,source=overview['url'],revision=overview['revision'],minimum_firmware=live['firmware'],
-                       sensitive_output=c=='model get' or c.startswith('tcpdump '),lifecycle=c=='system postsync',diagnostic=c.startswith('tcpdump '),live_verified=False,
-                       activation=[],snapshot=[] if read else ['system config get'],persistable=not read and not c.startswith(('tcpdump ','system postsync')))
-                if not read and not found and c not in {'system postsync','system upgrade decline'}:
-                    o['unavailable_reason']='Built-in help advertises the command without a parameter schema; an implementation-specific schema is still required.'
-                ops[c]=o
-            o=ops[c]
-            o['observed_firmware']=live['firmware']
-            o['syntax']=syntax.strip()
-            # Merge only unambiguous top-level names, preserving reviewed wiki
-            # semantics for positional/legacy/bulk commands.
-            if c.startswith(('httpproxy ','wgmodel ','spdmsimd ','userbulk ')):
-                o['parameters']=found
-            elif c=='mail fetch map set':
-                o['parameters']=[dict(name=n,type='scalar',required=n in {'id','remote'}) for n in ('id','remote','local')]
-                o.pop('unavailable_reason',None)
-            elif c=='cluster maintenance set':
-                o['parameters']=[dict(name='value',type='scalar',required=True)]
-                o.pop('unavailable_reason',None);o['lifecycle']=True;o['activation']=['system update interface'];o['snapshot']=['cluster maintenance get']
-            elif c=='ipsec cipher get':
-                o['parameters']=[dict(name='name',type='scalar',required=True)]
-            elif c=='dns filter get_automatic_mode_addresses':
-                o['kind']='read';o['persistable']=False;o['snapshot']=[];o.pop('unavailable_reason',None)
-            elif c=='system config export_zip':
-                o['parameters']=[dict(name='name',type='array',required=True)]
-                o['kind']='read';o['sensitive_output']=True;o['persistable']=False;o['snapshot']=[];o.pop('unavailable_reason',None)
-            elif c=='oauth update':
-                o['parameters']=[];o['persistable']=False;o['snapshot']=['oauth get'];o.pop('unavailable_reason',None)
-            elif c=='dhcp extra options':
-                o['kind']='read';o['persistable']=False;o['snapshot']=[];o.pop('unavailable_reason',None)
-            elif c in {'dhcp pool delete','dhcp lease delete','dhcp lease set'}:
-                o['parameters']=[dict(name='id',type='scalar',required=True)]
-                if c=='dhcp lease set':o['parameters'] += [dict(name=n,type='scalar',required=False) for n in ('host','ethernet','ip')]
-                o['minimum_firmware']=live['firmware']
-            if c=='mail stats users':o['kind']='read'
-        # Retain detailed syntax as facts; do not claim a help listing proves a
-        # mutation works, or enable old interactive certificate import.
-
-    # Exact read invocations verified on firmware 14.1.5 are recorded without
-    # appliance identifiers or configuration data.
-    verified_path=(ROOT / 'docs/securepoint/live-read-verification.json')
-    if verified_path.exists():
-        verified=json.loads(verified_path.read_text())
-        for c in verified.get('commands',[]):
-            if c in ops and ops[c]['kind']=='read':ops[c]['live_verified']=True
-
     # Only a fixed root diagnostic is exposed; filter is shell-quoted as one arg.
     src=next(p for p in manifest if p['title']=='UTM/EXTRAS/Paket-Mitschnitte')
     ops['diagnostics tcpdump']=dict(id='utm_diagnostics_tcpdump',command='tcpdump',group='diagnostics',kind='read',
         description='Capture a bounded textual packet trace using root SSH. Output is sensitive.',
         parameters=[dict(name='interface',type='scalar',required=True),dict(name='count',type='integer',required=True),dict(name='filter',type='scalar',required=False)],
-        shell=True,diagnostic=True,sensitive_output=True,live_verified=False,minimum_firmware='14.0.0',
+        shell=True,diagnostic=True,sensitive_output=True,minimum_firmware='14.0.0',
         source=src['url'],revision=src['revision'],activation=[],snapshot=[],persistable=False)
     result=sorted(ops.values(),key=lambda o:o['id'])
     out=(ROOT / 'internal/securepoint/catalog/operations.json');out.parent.mkdir(parents=True,exist_ok=True)
@@ -300,7 +227,7 @@ def main():
     existing={g['command'] for g in gaps}
     gaps += [dict(command=o['command'],reason=o['unavailable_reason'],source=o['source']) for o in result if o['command'] in unavailable and o['command'] not in existing]
     (ROOT / 'docs/securepoint/coverage-gaps.json').write_text(json.dumps(gaps,indent=2)+'\n')
-    print(f'Wrote {len(result)} typed operations, {sum(bool(o.get("unavailable_reason")) for o in result)} unavailable pending appliance schemas')
+    print(f'Wrote {len(result)} typed operations, {sum(bool(o.get("unavailable_reason")) for o in result)} unavailable due to documentation gaps')
 
 
 if __name__=='__main__':main()

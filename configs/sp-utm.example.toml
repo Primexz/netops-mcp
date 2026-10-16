@@ -36,9 +36,6 @@ allow_diagnostics = false
 allow_sensitive_exports = false
 allow_file_transfer = false
 allow_lifecycle = false
-# Documentation-derived mutations require allow_unverified=true in addition
-# to read_only=false and the corresponding operation permission.
-allow_unverified = false
 
 [profiles.branch]
 host = "192.0.2.20"

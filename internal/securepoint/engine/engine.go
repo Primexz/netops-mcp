@@ -45,7 +45,6 @@ type Plan struct {
 	Activation                  []string       `json:"activation,omitempty"`
 	CanSave                     bool           `json:"can_save"`
 	RequiresLifecyclePermission bool           `json:"requires_lifecycle_permission"`
-	LiveVerified                bool           `json:"live_verified"`
 	Preconditions               []string       `json:"preconditions"`
 	ExpiresAt                   time.Time      `json:"expires_at"`
 	Notes                       []string       `json:"notes,omitempty"`
@@ -88,12 +87,11 @@ type Execution struct {
 }
 
 type Result struct {
-	Profile      string             `json:"profile"`
-	Operation    string             `json:"operation"`
-	Output       *cli.Output        `json:"output,omitempty"`
-	Artifact     *artifact.Metadata `json:"artifact,omitempty"`
-	Plan         *Plan              `json:"plan,omitempty"`
-	LiveVerified bool               `json:"live_verified"`
+	Profile   string             `json:"profile"`
+	Operation string             `json:"operation"`
+	Output    *cli.Output        `json:"output,omitempty"`
+	Artifact  *artifact.Metadata `json:"artifact,omitempty"`
+	Plan      *Plan              `json:"plan,omitempty"`
 }
 
 type Engine struct {
@@ -244,9 +242,6 @@ func (e *Engine) Allowed(p config.Profile, o catalog.Operation, write bool) erro
 	if write && p.IsReadOnly() {
 		return errors.New("profile is read-only; configuration changes are disabled")
 	}
-	if write && !o.LiveVerified && !p.AllowUnverified {
-		return errors.New("operation has not been live-verified; enable allow_unverified explicitly after reviewing the coverage report")
-	}
 	return nil
 }
 
@@ -256,7 +251,6 @@ func (e *Engine) Call(ctx context.Context, name, id string, args map[string]any,
 	if !ok {
 		return result, errors.New("unknown catalog operation")
 	}
-	result.LiveVerified = o.LiveVerified
 	p, ok := e.Config.Profiles[name]
 	if !ok {
 		return result, errors.New("unknown appliance profile")
@@ -280,7 +274,6 @@ func (e *Engine) Call(ctx context.Context, name, id string, args map[string]any,
 	if err != nil {
 		return result, err
 	}
-	result.LiveVerified = o.LiveVerified && c.Firmware == o.ObservedFirmware
 	if !c.SupportedFamily && o.Command != "system info" {
 		return result, errors.New("this catalog requires detected firmware 14.x")
 	}
@@ -331,7 +324,7 @@ func (e *Engine) prepare(ctx context.Context, name string, o catalog.Operation, 
 	if err := e.checkReferences(ctx, p, o, args); err != nil {
 		return Plan{}, err
 	}
-	view := Plan{ID: rand.Text(), Profile: name, Operation: o.ID, Parameters: redactOperationArgs(o, args), Command: previewCommand(o, args), Activation: slices.Clone(o.Activation), CanSave: o.Persistable, ExpiresAt: e.now().Add(PlanTTL).UTC(), RequiresLifecyclePermission: o.Lifecycle, LiveVerified: o.LiveVerified, Preconditions: snapshots}
+	view := Plan{ID: rand.Text(), Profile: name, Operation: o.ID, Parameters: redactOperationArgs(o, args), Command: previewCommand(o, args), Activation: slices.Clone(o.Activation), CanSave: o.Persistable, ExpiresAt: e.now().Add(PlanTTL).UTC(), RequiresLifecyclePermission: o.Lifecycle, Preconditions: snapshots}
 	view.CurrentState = state
 	if o.Group == "extc" {
 		view.Notes = append(view.Notes, "EXTC changes may require appmgmt restart for the affected application; prepare that operation separately.")

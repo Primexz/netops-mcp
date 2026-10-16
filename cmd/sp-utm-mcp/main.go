@@ -100,13 +100,7 @@ func run(ctx context.Context, args []string, stdout, stderr io.Writer, logger *s
 		return err
 	}
 	if *check {
-		verified := 0
-		for _, o := range cat.Operations {
-			if o.LiveVerified {
-				verified++
-			}
-		}
-		return json.NewEncoder(stdout).Encode(map[string]any{"valid": true, "transport": c.Server.Transport, "profiles": len(c.Profiles), "catalog_operations": len(cat.Operations), "live_read_verified_operations": verified, "writes_verified": false})
+		return json.NewEncoder(stdout).Encode(map[string]any{"valid": true, "transport": c.Server.Transport, "profiles": len(c.Profiles), "catalog_operations": len(cat.Operations)})
 	}
 	if *discover != "" {
 		capabilities, err := e.Discover(ctx, *discover)

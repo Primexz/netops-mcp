@@ -31,8 +31,7 @@
     "referenced_command_groups": [
       "cert"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/APP/Anwendungsstatus",
@@ -40,8 +39,7 @@
     "revision": 98157,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Azure-AD",
@@ -49,8 +47,7 @@
     "revision": 100886,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Azure-OAuth",
@@ -58,8 +55,7 @@
     "revision": 98165,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Azure-OAuth-Smarthost",
@@ -67,8 +63,7 @@
     "revision": 103453,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Captive Portal",
@@ -76,8 +71,7 @@
     "revision": 101871,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Captive Portal extern-lokal",
@@ -85,8 +79,7 @@
     "revision": 101817,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Captive Portal extern-lokal2",
@@ -94,8 +87,7 @@
     "revision": 101819,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Captive Portal-extern",
@@ -103,8 +95,7 @@
     "revision": 101829,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Captive Portal-lokal",
@@ -112,8 +103,7 @@
     "revision": 101831,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Connection-Rate-Limit",
@@ -123,8 +113,7 @@
     "referenced_command_groups": [
       "system"
     ],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Entra-OpenID-Connect",
@@ -132,8 +121,7 @@
     "revision": 102790,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Firewall Nameserver",
@@ -141,8 +129,7 @@
     "revision": 109246,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/HTTP Proxy",
@@ -150,8 +137,7 @@
     "revision": 109342,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/HTTP Proxy-Authentifizierung",
@@ -159,8 +145,7 @@
     "revision": 109162,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/HTTP Proxy-Authentifizierungsausnahmen",
@@ -168,8 +153,7 @@
     "revision": 102418,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/HTTP Proxy-Captive Portal",
@@ -177,8 +161,7 @@
     "revision": 79476,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/HTTP Proxy-Captive Portal extern-lokal",
@@ -186,8 +169,7 @@
     "revision": 74125,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/HTTP Proxy-Captive Portal-extern",
@@ -195,8 +177,7 @@
     "revision": 74127,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/HTTP Proxy-Captive Portal-lokal",
@@ -204,8 +185,7 @@
     "revision": 69017,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/HTTP Proxy-Host-header-forgery",
@@ -213,8 +193,7 @@
     "revision": 101837,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/HTTP Proxy-ITunes",
@@ -222,8 +201,7 @@
     "revision": 81948,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/HTTP Proxy-Transparenter Modus",
@@ -231,8 +209,7 @@
     "revision": 115168,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/HTTP Proxy-Virenscanner",
@@ -240,8 +217,7 @@
     "revision": 100300,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/IDS-IPS",
@@ -249,8 +225,7 @@
     "revision": 109555,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/IDS-IPS/TIF ausschalten",
@@ -258,8 +233,7 @@
     "revision": 109315,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/IGMP Proxy",
@@ -267,8 +241,7 @@
     "revision": 90019,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Mail Connector",
@@ -276,8 +249,7 @@
     "revision": 98141,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Mailfilter",
@@ -291,8 +263,7 @@
       "utm_mail_filterng_tag_set"
     ],
     "referenced_command_groups": [],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/APP/Mailfilter Spamreport",
@@ -300,8 +271,7 @@
     "revision": 109567,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Mailrelay",
@@ -309,8 +279,7 @@
     "revision": 109414,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Mailrelay vor Office 365",
@@ -318,8 +287,7 @@
     "revision": 97665,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Mailrelay-Best Practice",
@@ -327,8 +295,7 @@
     "revision": 109393,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Mailrelay-Issue",
@@ -336,8 +303,7 @@
     "revision": 93470,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Nameserver",
@@ -345,8 +311,7 @@
     "revision": 109558,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Nameserver-Allgemein",
@@ -354,8 +319,7 @@
     "revision": 109300,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Nameserver-Allgemein DNSSEC",
@@ -363,8 +327,7 @@
     "revision": 82657,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Nameserver-DNS Forwarding",
@@ -372,8 +335,7 @@
     "revision": 109294,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Nameserver-DNS Rebinding Prevention",
@@ -381,8 +343,7 @@
     "revision": 109276,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Nameserver-Recordtypen",
@@ -390,8 +351,7 @@
     "revision": 98183,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Nameserver-Zonen",
@@ -399,8 +359,7 @@
     "revision": 109561,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Regex",
@@ -408,8 +367,7 @@
     "revision": 87661,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Reverse Proxy",
@@ -417,8 +375,7 @@
     "revision": 111136,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Reverse Proxy-Exchange",
@@ -426,8 +383,7 @@
     "revision": 100775,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/SSL-Interception",
@@ -435,8 +391,7 @@
     "revision": 115162,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/TI Proxy",
@@ -444,8 +399,7 @@
     "revision": 112918,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/VoIP-Proxy",
@@ -453,8 +407,7 @@
     "revision": 71587,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Web-Mailfilter-Regel",
@@ -462,8 +415,7 @@
     "revision": 100844,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Webfilter",
@@ -471,8 +423,7 @@
     "revision": 113431,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Webfilter-Beispiel",
@@ -480,8 +431,7 @@
     "revision": 102556,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Webfilter-CF Kategorien",
@@ -489,8 +439,7 @@
     "revision": 86979,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Webfilter-v11.5",
@@ -498,8 +447,7 @@
     "revision": 89730,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/mDNS-Repeater",
@@ -507,8 +455,7 @@
     "revision": 99580,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/APP/Ähnlichkeitserkennung",
@@ -516,8 +463,7 @@
     "revision": 102406,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/AD Anbindung",
@@ -527,8 +473,7 @@
     "referenced_command_groups": [
       "user"
     ],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/AD Anbindung-v11.4",
@@ -536,8 +481,7 @@
     "revision": 94067,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/Benutzerverwaltung",
@@ -545,8 +489,7 @@
     "revision": 114349,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/Benutzerverwaltung Gruppen Mailfilter",
@@ -554,8 +497,7 @@
     "revision": 104344,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/Benutzerverwaltung SSL-VPN",
@@ -563,8 +505,7 @@
     "revision": 105523,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/Benutzerverwaltung-Gruppen-SSL-VPN",
@@ -572,8 +513,7 @@
     "revision": 98001,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/Captive Portal Benutzer",
@@ -581,8 +521,7 @@
     "revision": 97993,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/Datenschutz",
@@ -590,8 +529,7 @@
     "revision": 94151,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/Kennwortregeln",
@@ -599,8 +537,7 @@
     "revision": 114475,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/OAuth2",
@@ -608,8 +545,7 @@
     "revision": 109396,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/OTP",
@@ -617,8 +553,7 @@
     "revision": 114397,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/OTP-AD",
@@ -626,8 +561,7 @@
     "revision": 110422,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/RSA-Keys",
@@ -635,8 +569,7 @@
     "revision": 82519,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/Radius",
@@ -644,8 +577,7 @@
     "revision": 94835,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/SSH",
@@ -653,8 +585,7 @@
     "revision": 94837,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/SSL-VPN-AD",
@@ -662,8 +593,7 @@
     "revision": 88822,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/Schluessel",
@@ -671,8 +601,7 @@
     "revision": 109330,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/Verschlüsselung",
@@ -680,8 +609,7 @@
     "revision": 109546,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/Zertifikate",
@@ -689,8 +617,7 @@
     "revision": 101645,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/Zertifikate-ACME",
@@ -698,8 +625,7 @@
     "revision": 106057,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/Zertifikate-Importformat",
@@ -707,8 +633,7 @@
     "revision": 98859,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/Zertifikate-Status",
@@ -716,8 +641,7 @@
     "revision": 98861,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/AUTH/Zertifikate/Drittanbieter",
@@ -725,8 +649,7 @@
     "revision": 96630,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/Administration",
@@ -737,8 +660,7 @@
       "manager",
       "system"
     ],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CLI/Alertingcenter",
@@ -759,8 +681,7 @@
       "utm_alertingcenter_test"
     ],
     "referenced_command_groups": [],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Appmgmt",
@@ -780,8 +701,7 @@
     "referenced_command_groups": [
       "appmgmt"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Captiveportal",
@@ -797,8 +717,7 @@
     "referenced_command_groups": [
       "captiveportal"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Clientlessvpn",
@@ -818,8 +737,7 @@
     "referenced_command_groups": [
       "clientlessvpn"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Cluster",
@@ -834,8 +752,7 @@
     "referenced_command_groups": [
       "system"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/DHCP",
@@ -861,8 +778,7 @@
       "utm_dhcp_pool_set"
     ],
     "referenced_command_groups": [],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/DNS",
@@ -880,8 +796,7 @@
     "referenced_command_groups": [
       "dns"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Debug",
@@ -896,8 +811,7 @@
       "utm_debug_show_validators"
     ],
     "referenced_command_groups": [],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Extc",
@@ -934,8 +848,7 @@
       "extc",
       "rule"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Extc/spupdater",
@@ -943,8 +856,7 @@
     "revision": 98041,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CLI/Geolocation",
@@ -957,8 +869,7 @@
     "referenced_command_groups": [
       "geolocation"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Interface",
@@ -1001,8 +912,7 @@
       "interface",
       "system"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Ipsec",
@@ -1025,8 +935,7 @@
     "referenced_command_groups": [
       "ipsec"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Mail",
@@ -1066,8 +975,7 @@
       "utm_mail_stats_users"
     ],
     "referenced_command_groups": [],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Manager",
@@ -1081,8 +989,7 @@
     "referenced_command_groups": [
       "manager"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Node",
@@ -1105,8 +1012,7 @@
     "referenced_command_groups": [
       "node"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Object",
@@ -1120,8 +1026,7 @@
     "referenced_command_groups": [
       "object"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Openvpn",
@@ -1153,8 +1058,7 @@
       "interface",
       "openvpn"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Pkey",
@@ -1170,8 +1074,7 @@
     "referenced_command_groups": [
       "pkey"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Qos",
@@ -1186,8 +1089,7 @@
     "referenced_command_groups": [
       "qos"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/RSA",
@@ -1203,8 +1105,7 @@
     "referenced_command_groups": [
       "rsa"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Route",
@@ -1222,8 +1123,7 @@
     "referenced_command_groups": [
       "route"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Rproxy",
@@ -1244,8 +1144,7 @@
       "utm_rproxy_site_set"
     ],
     "referenced_command_groups": [],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Rule",
@@ -1275,8 +1174,7 @@
       "rule",
       "system"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/SIP-Proxy",
@@ -1286,8 +1184,7 @@
     "referenced_command_groups": [
       "system"
     ],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CLI/SSH",
@@ -1304,8 +1201,7 @@
     "referenced_command_groups": [
       "ssh"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Server",
@@ -1320,8 +1216,7 @@
     "referenced_command_groups": [
       "server"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Service",
@@ -1343,8 +1238,7 @@
     "referenced_command_groups": [
       "service"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Syslog",
@@ -1364,8 +1258,7 @@
       "server",
       "syslog"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/System",
@@ -1471,8 +1364,7 @@
     "referenced_command_groups": [
       "system"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Usc vhost",
@@ -1486,8 +1378,7 @@
     "referenced_command_groups": [
       "usc_vhost"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/User",
@@ -1522,8 +1413,7 @@
       "captiveportal",
       "user"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Webfilter",
@@ -1546,8 +1436,7 @@
     "referenced_command_groups": [
       "rule"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Wireguard",
@@ -1571,8 +1460,7 @@
       "interface",
       "wireguard"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/Wlan",
@@ -1588,8 +1476,7 @@
     "referenced_command_groups": [
       "wlan"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CLI/spf2bd",
@@ -1606,8 +1493,7 @@
     "referenced_command_groups": [
       "spf2bd"
     ],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/CONFIG/Cloudbackup",
@@ -1615,8 +1501,7 @@
     "revision": 104452,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Cloudbackup einspielen",
@@ -1624,8 +1509,7 @@
     "revision": 101811,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/CloudbackupG5",
@@ -1633,8 +1517,7 @@
     "revision": 101736,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/ErsteSchritteAnmeldung",
@@ -1642,8 +1525,7 @@
     "revision": 110473,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Import G3 in G5",
@@ -1651,8 +1533,7 @@
     "revision": 91873,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent",
@@ -1660,8 +1541,7 @@
     "revision": 110476,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-BlackDwarf",
@@ -1669,8 +1549,7 @@
     "revision": 101710,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-BlackDwarfPro",
@@ -1678,8 +1557,7 @@
     "revision": 101779,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC100",
@@ -1687,8 +1565,7 @@
     "revision": 101761,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC1000R",
@@ -1696,8 +1573,7 @@
     "revision": 101712,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC200",
@@ -1705,8 +1581,7 @@
     "revision": 101722,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC300S",
@@ -1714,8 +1589,7 @@
     "revision": 101755,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC350R",
@@ -1723,8 +1597,7 @@
     "revision": 101775,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC350S",
@@ -1732,8 +1605,7 @@
     "revision": 101718,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC400",
@@ -1741,8 +1613,7 @@
     "revision": 101714,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G5-RC400R",
@@ -1750,8 +1621,7 @@
     "revision": 101785,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G6-RC1000R",
@@ -1759,8 +1629,7 @@
     "revision": 101688,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G6-RC2000R",
@@ -1768,8 +1637,7 @@
     "revision": 101690,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G6-RC350R",
@@ -1777,8 +1645,7 @@
     "revision": 101720,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-Cloud-Restore-G6-RC400R",
@@ -1786,8 +1653,7 @@
     "revision": 101686,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-G5-BlackDwarf",
@@ -1795,8 +1661,7 @@
     "revision": 101771,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-G5-BlackDwarfPro",
@@ -1804,8 +1669,7 @@
     "revision": 101793,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-G5-RC100",
@@ -1813,8 +1677,7 @@
     "revision": 101783,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-G5-RC1000R",
@@ -1822,8 +1685,7 @@
     "revision": 101740,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-G5-RC200",
@@ -1831,8 +1693,7 @@
     "revision": 101763,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-G5-RC300S",
@@ -1840,8 +1701,7 @@
     "revision": 101728,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-G5-RC350R",
@@ -1849,8 +1709,7 @@
     "revision": 101767,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-G5-RC400",
@@ -1858,8 +1717,7 @@
     "revision": 101742,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-G5-RC400R",
@@ -1867,8 +1725,7 @@
     "revision": 101787,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-G6-RC1000R",
@@ -1876,8 +1733,7 @@
     "revision": 101696,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-G6-RC2000R",
@@ -1885,8 +1741,7 @@
     "revision": 101698,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-G6-RC350R",
@@ -1894,8 +1749,7 @@
     "revision": 101726,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-G6-RC400R",
@@ -1903,8 +1757,7 @@
     "revision": 101694,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Installationsassistent-UTM",
@@ -1912,8 +1765,7 @@
     "revision": 101700,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Konfigurationsverwaltung",
@@ -1921,8 +1773,7 @@
     "revision": 109474,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Konfigurationsverwaltung-Import",
@@ -1930,8 +1781,7 @@
     "revision": 109510,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Lizenzmigration Terra",
@@ -1939,8 +1789,7 @@
     "revision": 100585,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Restore",
@@ -1948,8 +1797,7 @@
     "revision": 110470,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Restore-G5-BlackDwarf",
@@ -1957,8 +1805,7 @@
     "revision": 101734,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Restore-G5-BlackDwarfPro",
@@ -1966,8 +1813,7 @@
     "revision": 101704,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Restore-G5-RC100",
@@ -1975,8 +1821,7 @@
     "revision": 101706,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Restore-G5-RC1000R",
@@ -1984,8 +1829,7 @@
     "revision": 101738,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Restore-G5-RC200",
@@ -1993,8 +1837,7 @@
     "revision": 101724,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Restore-G5-RC300S",
@@ -2002,8 +1845,7 @@
     "revision": 101773,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Restore-G5-RC350R",
@@ -2011,8 +1853,7 @@
     "revision": 101765,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Restore-G5-RC400",
@@ -2020,8 +1861,7 @@
     "revision": 101781,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Restore-G5-RC400R",
@@ -2029,8 +1869,7 @@
     "revision": 101746,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Restore-G6-RC1000R",
@@ -2038,8 +1877,7 @@
     "revision": 101680,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Restore-G6-RC2000R",
@@ -2047,8 +1885,7 @@
     "revision": 101682,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Restore-G6-RC350R",
@@ -2056,8 +1893,7 @@
     "revision": 101744,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Restore-G6-RC400R",
@@ -2065,8 +1901,7 @@
     "revision": 101678,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Restore-UTM",
@@ -2074,8 +1909,7 @@
     "revision": 101769,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Schnittstellen-Konfiguration",
@@ -2083,8 +1917,7 @@
     "revision": 91337,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Setup",
@@ -2092,8 +1925,7 @@
     "revision": 101653,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/CONFIG/Werkseinstellungen",
@@ -2101,96 +1933,15 @@
     "revision": 93824,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/EXTRAS/CLI",
     "url": "https://wiki.securepoint.de/index.php?title=UTM%2FEXTRAS%2FCLI&oldid=98768",
     "revision": 98768,
-    "operation_ids": [
-      "utm_alertingcenter_alerts_count_get",
-      "utm_alertingcenter_alerts_set",
-      "utm_alertingcenter_syslog_expressions_get",
-      "utm_cluster_maintenance_get",
-      "utm_cluster_maintenance_set",
-      "utm_ctproxy_status",
-      "utm_debug_show",
-      "utm_debug_show_commit-id",
-      "utm_debug_validate",
-      "utm_dhcp_extra_delete",
-      "utm_dhcp_extra_get",
-      "utm_dhcp_extra_options",
-      "utm_dhcp_extra_set",
-      "utm_dns_filter_delete",
-      "utm_dns_filter_get",
-      "utm_dns_filter_get_automatic_mode_addresses",
-      "utm_dns_filter_new",
-      "utm_dns_filter_set",
-      "utm_httpproxy_clientnw_delete",
-      "utm_httpproxy_clientnw_get",
-      "utm_httpproxy_clientnw_new",
-      "utm_httpproxy_clientnw_set",
-      "utm_ipsec_cipher_get",
-      "utm_mail_dkimsign_dns_get",
-      "utm_mail_dkimsign_domain_delete",
-      "utm_mail_dkimsign_domain_new",
-      "utm_mail_dkimsign_header_delete",
-      "utm_mail_dkimsign_header_get",
-      "utm_mail_dkimsign_selector_delete",
-      "utm_mail_dkimsign_selector_get",
-      "utm_mail_dkimsign_selector_new",
-      "utm_mail_dkimsign_selector_set",
-      "utm_mail_filterng_selector_delete",
-      "utm_mail_filterng_selector_get",
-      "utm_mail_filterng_selector_item_delete",
-      "utm_mail_filterng_selector_item_get",
-      "utm_mail_filterng_selector_item_new",
-      "utm_mail_filterng_selector_item_set",
-      "utm_mail_filterng_selector_new",
-      "utm_mail_filterng_selector_set",
-      "utm_model_get",
-      "utm_nwkview_get",
-      "utm_oauth_account_delete",
-      "utm_oauth_account_get",
-      "utm_oauth_account_new",
-      "utm_oauth_account_set",
-      "utm_oauth_get",
-      "utm_oauth_oidc_info",
-      "utm_oauth_update",
-      "utm_oauth_user_delete",
-      "utm_oauth_user_get",
-      "utm_rule_transparent_add",
-      "utm_rule_transparent_delete",
-      "utm_rule_transparent_get",
-      "utm_rule_transparent_set",
-      "utm_spdmsimd_allowlist_get",
-      "utm_spdmsimd_allowlist_set",
-      "utm_spdmsimd_test",
-      "utm_system_config_export_zip",
-      "utm_system_httpreports_get",
-      "utm_system_postsync",
-      "utm_system_upgrade_decline",
-      "utm_system_upgrade_eula_getdiff",
-      "utm_system_upgrade_privacy_getdiff",
-      "utm_tcpdump_clean",
-      "utm_tcpdump_download",
-      "utm_tcpdump_show",
-      "utm_tcpdump_start",
-      "utm_tcpdump_status",
-      "utm_tcpdump_stop",
-      "utm_userbulk_new",
-      "utm_wgmodel_apply",
-      "utm_wgmodel_cleanup",
-      "utm_wgmodel_delete",
-      "utm_wgmodel_get",
-      "utm_wgmodel_list",
-      "utm_wgmodel_rw_get",
-      "utm_wgmodel_set"
-    ],
+    "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/EXTRAS/CLI/view",
@@ -2201,8 +1952,7 @@
       "utm_view_webuser"
     ],
     "referenced_command_groups": [],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/EXTRAS/Erweiterte Einstellungen",
@@ -2210,8 +1960,7 @@
     "revision": 109336,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/EXTRAS/Firmware Update",
@@ -2219,8 +1968,7 @@
     "revision": 97971,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/EXTRAS/Firmware Update-CLI",
@@ -2228,8 +1976,7 @@
     "revision": 94847,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/EXTRAS/Paket-Mitschnitte",
@@ -2239,8 +1986,7 @@
       "utm_diagnostics_tcpdump"
     ],
     "referenced_command_groups": [],
-    "review_status": "catalog_mapped",
-    "live_verified": false
+    "review_status": "catalog_mapped"
   },
   {
     "title": "UTM/EXTRAS/Templates",
@@ -2248,8 +1994,7 @@
     "revision": 94849,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/6in4",
@@ -2257,8 +2002,7 @@
     "revision": 94854,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Administration",
@@ -2266,8 +2010,7 @@
     "revision": 89341,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Amdosoft",
@@ -2275,8 +2018,7 @@
     "revision": 70145,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Bird",
@@ -2284,8 +2026,7 @@
     "revision": 97935,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Bond",
@@ -2293,8 +2034,7 @@
     "revision": 94856,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Bridge-Ethernet",
@@ -2302,8 +2042,7 @@
     "revision": 104488,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Bridge-WLAN",
@@ -2311,8 +2050,7 @@
     "revision": 104491,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Cluster",
@@ -2322,8 +2060,7 @@
     "referenced_command_groups": [
       "openvpn"
     ],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Cluster-Management",
@@ -2331,8 +2068,7 @@
     "revision": 109507,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Cluster-Updateverfahren",
@@ -2340,8 +2076,7 @@
     "revision": 86970,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/DHCP Relay",
@@ -2349,8 +2084,7 @@
     "revision": 106069,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/DHCP Relay-v4",
@@ -2358,8 +2092,7 @@
     "revision": 79562,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/DHCP Relay-v6",
@@ -2367,8 +2100,7 @@
     "revision": 79572,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/DHCP Server-v4",
@@ -2376,8 +2108,7 @@
     "revision": 100304,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/DHCP Server-v6",
@@ -2385,8 +2116,7 @@
     "revision": 100308,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Default-Route",
@@ -2394,8 +2124,7 @@
     "revision": 109621,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Ethernet",
@@ -2403,8 +2132,7 @@
     "revision": 109357,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Ethernet-DynDNS",
@@ -2412,8 +2140,7 @@
     "revision": 109519,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Fallback",
@@ -2421,8 +2148,7 @@
     "revision": 111847,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/GRE",
@@ -2430,8 +2156,7 @@
     "revision": 89705,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/IDS-IPS",
@@ -2439,8 +2164,7 @@
     "revision": 109978,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/IPv6Prefix-Delegation",
@@ -2448,8 +2172,7 @@
     "revision": 97933,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/IPv6Prefix-Delegation mit Fritzbox",
@@ -2457,8 +2180,7 @@
     "revision": 93335,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Mobile",
@@ -2466,8 +2188,7 @@
     "revision": 101859,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Mobile Provider",
@@ -2475,8 +2196,7 @@
     "revision": 92775,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Mobile-Signalqualität",
@@ -2486,8 +2206,7 @@
     "referenced_command_groups": [
       "interface"
     ],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Multipathrouting",
@@ -2495,8 +2214,7 @@
     "revision": 109792,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Mutlipathrouting",
@@ -2504,8 +2222,7 @@
     "revision": 109795,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Nameserver",
@@ -2513,8 +2230,7 @@
     "revision": 109048,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Nameserver-Allgemein",
@@ -2522,8 +2238,7 @@
     "revision": 108994,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Nameserver-DNS Forwarding",
@@ -2531,8 +2246,7 @@
     "revision": 109090,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Nameserver-DNS Rebinding Prevention",
@@ -2540,8 +2254,7 @@
     "revision": 109102,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Nameserver-Zonen",
@@ -2549,8 +2262,7 @@
     "revision": 109054,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Netzwerkschnittstellen",
@@ -2558,8 +2270,7 @@
     "revision": 109354,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Netzwerkwerkzeuge",
@@ -2567,8 +2278,7 @@
     "revision": 99356,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/PPP",
@@ -2578,8 +2288,7 @@
     "referenced_command_groups": [
       "interface"
     ],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/PPPoE",
@@ -2587,8 +2296,7 @@
     "revision": 110416,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/PPPoE-Fehleranalyse",
@@ -2596,8 +2304,7 @@
     "revision": 89557,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/PPTP",
@@ -2605,8 +2312,7 @@
     "revision": 91659,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/PingIPv6",
@@ -2614,8 +2320,7 @@
     "revision": 99366,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Proxy",
@@ -2623,8 +2328,7 @@
     "revision": 89232,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/QoS",
@@ -2632,8 +2336,7 @@
     "revision": 91671,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Rulerouting",
@@ -2641,8 +2344,7 @@
     "revision": 94864,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/SNMP",
@@ -2650,8 +2352,7 @@
     "revision": 94866,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/SNMP-OIDs",
@@ -2659,8 +2360,7 @@
     "revision": 100170,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/SSL VPN-Roadwarrior-iOS-11.6",
@@ -2668,8 +2368,7 @@
     "revision": 12019,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Servereinstellungen",
@@ -2677,8 +2376,7 @@
     "revision": 100856,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Sourcerouting",
@@ -2686,8 +2384,7 @@
     "revision": 97035,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Syslog",
@@ -2695,8 +2392,7 @@
     "revision": 90012,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Syslog-PRTG",
@@ -2704,8 +2400,7 @@
     "revision": 82755,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Szenario Drittanbieter-Router",
@@ -2713,8 +2408,7 @@
     "revision": 94868,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/VDSL",
@@ -2722,8 +2416,7 @@
     "revision": 87655,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/VLAN",
@@ -2731,8 +2424,7 @@
     "revision": 98244,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/VLAN-Switch",
@@ -2740,8 +2432,7 @@
     "revision": 81022,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/WLAN",
@@ -2749,8 +2440,7 @@
     "revision": 101861,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/Zoneneinstellungen",
@@ -2758,8 +2448,7 @@
     "revision": 101863,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/Dienste",
@@ -2767,8 +2456,7 @@
     "revision": 109486,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/HTTP Proxy",
@@ -2776,8 +2464,7 @@
     "revision": 10145,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/HTTP Proxy-Authentifizierung",
@@ -2785,8 +2472,7 @@
     "revision": 10143,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/HTTP Proxy-Authentifizierungsausnahmen",
@@ -2794,8 +2480,7 @@
     "revision": 10141,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/HTTP Proxy-Transparenter Modus",
@@ -2803,8 +2488,7 @@
     "revision": 10137,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/Hidenat Exclude",
@@ -2812,8 +2496,7 @@
     "revision": 91680,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/IDS-IPS",
@@ -2821,8 +2504,7 @@
     "revision": 109012,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/Implizite Regeln",
@@ -2830,8 +2512,7 @@
     "revision": 109000,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/Implizite Regeln-GeoIP",
@@ -2839,8 +2520,7 @@
     "revision": 109036,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/Multi-IP",
@@ -2848,8 +2528,7 @@
     "revision": 89489,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/Netzwerkobjekte",
@@ -2857,8 +2536,7 @@
     "revision": 109420,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/Netzwerktopologie",
@@ -2866,8 +2544,7 @@
     "revision": 94370,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/Paketfilter",
@@ -2875,8 +2552,7 @@
     "revision": 104458,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/Portfilter",
@@ -2884,8 +2560,7 @@
     "revision": 88857,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/Portumleitung",
@@ -2893,8 +2568,7 @@
     "revision": 91661,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/Portumleitung-Intern",
@@ -2902,8 +2576,7 @@
     "revision": 94874,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/Portweiterleitung",
@@ -2911,8 +2584,7 @@
     "revision": 111928,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/Regel Assistent",
@@ -2920,8 +2592,7 @@
     "revision": 98529,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/Zeitprofile",
@@ -2929,8 +2600,7 @@
     "revision": 98035,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/RULE/ibf",
@@ -2938,8 +2608,7 @@
     "revision": 91667,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/Blackhole",
@@ -2949,8 +2618,7 @@
     "referenced_command_groups": [
       "route"
     ],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/ClientlessVPN",
@@ -2958,8 +2626,7 @@
     "revision": 109501,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/Cloud-Konzentrator",
@@ -2967,8 +2634,7 @@
     "revision": 94882,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/DNS Relay",
@@ -2976,8 +2642,7 @@
     "revision": 109126,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec - Fritzbox-Exposed Host",
@@ -2985,8 +2650,7 @@
     "revision": 87944,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec Arten",
@@ -2994,8 +2658,7 @@
     "revision": 83079,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec Verbindungen bei Multipathrouting",
@@ -3003,8 +2666,7 @@
     "revision": 90302,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec-DHCP",
@@ -3012,8 +2674,7 @@
     "revision": 91086,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec-EAP",
@@ -3021,8 +2682,7 @@
     "revision": 94887,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec-EAP-Windows",
@@ -3030,8 +2690,7 @@
     "revision": 94885,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec-Fritzbox-Multi",
@@ -3039,8 +2698,7 @@
     "revision": 94888,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec-HTTP",
@@ -3048,8 +2706,7 @@
     "revision": 94890,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec-Phase1-2",
@@ -3057,8 +2714,7 @@
     "revision": 98123,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec-Roadwarrior",
@@ -3066,8 +2722,7 @@
     "revision": 13036,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec-S2E",
@@ -3075,8 +2730,7 @@
     "revision": 98131,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec-S2S",
@@ -3084,8 +2738,7 @@
     "revision": 112969,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec-S2S Beispiele",
@@ -3093,8 +2746,7 @@
     "revision": 89043,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec-SP-Lancom",
@@ -3102,8 +2754,7 @@
     "revision": 91817,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec-SP-Sophos",
@@ -3111,8 +2762,7 @@
     "revision": 84365,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/IPSec-Troubleshooting",
@@ -3120,8 +2770,7 @@
     "revision": 88853,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/L2TP",
@@ -3129,8 +2778,7 @@
     "revision": 99147,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/Netmap",
@@ -3138,8 +2786,7 @@
     "revision": 94895,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/PPTP",
@@ -3147,8 +2794,7 @@
     "revision": 61173,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/Routing Andere UTM",
@@ -3156,8 +2802,7 @@
     "revision": 115174,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/SSL VPN zu IPSec-Ziel",
@@ -3165,8 +2810,7 @@
     "revision": 94557,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/SSL VPN-RW an S2S-BestPractice",
@@ -3174,8 +2818,7 @@
     "revision": 100208,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/SSL VPN-Roadwarrior",
@@ -3183,8 +2826,7 @@
     "revision": 115156,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/SSL VPN-Roadwarrior-MacOS",
@@ -3192,8 +2834,7 @@
     "revision": 94897,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/SSL VPN-Roadwarrior-Netmap",
@@ -3201,8 +2842,7 @@
     "revision": 91675,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/SSL VPN-Roadwarrior-iOS",
@@ -3210,8 +2850,7 @@
     "revision": 88843,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/SSL VPN-S2S",
@@ -3221,8 +2860,7 @@
     "referenced_command_groups": [
       "openvpn"
     ],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/SSL VPN-S2S-Fallback",
@@ -3230,8 +2868,7 @@
     "revision": 84974,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/SSL VPN-Troubleshooting",
@@ -3239,8 +2876,7 @@
     "revision": 109309,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/SSL-VPN-Tap-Signierung2019",
@@ -3248,8 +2884,7 @@
     "revision": 30283,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/WireGuard",
@@ -3257,8 +2892,7 @@
     "revision": 98347,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/WireGuard-BestPractice",
@@ -3266,8 +2900,7 @@
     "revision": 111148,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/WireGuard-Konfig",
@@ -3275,8 +2908,7 @@
     "revision": 114493,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/WireGuard-Logging",
@@ -3284,8 +2916,7 @@
     "revision": 94570,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/WireGuard-Peer",
@@ -3293,8 +2924,7 @@
     "revision": 94902,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/WireGuard-S2E",
@@ -3302,8 +2932,7 @@
     "revision": 114373,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/WireGuard-S2S",
@@ -3311,8 +2940,7 @@
     "revision": 114367,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/WireGuard-SP-Fritzbox",
@@ -3320,8 +2948,7 @@
     "revision": 115150,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/Übersicht",
@@ -3329,7 +2956,6 @@
     "revision": 112966,
     "operation_ids": [],
     "referenced_command_groups": [],
-    "review_status": "guide_retrieved",
-    "live_verified": false
+    "review_status": "guide_retrieved"
   }
 ]

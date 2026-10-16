@@ -70,7 +70,7 @@ jobs:
 
             Refresh the embedded catalog and coverage metadata from current vendor
             documentation so administrators can review upstream documentation changes.
-            Preserve documentation gaps and existing live verification evidence.
+            Preserve documentation gaps and vendor source provenance.
           title: "chore(catalog): refresh ${{ matrix.vendor }} catalog"
           body: |
             ### Problem
@@ -85,4 +85,4 @@ jobs:
 
             Regenerate the catalog and coverage metadata with `make research catalog VENDOR=${{ matrix.vendor }}`.
             Validate the generated files with `make verify` before creating this pull request.
-            Preserve explicit documentation gaps and existing device verification evidence; this refresh does not perform live device checks.
+            Preserve explicit documentation gaps and vendor source provenance.

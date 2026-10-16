@@ -92,7 +92,7 @@ func run(ctx context.Context, args []string, stdout, stderr io.Writer, logger *s
 		return err
 	}
 	if *check {
-		return json.NewEncoder(stdout).Encode(map[string]any{"valid": true, "profiles": len(c.Profiles), "catalog_operations": len(cat.Operations), "transport": c.Server.Transport, "live_write_verified": false})
+		return json.NewEncoder(stdout).Encode(map[string]any{"valid": true, "profiles": len(c.Profiles), "catalog_operations": len(cat.Operations), "transport": c.Server.Transport})
 	}
 	if *discover != "" {
 		out, err := e.Discover(ctx, *discover)
