@@ -85,7 +85,7 @@ func checkToolsAndCalls(t *testing.T, cs *mcp.ClientSession, calls *atomic.Int32
 			t.Fatal("mutation advertised as read-only")
 		}
 	}
-	if len(names) != 102 || !slices.Contains(names, "mikrotik_profiles_list") {
+	if len(names) != 106 || !slices.Contains(names, "mikrotik_profiles_list") || !slices.Contains(names, "mikrotik_safe_mode_confirm") {
 		t.Fatalf("wrong tools: %d", len(names))
 	}
 	if r := call(t, cs, "mikrotik_ip_address_list", map[string]any{"profile": "main"}); r.IsError || r.StructuredContent == nil {

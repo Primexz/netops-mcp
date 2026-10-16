@@ -12,6 +12,8 @@ Securepoint profiles can also configure `known_hosts`, `key_file`, `key_passphra
 
 MikroTik profiles can set `ca_file` to add a PEM trust certificate; otherwise the system trust store is used. The connection is HTTPS and certificate validation remains enabled.
 
+MikroTik profiles can require a protected change window with `[profiles.NAME.safe_mode]`: `required = true`, `known_hosts = "known_hosts/mikrotik"`, optional `ssh_port = 22`, and `timeout_seconds = 300` (30–600). The known-hosts path is mandatory when protection is required, resolves beside the configuration file, and must contain the independently verified router SSH host key. SSH reuses the profile's `host`, `username`, and `password_env`; the account needs SSH access as well as its existing REST policies. `read_only = false` is still necessary for writes and opening safe mode. `--check` validates settings without reading host-key files, resolving passwords, or opening connections. See the [safe-mode workflow and limits](mikrotik/safe-mode.md).
+
 ## HTTP transport
 
 Set `[server].transport = "http"` or use `--transport http`; stdio is the default. The common `[server.http]` fields are `listen`, `token`, `token_env`, `allowed_hosts`, `allowed_origins`, `tls_cert_file`, `tls_key_file`, and `max_request_bytes`.

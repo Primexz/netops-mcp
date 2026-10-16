@@ -68,8 +68,8 @@ func TestBuiltBinaryStdio(t *testing.T) {
 		}
 		count++
 	}
-	if count != 102 {
-		t.Fatalf("expected 102 tools, got %d", count)
+	if count != 106 {
+		t.Fatalf("expected 106 tools, got %d", count)
 	}
 	if err := cs.Close(); err != nil {
 		t.Fatal(err)

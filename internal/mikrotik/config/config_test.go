@@ -130,3 +130,49 @@ func TestStandaloneExample(t *testing.T) {
 		t.Fatalf("example settings: %+v", c)
 	}
 }
+
+func TestSafeModeOfflineConfiguration(t *testing.T) {
+	for _, tc := range []struct {
+		name, settings string
+		valid          bool
+	}{
+		{"defaults", "", true},
+		{"protected", "required=true\nknown_hosts='known_hosts/router'\n", true},
+		{"missing host keys", "required=true\n", false},
+		{"bad SSH port", "ssh_port=65536\n", false},
+		{"short deadline", "timeout_seconds=29\n", false},
+		{"long deadline", "timeout_seconds=601\n", false},
+		{"minimum deadline", "timeout_seconds=30\n", true},
+		{"maximum deadline", "timeout_seconds=600\n", true},
+		{"unknown field", "enabled=true\n", false},
+	} {
+		t.Run(tc.name, func(t *testing.T) {
+			dir := t.TempDir()
+			path := filepath.Join(dir, "config.toml")
+			text := "[profiles.main]\nhost='router.example'\nusername='mcp'\npassword_env='NO_SECRET_NEEDED'\n[profiles.main.safe_mode]\n" + tc.settings
+			if err := os.WriteFile(path, []byte(text), 0600); err != nil {
+				t.Fatal(err)
+			}
+			c, err := Load(path)
+			if !tc.valid {
+				if err == nil {
+					t.Fatal("invalid safe mode accepted")
+				}
+				return
+			}
+			if err != nil {
+				t.Fatal(err)
+			}
+			s := c.Profiles["main"].SafeMode
+			if s.SSHPort != 22 {
+				t.Fatal(s)
+			}
+			if tc.name == "defaults" && (s.Required || s.TimeoutSeconds != 300) {
+				t.Fatal(s)
+			}
+			if tc.name == "protected" && s.KnownHosts != filepath.Join(dir, "known_hosts/router") {
+				t.Fatal(s)
+			}
+		})
+	}
+}

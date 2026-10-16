@@ -39,3 +39,12 @@ password_env = "MIKROTIK_BRANCH_PASSWORD"
 # ca_file = "certs/mikrotik-ca.pem" # Omit to use the system trust store.
 read_only = true
 groups = ["system", "interface", "route", "log"]
+
+# Optional protection for headquarters writes. First set that profile's
+# read_only=false and install its independently verified SSH key in known_hosts.
+# SSH uses the same username/password_env as REST and requires SSH login policy.
+# [profiles.headquarters.safe_mode]
+# required = true
+# ssh_port = 22
+# known_hosts = "known_hosts/mikrotik"
+# timeout_seconds = 300 # Confirmation deadline: 30..600 seconds.

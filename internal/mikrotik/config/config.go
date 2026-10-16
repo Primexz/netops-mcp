@@ -34,6 +34,36 @@ type Profile struct {
 	TimeoutSeconds int      `toml:"timeout_seconds"`
 	MaxOutputBytes int      `toml:"max_output_bytes"`
 	Groups         []string `toml:"groups"`
+	SafeMode       SafeMode `toml:"safe_mode"`
+}
+
+// SafeMode configures the separate SSH session guarding REST mutations.
+type SafeMode struct {
+	Required       bool   `toml:"required"`
+	SSHPort        int    `toml:"ssh_port"`
+	KnownHosts     string `toml:"known_hosts"`
+	TimeoutSeconds int    `toml:"timeout_seconds"`
+}
+
+func (s *SafeMode) normalize(base string) error {
+	if s.SSHPort == 0 {
+		s.SSHPort = 22
+	}
+	if s.TimeoutSeconds == 0 {
+		s.TimeoutSeconds = 300
+	}
+	if s.SSHPort < 1 || s.SSHPort > 65535 {
+		return errors.New("safe_mode.ssh_port must be 1..65535")
+	}
+	if s.TimeoutSeconds < 30 || s.TimeoutSeconds > 600 {
+		return errors.New("safe_mode.timeout_seconds must be 30..600")
+	}
+	if s.Required && s.KnownHosts == "" {
+		return errors.New("safe_mode.required needs an explicit safe_mode.known_hosts path")
+	}
+	var err error
+	s.KnownHosts, err = serverconfig.ResolvePath(base, s.KnownHosts)
+	return err
 }
 
 func (p Profile) IsReadOnly() bool       { return p.ReadOnly == nil || *p.ReadOnly }
@@ -103,6 +133,9 @@ func (c *Config) Normalize(base string) error {
 			return fmt.Errorf("profile %q: max_output_bytes must be 1024..67108864", name)
 		}
 		if err := validateGroups(p.Groups); err != nil {
+			return fmt.Errorf("profile %q: %w", name, err)
+		}
+		if err := p.SafeMode.normalize(base); err != nil {
 			return fmt.Errorf("profile %q: %w", name, err)
 		}
 		if p.CAFile != "" {
