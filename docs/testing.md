@@ -21,6 +21,20 @@ go run ./cmd/mikrotik-mcp --config configs/mikrotik.example.toml --transport htt
 
 `make build` builds both binaries. `make cross-build` builds both for Linux amd64, macOS arm64, and Windows amd64. During stdio serving, stdout is reserved for MCP protocol messages; diagnostics belong on stderr.
 
+## Automated dependency updates
+
+The installed Renovate GitHub App reads [`renovate.json`](../renovate.json) and opens dependency update PRs against `develop`. It tracks direct and indirect Go modules, GitHub Actions with pinned commit digests, and tool versions declared in workflow inputs. The Dependency Dashboard lists pending updates. No additional workflow or repository token is needed for the hosted app.
+
+Non-major Go module updates are grouped, while major updates remain separate. Renovate runs `go mod tidy` after Go module updates and filters proposals for compatibility with the module's Go version. Updates to golangci-lint are grouped across both workflows, this guide, and the README so CI and local installation instructions remain aligned.
+
+Renovate uses conventional branch names and Conventional Commits with detailed English bodies. Update PRs include Problem, Cause, and Fix sections. Automatic merging is disabled; review the changes and require all six Verify checks before merging.
+
+Validate configuration changes with Renovate's [configuration validator](https://docs.renovatebot.com/config-validation/):
+
+```sh
+npx --yes --package renovate -- renovate-config-validator --strict --no-global renovate.json
+```
+
 ## Catalog refresh
 
 Refresh one vendor at a time:

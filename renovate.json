@@ -1,0 +1,51 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "helpers:pinGitHubActionDigests"
+  ],
+  "baseBranchPatterns": ["develop"],
+  "enabledManagers": ["gomod", "github-actions", "custom.regex"],
+  "branchPrefix": "chore/renovate-",
+  "semanticCommits": "enabled",
+  "semanticCommitType": "chore",
+  "semanticCommitScope": "deps",
+  "commitBody": "Keep dependencies current with upstream releases and fixes.\n\nUpdate the dependency references listed below and regenerate associated checksums when required. Dependency updates are validated by the repository's Verify workflow.",
+  "commitBodyTable": true,
+  "prHeader": "### Problem\n\nDependencies need to stay current with upstream releases and fixes.\n\n### Cause\n\nUpstream dependencies are versioned independently of this repository.\n\n### Fix\n\nUpdate the dependencies listed below. All six Verify checks must pass before merging.\n\n",
+  "automerge": false,
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": ["/^README\\.md$/", "/^docs/testing\\.md$/"],
+      "matchStrings": [
+        "golangci-lint(?:\\]\\([^\\r\\n]*?\\))? (?<currentValue>v\\d+\\.\\d+\\.\\d+)"
+      ],
+      "depNameTemplate": "golangci/golangci-lint",
+      "datasourceTemplate": "github-releases"
+    }
+  ],
+  "packageRules": [
+    {
+      "matchManagers": ["gomod"],
+      "postUpdateOptions": ["gomodTidy"],
+      "constraintsFiltering": "strict"
+    },
+    {
+      "matchManagers": ["gomod"],
+      "matchDepTypes": ["indirect"],
+      "enabled": true
+    },
+    {
+      "matchManagers": ["gomod"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "Go modules (non-major)",
+      "groupSlug": "go-modules-non-major"
+    },
+    {
+      "matchPackageNames": ["golangci/golangci-lint"],
+      "groupName": "golangci-lint",
+      "groupSlug": "golangci-lint"
+    }
+  ]
+}
