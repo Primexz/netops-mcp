@@ -48,8 +48,8 @@ For automatic PR checks without that approval prompt, configure the optional `CA
 
 ## Protected branches
 
-`develop` is the default integration branch and the target for feature, fix, and catalog PRs. `master` contains production code: promote `develop` through a PR, or submit a hotfix PR directly to `master` and bring the fix back into `develop`.
+`develop` is the default integration branch and the target for feature, fix, and catalog changes. `master` contains production code. Promote changes from `develop` to `master`, and bring production hotfixes back into `develop`. The owner account `Primexz` can push directly to any branch, including `develop` and `master`, without a pull request or waiting for GitHub checks. Run `make verify` locally before pushing implementation changes; the Verify workflow still runs on every push.
 
-Both branches require a pull request, an up-to-date branch, resolved review threads, and all six Verify checks from GitHub Actions. Force pushes, branch deletion, and direct pushes are blocked, including for administrators; no bypass actors are configured. A second person's approval is optional for the current solo-maintainer setup. Every production change, including hotfixes, still follows the PR and CI process.
+For other contributors, both branches require a pull request, an up-to-date branch, resolved review threads, and all six Verify checks from GitHub Actions. The production and integration rulesets grant only `Primexz` an always-allowed bypass for those requirements. A separate history ruleset blocks force pushes and branch deletion on `develop` and `master` for everyone, including the owner. A second person's approval is optional for the current solo-maintainer setup.
 
-The applied GitHub ruleset definitions are stored in `.github/rulesets/master.json` and `.github/rulesets/develop.json`. Changes to these files document the intended policy; applying a ruleset update in GitHub requires repository administration access.
+The applied GitHub ruleset definitions are stored in `.github/rulesets/master.json`, `.github/rulesets/develop.json`, and `.github/rulesets/history.json`. Changes to these files document the intended policy; applying a ruleset update in GitHub requires repository administration access.

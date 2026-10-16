@@ -1,7 +1,7 @@
 # Development guidelines
 
 - Use conventional branch names and Conventional Commits with English subjects and detailed bodies explaining motivation and changes.
-- `master` is production; `develop` is the default integration branch. Both require pull requests and all six Verify checks. Do not push directly to either protected branch.
+- `master` is production; `develop` is the default integration branch. The authenticated owner account `Primexz` may push directly to any branch without a pull request or waiting for GitHub checks. Use direct pushes when the user requests a push; run local verification before pushing implementation changes. Other contributors require pull requests and all six Verify checks for `master` and `develop`. Force pushes and deletion remain blocked on both protected branches.
 - Pull request descriptions must contain Problem, Cause, and Fix, in that order.
 - Apply the Modern Go Guidelines skill before editing Go code.
 - Use `make fmt` (`go fmt`) for Go formatting and `make lint` for golangci-lint. Keep the pinned CI lint version aligned with the documented local version.
