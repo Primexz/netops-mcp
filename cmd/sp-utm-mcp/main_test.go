@@ -34,11 +34,10 @@ func TestOfflineModes(t *testing.T) {
 }
 
 func TestBuiltBinaryStdio(t *testing.T) {
-	ctx, cancel := context.WithTimeout(t.Context(), 30*time.Second)
-	defer cancel()
 	dir := t.TempDir()
 	binary := filepath.Join(dir, "sp-utm-mcp")
-	build := exec.CommandContext(ctx, "go", "build", "-o", binary, ".")
+	// Cold builds must not consume the stdio session's timeout.
+	build := exec.CommandContext(t.Context(), "go", "build", "-o", binary, ".")
 	if b, err := build.CombinedOutput(); err != nil {
 		t.Fatalf("build: %v\n%s", err, b)
 	}
@@ -46,6 +45,9 @@ func TestBuiltBinaryStdio(t *testing.T) {
 	if err := os.WriteFile(configuration, []byte("[profiles.test]\nhost='192.0.2.1'\nusername='mcp'\npassword_env='UNSET_BINARY_SMOKE_PASSWORD'\n"), 0600); err != nil {
 		t.Fatal(err)
 	}
+	ctx, cancel := context.WithTimeout(t.Context(), 30*time.Second)
+	defer cancel()
+
 	command := exec.CommandContext(ctx, binary, "--config", configuration)
 	var stderr bytes.Buffer
 	command.Stderr = &stderr

@@ -6,6 +6,8 @@ Install Go 1.26, Python 3, and [golangci-lint v2.15.0](https://golangci-lint.run
 
 Run `make verify` after implementation changes. The Makefile target checks formatting, runs `make lint` with golangci-lint, `go test -race ./...`, Python research tests, `go vet ./...`, offline `--check` in stdio and HTTP configuration modes for both example configs, and builds both binaries. Offline checks do not need appliance passwords or network access. Tests use offline fixtures and local test servers; no appliance credentials are required.
 
+Both servers' binary smoke tests build the executable under the test context, then give the stdio session its own 30-second timeout. Compilation can take longer than 30 seconds with a cold build cache on CI, so it must finish before the protocol timeout starts. The overall Go test and CI job timeouts still bound the build.
+
 Linting uses golangci-lint's version 2 configuration with its standard correctness checks plus HTTP response cleanup, error wrapping, modern Go idioms, nil-error checks, and explained, specific `nolint` directives. CI validates the entire codebase and uses the same lint and formatting commands as local development.
 
 The Verify workflow runs six independent jobs in parallel: formatting, lint, race-enabled tests, vet and configuration checks, native builds, and cross-builds. Each job reports its own result, so failures in one check do not prevent the other checks from running. Locally, `make verify` runs formatting, lint, tests, checks, and native builds together; `make cross-build` runs the cross-builds.
