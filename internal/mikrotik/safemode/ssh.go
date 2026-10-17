@@ -66,7 +66,9 @@ func connect(ctx context.Context, p config.Profile) (guard, error) {
 	stop := context.AfterFunc(ctx, func() { _ = conn.Close() })
 	defer stop()
 	cc, channels, requests, err := ssh.NewClientConn(conn, address, &ssh.ClientConfig{
-		User: p.Username, Auth: []ssh.AuthMethod{ssh.Password(password)}, HostKeyCallback: verify,
+		// RouterOS login options disable colors and terminal detection for this
+		// automated console. The account and REST username remain unchanged.
+		User: p.Username + "+ct", Auth: []ssh.AuthMethod{ssh.Password(password)}, HostKeyCallback: verify,
 	})
 	if err != nil {
 		_ = conn.Close()
@@ -77,6 +79,12 @@ func connect(ctx context.Context, p config.Profile) (guard, error) {
 	if err != nil {
 		c.close()
 		return nil, errors.New("cannot open safe-mode SSH session")
+	}
+	// Ctrl+X and Ctrl+D must reach the interactive console. A shell without a
+	// PTY is a line-oriented command stream on RouterOS, not a safe-mode terminal.
+	if err := session.RequestPty("vt100", 24, 200, ssh.TerminalModes{ssh.ECHO: 0}); err != nil {
+		c.close()
+		return nil, errors.New("safe mode requires an interactive SSH terminal; PTY request refused")
 	}
 	c.input, err = session.StdinPipe()
 	if err != nil {
@@ -89,22 +97,35 @@ func connect(ctx context.Context, p config.Profile) (guard, error) {
 		return nil, errors.New("cannot open safe-mode console output")
 	}
 	session.Stderr = io.Discard
-	// RouterOS does not require or consistently provide a pseudo-terminal.
 	if err := session.Shell(); err != nil {
 		c.close()
 		return nil, errors.New("RouterOS interactive SSH shell unavailable")
 	}
 	go c.read(output)
+	// Do not send commands while the router is still displaying its login
+	// banner or preparing the terminal; early input can be lost at startup.
+	if _, err := c.exchange(ctx, "", consolePrompt); err != nil {
+		c.close()
+		return nil, fmt.Errorf("safe-mode console prompt not received: %w", err)
+	}
 	obs, err := c.check(ctx)
+	if err != nil {
+		err = fmt.Errorf("safe-mode initial state probe failed: %w", err)
+	}
 	if err == nil && obs.enabled {
 		err = errors.New("RouterOS safe mode is already owned; takeover is refused")
 	}
 	if err == nil {
-		_, err = c.exchange(ctx, "\x18", regexp.MustCompile(`(?i)\[safe mode taken\]`))
+		_, err = c.exchange(ctx, "\x18", regexp.MustCompile(`(?i)(?:\[safe mode taken\]|taking safe mode session\.\.\.\s*success!)`))
+		if err != nil {
+			err = fmt.Errorf("safe-mode take acknowledgement failed: %w", err)
+		}
 	}
 	if err == nil {
 		obs, err = c.check(ctx)
-		if err == nil && (!obs.enabled || !obs.current || obs.history >= historyLimit) {
+		if err != nil {
+			err = fmt.Errorf("safe-mode ownership probe failed: %w", err)
+		} else if !obs.enabled || !obs.current || obs.history >= historyLimit {
 			err = errors.New("could not verify safe-mode ownership and history capacity")
 		}
 	}
@@ -150,6 +171,7 @@ func (c *console) read(r io.Reader) {
 }
 
 var consoleANSI = regexp.MustCompile(`\x1b\[[0-?]*[ -/]*[@-~]`)
+var consolePrompt = regexp.MustCompile(`(?:^|[\r\n])\[[^\r\n\]]+\][^\r\n]*>[ \t]*$`)
 
 func (c *console) exchange(ctx context.Context, input string, pattern *regexp.Regexp) ([]string, error) {
 	ctx, cancel := context.WithTimeout(ctx, controlTimeout)
@@ -209,7 +231,7 @@ func (c *console) commit(ctx context.Context) error {
 	if !obs.enabled || !obs.current || obs.history >= historyLimit {
 		return errors.New("safe-mode ownership or history capacity lost; confirmation refused")
 	}
-	if _, err := c.exchange(ctx, "\x18", regexp.MustCompile(`(?i)\[safe mode released\]`)); err != nil {
+	if _, err := c.exchange(ctx, "\x18", regexp.MustCompile(`(?i)(?:\[safe mode released\]|releasing safe mode\.\.\.\s*success!)`)); err != nil {
 		return err
 	}
 	obs, err = c.check(ctx)

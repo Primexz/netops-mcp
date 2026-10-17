@@ -16,9 +16,13 @@ timeout_seconds = 300
 
 The deadline accepts 30–600 seconds and defaults to 300. The SSH port defaults to 22. The host-key file is mandatory for protected profiles. Relative paths resolve beside the config file, and `~/` expands normally. Verify the router fingerprint independently before installing its key; unknown or changed keys are refused.
 
-SSH uses the profile's host, username, and password environment variable. The account needs SSH login permission alongside its existing REST permissions. Selecting HTTP REST does not change SSH host-key verification or the safe-mode SSH port. SSH keys and separate SSH credentials are not supported. Host-key file contents and password values are checked when opening a window, not by offline `--check`.
+SSH uses the profile's host, username, and password environment variable. For the SSH login only, the client appends RouterOS's `+ct` console options to the username to disable colors and terminal-capability detection; the account and REST username stay the same. These [RouterOS login options](https://manual.mikrotik.com/docs/management-tools/console/#login-options) avoid terminal negotiation for automated clients. The client requests an interactive SSH terminal (PTY) and waits for its prompt before sending commands or safe-mode controls. A line-oriented shell without a PTY is insufficient; terminal allocation failures are reported without falling back. The account needs SSH login permission alongside its existing REST permissions. Selecting HTTP REST does not change SSH host-key verification or the safe-mode SSH port. SSH keys and separate SSH credentials are not supported. Host-key file contents and password values are checked when opening a window, not by offline `--check`.
 
 ## Workflow
+
+An `inactive` status describes the MCP server's local window state. With no active window, a status query does not open SSH or verify router-side ownership. A begin failure identifies whether the terminal setup, prompt wait, initial state probe, take acknowledgement, or ownership probe failed; raw console output is never included.
+
+Console acknowledgements can use bracketed messages (`[Safe Mode taken]` / `[Safe Mode released]`) or the wording observed on RouterOS 7.24.2 (`Taking Safe Mode session... Success!` / `Releasing Safe Mode... Success!`). Both forms are recognized, and ownership is still checked after taking or releasing safe mode. An acknowledgement alone does not establish protection.
 
 1. List profiles and inspect `safe_mode_required` and `safe_mode_timeout_seconds`.
 2. Call `mikrotik_safe_mode_begin` with `profile`. Review its `safe_mode_id` and `expires_at`.

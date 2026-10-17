@@ -62,6 +62,75 @@ func TestConsoleGuardsRESTChanges(t *testing.T) {
 	}
 }
 
+func TestConsoleDisablesTerminalDetection(t *testing.T) {
+	f := testutil.NewSafeRouter(t)
+	f.RequireTerminalOptions.Store(true)
+	g, err := connect(t.Context(), f.Profile)
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer g.close()
+	if err := g.rollback(t.Context()); err != nil {
+		t.Fatal(err)
+	}
+	if f.Commits.Load() != 0 {
+		t.Fatal("terminal negotiation committed changes")
+	}
+}
+
+func TestConsoleRequiresInteractiveTerminal(t *testing.T) {
+	f := testutil.NewSafeRouter(t)
+	f.RequireInteractive.Store(true)
+	g, err := connect(t.Context(), f.Profile)
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer g.close()
+	if err := g.rollback(t.Context()); err != nil {
+		t.Fatal(err)
+	}
+}
+
+func TestConsoleAcceptsModernAcknowledgements(t *testing.T) {
+	f := testutil.NewSafeRouter(t)
+	f.ModernAcknowledgements.Store(true)
+	g, err := connect(t.Context(), f.Profile)
+	if err != nil {
+		t.Fatal(err)
+	}
+	defer g.close()
+	obs, err := g.check(t.Context())
+	if err != nil || !obs.current || !obs.enabled {
+		t.Fatal("safe-mode ownership not confirmed", obs, err)
+	}
+	if err := g.commit(t.Context()); err != nil {
+		t.Fatal(err)
+	}
+	if f.Commits.Load() != 1 {
+		t.Fatal("safe mode was not explicitly committed")
+	}
+}
+
+func TestConsoleRefusesUnavailableTerminal(t *testing.T) {
+	for _, mode := range []string{"PTY request refused", "console prompt not received"} {
+		t.Run(mode, func(t *testing.T) {
+			f := testutil.NewSafeRouter(t)
+			f.RejectPTY.Store(mode == "PTY request refused")
+			f.NoPrompt.Store(mode == "console prompt not received")
+			g, err := connect(t.Context(), f.Profile)
+			if g != nil {
+				g.close()
+			}
+			if err == nil || !strings.Contains(err.Error(), mode) {
+				t.Fatalf("error = %v, want %q", err, mode)
+			}
+			if f.Writes.Load() != 0 || f.Commits.Load() != 0 || f.Rollbacks.Load() != 0 {
+				t.Fatal("failed terminal setup changed router state")
+			}
+		})
+	}
+}
+
 func TestConsoleRefusesOccupiedUnsupportedAndUntrustedRouter(t *testing.T) {
 	for _, mode := range []string{"occupied", "takeover race", "unsupported", "unknown key", "changed key", "missing password"} {
 		t.Run(mode, func(t *testing.T) {

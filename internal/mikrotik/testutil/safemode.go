@@ -26,20 +26,25 @@ import (
 // SafeRouter is a synthetic appliance sharing configuration between local SSH
 // and REST servers. It tests framing/lifetimes, not real firmware compatibility.
 type SafeRouter struct {
-	Profile       config.Profile
-	History       atomic.Int32
-	Occupied      atomic.Bool
-	HijackOnTake  atomic.Bool
-	Unsupported   atomic.Bool
-	DropOnCommit  atomic.Bool
-	FailProbe     atomic.Bool
-	Writes        atomic.Int32
-	Commits       atomic.Int32
-	Rollbacks     atomic.Int32
-	mu            sync.Mutex
-	value, backup string
-	owner         int64
-	connections   map[*ssh.ServerConn]bool
+	Profile                config.Profile
+	History                atomic.Int32
+	Occupied               atomic.Bool
+	HijackOnTake           atomic.Bool
+	Unsupported            atomic.Bool
+	RequireTerminalOptions atomic.Bool
+	RequireInteractive     atomic.Bool
+	RejectPTY              atomic.Bool
+	NoPrompt               atomic.Bool
+	ModernAcknowledgements atomic.Bool
+	DropOnCommit           atomic.Bool
+	FailProbe              atomic.Bool
+	Writes                 atomic.Int32
+	Commits                atomic.Int32
+	Rollbacks              atomic.Int32
+	mu                     sync.Mutex
+	value, backup          string
+	owner                  int64
+	connections            map[*ssh.ServerConn]bool
 }
 
 func NewSafeRouter(t testing.TB) *SafeRouter {
@@ -61,7 +66,7 @@ func NewSafeRouterWithScheme(t testing.TB, scheme string) *SafeRouter {
 		t.Fatal(err)
 	}
 	cfg := &ssh.ServerConfig{PasswordCallback: func(meta ssh.ConnMetadata, pass []byte) (*ssh.Permissions, error) {
-		if meta.User() != f.Profile.Username || string(pass) != "fixture-password" {
+		if (meta.User() != f.Profile.Username && meta.User() != f.Profile.Username+"+ct") || string(pass) != "fixture-password" {
 			return nil, fmt.Errorf("bad credentials")
 		}
 		return nil, nil
@@ -108,12 +113,35 @@ func NewSafeRouterWithScheme(t testing.TB, scheme string) *SafeRouter {
 					if err != nil {
 						return
 					}
+					var interactive atomic.Bool
+					ready := make(chan struct{})
 					go func() {
+						defer close(ready)
 						for req := range requests {
-							_ = req.Reply(req.Type == "shell", nil)
+							accepted := req.Type == "shell"
+							if req.Type == "pty-req" && !f.RejectPTY.Load() {
+								interactive.Store(true)
+								accepted = true
+							}
+							_ = req.Reply(accepted, nil)
+							if req.Type == "shell" {
+								go ssh.DiscardRequests(requests)
+								return
+							}
 						}
 					}()
-					f.shell(stream, id)
+					<-ready
+					if (f.RequireTerminalOptions.Load() && sc.User() != f.Profile.Username+"+ct") || (f.RequireInteractive.Load() && !interactive.Load()) {
+						// RouterOS can wait for terminal-capability negotiation when
+						// automated clients do not disable detection at login.
+						_, _ = io.WriteString(stream, "\x1b[6n")
+						_, _ = io.Copy(io.Discard, stream)
+					} else {
+						if interactive.Load() && !f.NoPrompt.Load() {
+							_, _ = io.WriteString(stream, "\r\n[fixture@router] > ")
+						}
+						f.shell(stream, id)
+					}
 					_ = stream.Close()
 				}
 			})
@@ -164,7 +192,11 @@ func (f *SafeRouter) shell(stream ssh.Channel, id int64) {
 				if f.DropOnCommit.Load() {
 					return
 				}
-				_, _ = io.WriteString(stream, "\r\n[Safe Mode released]\r\n")
+				if f.ModernAcknowledgements.Load() {
+					_, _ = io.WriteString(stream, "\r\nReleasing Safe Mode... Success!\r\n")
+				} else {
+					_, _ = io.WriteString(stream, "\r\n[Safe Mode released]\r\n")
+				}
 			} else if f.owner != 0 || f.Occupied.Load() || f.HijackOnTake.Load() {
 				f.mu.Unlock()
 				_, _ = io.WriteString(stream, "\r\nHijacking Safe Mode from someone - unroll/release/don't take it [u/r/d]: ")
@@ -173,7 +205,11 @@ func (f *SafeRouter) shell(stream ssh.Channel, id int64) {
 				f.backup = f.value
 				f.History.Store(0)
 				f.mu.Unlock()
-				_, _ = io.WriteString(stream, "\r\n[Safe Mode taken]\r\n")
+				if f.ModernAcknowledgements.Load() {
+					_, _ = io.WriteString(stream, "\r\nTaking Safe Mode session... Success!\r\n")
+				} else {
+					_, _ = io.WriteString(stream, "\r\n[Safe Mode taken]\r\n")
+				}
 			}
 		case 0x04:
 			f.undo(id)
