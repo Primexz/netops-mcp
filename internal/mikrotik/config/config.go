@@ -2,6 +2,7 @@
 package config
 
 import (
+	"cmp"
 	"errors"
 	"fmt"
 	"net"
@@ -25,6 +26,7 @@ type Server = serverconfig.Server
 type HTTP = serverconfig.HTTP
 
 type Profile struct {
+	Scheme         string   `toml:"scheme"`
 	Host           string   `toml:"host"`
 	Port           int      `toml:"port"`
 	Username       string   `toml:"username"`
@@ -69,6 +71,29 @@ func (s *SafeMode) normalize(base string) error {
 func (p Profile) IsReadOnly() bool       { return p.ReadOnly == nil || *p.ReadOnly }
 func (p Profile) Address() string        { return net.JoinHostPort(p.Host, fmt.Sprint(p.Port)) }
 func (p Profile) Timeout() time.Duration { return time.Duration(p.TimeoutSeconds) * time.Second }
+
+// NormalizeREST applies endpoint defaults and validates protocol-specific settings.
+// It is also used by REST clients constructed without loading a configuration file.
+func (p *Profile) NormalizeREST() error {
+	p.Scheme = cmp.Or(p.Scheme, "https")
+	if p.Scheme != "https" && p.Scheme != "http" {
+		return errors.New("scheme must be http or https")
+	}
+	if p.Scheme == "http" && p.CAFile != "" {
+		return errors.New("ca_file requires scheme=https")
+	}
+	if p.Port == 0 {
+		p.Port = 443
+		if p.Scheme == "http" {
+			p.Port = 80
+		}
+	}
+	if p.Port < 1 || p.Port > 65535 {
+		return errors.New("port must be 1..65535")
+	}
+	return nil
+}
+
 func Enabled(group string, groups []string) bool {
 	return len(groups) == 0 || slices.Contains(groups, group)
 }
@@ -114,11 +139,8 @@ func (c *Config) Normalize(base string) error {
 		if !serverconfig.ValidEnvName(p.PasswordEnv) {
 			return fmt.Errorf("profile %q: password_env must name an environment variable", name)
 		}
-		if p.Port == 0 {
-			p.Port = 443
-		}
-		if p.Port < 1 || p.Port > 65535 {
-			return fmt.Errorf("profile %q: port must be 1..65535", name)
+		if err := p.NormalizeREST(); err != nil {
+			return fmt.Errorf("profile %q: %w", name, err)
 		}
 		if p.TimeoutSeconds == 0 {
 			p.TimeoutSeconds = 30

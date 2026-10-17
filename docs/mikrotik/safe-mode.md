@@ -1,6 +1,6 @@
 # Safe mode
 
-A MikroTik profile can require RouterOS safe mode for all writes. Configuration changes still apply immediately through HTTPS REST. A persistent SSH shell owns safe mode until an explicit confirmation commits the window. Expiry, an explicit rollback, a failed write, or server shutdown requests rollback. Existing profiles retain immediate-write behavior unless protection is enabled.
+A MikroTik profile can require RouterOS safe mode for all writes. Configuration changes still apply immediately through the profile's selected HTTPS or HTTP REST connection. A persistent SSH shell owns safe mode until an explicit confirmation commits the window. Expiry, an explicit rollback, a failed write, or server shutdown requests rollback. Existing profiles retain immediate-write behavior unless protection is enabled.
 
 ## Configuration
 
@@ -16,7 +16,7 @@ timeout_seconds = 300
 
 The deadline accepts 30–600 seconds and defaults to 300. The SSH port defaults to 22. The host-key file is mandatory for protected profiles. Relative paths resolve beside the config file, and `~/` expands normally. Verify the router fingerprint independently before installing its key; unknown or changed keys are refused.
 
-SSH uses the profile's host, username, and password environment variable. The account needs SSH login permission alongside its existing REST permissions. SSH keys and separate SSH credentials are not supported. Host-key file contents and password values are checked when opening a window, not by offline `--check`.
+SSH uses the profile's host, username, and password environment variable. The account needs SSH login permission alongside its existing REST permissions. Selecting HTTP REST does not change SSH host-key verification or the safe-mode SSH port. SSH keys and separate SSH credentials are not supported. Host-key file contents and password values are checked when opening a window, not by offline `--check`.
 
 ## Workflow
 
@@ -33,7 +33,7 @@ State is `inactive` before opening, `active` while changes await confirmation, `
 
 ## Recovery and limits
 
-RouterOS documents that safe mode covers configuration changes from other login sessions. This is the basis for owning safe mode over SSH while making changes over REST. The server uses only fixed control/status commands and refuses unsupported replies or ownership takeover. Offline SSH/HTTPS fixtures verify the implementation; they do not certify behavior on every firmware release. [RouterOS console documentation](https://manual.mikrotik.com/docs/management-tools/console/#safe-mode)
+RouterOS documents that safe mode covers configuration changes from other login sessions. This is the basis for owning safe mode over SSH while making changes over REST. The server uses only fixed control/status commands and refuses unsupported replies or ownership takeover. Offline SSH fixtures paired with HTTP and HTTPS REST servers verify the implementation; they do not certify behavior on every firmware release. [RouterOS console documentation](https://manual.mikrotik.com/docs/management-tools/console/#safe-mode)
 
 Safe mode is router-wide: other administrators' changes, including other profiles or MCP processes addressing the same router, can join the same commit/rollback window. Avoid concurrent administration during a protected window. The server never takes over another owner's safe mode.
 

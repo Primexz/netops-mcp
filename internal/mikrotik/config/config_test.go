@@ -3,6 +3,7 @@ package config
 import (
 	"os"
 	"path/filepath"
+	"strings"
 	"testing"
 )
 
@@ -18,7 +19,7 @@ func TestLoadDefaultsAndRelativePaths(t *testing.T) {
 		t.Fatal(err)
 	}
 	p := c.Profiles["main"]
-	if !p.IsReadOnly() || p.Port != 443 || p.TimeoutSeconds != 30 || p.MaxOutputBytes != 4<<20 {
+	if !p.IsReadOnly() || p.Scheme != "https" || p.Port != 443 || p.TimeoutSeconds != 30 || p.MaxOutputBytes != 4<<20 {
 		t.Fatalf("wrong defaults: %+v", p)
 	}
 	if p.Address() != "[2001:db8::1]:443" || p.CAFile != filepath.Join(dir, "certs/router.pem") {
@@ -32,6 +33,46 @@ func TestLoadDefaultsAndRelativePaths(t *testing.T) {
 	}
 	if _, err := Load(path); err == nil {
 		t.Fatal("unknown key accepted")
+	}
+}
+
+func TestRESTSchemesAndPorts(t *testing.T) {
+	for _, tc := range []struct {
+		name, settings, scheme string
+		port                   int
+		wantError              string
+	}{
+		{name: "default", scheme: "https", port: 443},
+		{name: "https", settings: "scheme='https'\n", scheme: "https", port: 443},
+		{name: "http", settings: "scheme='http'\n", scheme: "http", port: 80},
+		{name: "custom https port", settings: "scheme='https'\nport=8443\n", scheme: "https", port: 8443},
+		{name: "custom http port", settings: "scheme='http'\nport=8080\n", scheme: "http", port: 8080},
+		{name: "http explicit 443", settings: "scheme='http'\nport=443\n", scheme: "http", port: 443},
+		{name: "invalid scheme", settings: "scheme='ftp'\n", wantError: "scheme must be http or https"},
+		{name: "uppercase scheme", settings: "scheme='HTTP'\n", wantError: "scheme must be http or https"},
+		{name: "http ca conflict", settings: "scheme='http'\nca_file='missing.pem'\n", wantError: "ca_file requires scheme=https"},
+	} {
+		t.Run(tc.name, func(t *testing.T) {
+			path := filepath.Join(t.TempDir(), "config.toml")
+			text := "[profiles.main]\nhost='2001:db8::1'\nusername='mcp'\npassword_env='UNSET_OFFLINE_PASSWORD'\n" + tc.settings
+			if err := os.WriteFile(path, []byte(text), 0600); err != nil {
+				t.Fatal(err)
+			}
+			c, err := Load(path)
+			if tc.wantError != "" {
+				if err == nil || !strings.Contains(err.Error(), tc.wantError) {
+					t.Fatalf("error = %v, want %q", err, tc.wantError)
+				}
+				return
+			}
+			if err != nil {
+				t.Fatal(err)
+			}
+			p := c.Profiles["main"]
+			if p.Scheme != tc.scheme || p.Port != tc.port {
+				t.Fatalf("endpoint = %s://%s, want %s on port %d", p.Scheme, p.Address(), tc.scheme, tc.port)
+			}
+		})
 	}
 }
 

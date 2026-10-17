@@ -1,4 +1,4 @@
-// Package routeros implements bounded, authenticated HTTPS REST requests.
+// Package routeros implements bounded, authenticated HTTP and HTTPS REST requests.
 package routeros
 
 import (
@@ -35,21 +35,26 @@ type Error struct {
 func (e *Error) Error() string { return e.Message }
 
 func New(p config.Profile) (*Client, error) {
-	roots, err := x509.SystemCertPool()
-	if err != nil {
-		roots = x509.NewCertPool()
-	}
-	if p.CAFile != "" {
-		b, err := os.ReadFile(p.CAFile)
-		if err != nil {
-			return nil, errors.New("could not read profile CA certificate")
-		}
-		if !roots.AppendCertsFromPEM(b) {
-			return nil, errors.New("profile ca_file contains no PEM certificates")
-		}
+	if err := p.NormalizeREST(); err != nil {
+		return nil, err
 	}
 	transport := http.DefaultTransport.(*http.Transport).Clone()
-	transport.TLSClientConfig = &tls.Config{MinVersion: tls.VersionTLS12, RootCAs: roots}
+	if p.Scheme == "https" {
+		roots, err := x509.SystemCertPool()
+		if err != nil {
+			roots = x509.NewCertPool()
+		}
+		if p.CAFile != "" {
+			b, err := os.ReadFile(p.CAFile)
+			if err != nil {
+				return nil, errors.New("could not read profile CA certificate")
+			}
+			if !roots.AppendCertsFromPEM(b) {
+				return nil, errors.New("profile ca_file contains no PEM certificates")
+			}
+		}
+		transport.TLSClientConfig = &tls.Config{MinVersion: tls.VersionTLS12, RootCAs: roots}
+	}
 	// A router profile identifies the actual endpoint; do not send router
 	// credentials to an ambient HTTP(S)_PROXY supplied to the MCP process.
 	transport.Proxy = nil
@@ -72,7 +77,7 @@ func (c *Client) Request(ctx context.Context, method, path, id string, query url
 	if !ok || password == "" {
 		return nil, &Error{Kind: "credentials", Message: "profile password environment variable is missing or empty"}
 	}
-	u := url.URL{Scheme: "https", Host: c.profile.Address(), Path: "/rest/" + path, RawQuery: query.Encode()}
+	u := url.URL{Scheme: c.profile.Scheme, Host: c.profile.Address(), Path: "/rest/" + path, RawQuery: query.Encode()}
 	if id != "" {
 		u.Path += "/" + id
 	} // RouterOS requires the literal '*' in IDs.
@@ -127,7 +132,7 @@ func (c *Client) Request(ctx context.Context, method, path, id string, query url
 		if e, ok := errors.AsType[*url.Error](err); ok && e.Timeout() {
 			return nil, &Error{Kind: "timeout", Message: "RouterOS request timed out; mutation outcome may be unknown"}
 		}
-		return nil, &Error{Kind: "connection", Message: "RouterOS HTTPS connection failed; mutation outcome may be unknown"}
+		return nil, &Error{Kind: "connection", Message: "RouterOS connection failed; mutation outcome may be unknown"}
 	}
 	defer func() { _ = resp.Body.Close() }()
 	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
@@ -163,7 +168,7 @@ func statusError(status int) *Error {
 	switch {
 	case status >= 300 && status < 400:
 		e.Kind = "redirect"
-		e.Message = "RouterOS redirect refused; configure the router HTTPS host and port directly"
+		e.Message = "RouterOS redirect refused; configure the router scheme, host and port directly"
 	case status == 401:
 		e.Kind = "authentication"
 		e.Message = "RouterOS authentication failed; check profile credentials and the user's allowed addresses"

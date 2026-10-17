@@ -24,7 +24,7 @@ import (
 )
 
 // SafeRouter is a synthetic appliance sharing configuration between local SSH
-// and HTTPS servers. It tests framing/lifetimes, not real firmware compatibility.
+// and REST servers. It tests framing/lifetimes, not real firmware compatibility.
 type SafeRouter struct {
 	Profile       config.Profile
 	History       atomic.Int32
@@ -44,8 +44,13 @@ type SafeRouter struct {
 
 func NewSafeRouter(t testing.TB) *SafeRouter {
 	t.Helper()
+	return NewSafeRouterWithScheme(t, "https")
+}
+
+func NewSafeRouterWithScheme(t testing.TB, scheme string) *SafeRouter {
+	t.Helper()
 	f := &SafeRouter{value: "original", connections: map[*ssh.ServerConn]bool{}}
-	_, f.Profile = Router(t, f.serveHTTP)
+	_, f.Profile = RouterWithScheme(t, scheme, f.serveHTTP)
 	f.Profile.SafeMode = config.SafeMode{Required: true, TimeoutSeconds: 300}
 	_, key, err := ed25519.GenerateKey(rand.Reader)
 	if err != nil {
