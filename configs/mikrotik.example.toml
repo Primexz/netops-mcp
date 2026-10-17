@@ -23,8 +23,9 @@ max_request_bytes = 16777216
 # tls_key_file = "certs/mikrotik-server-key.pem"
 
 [profiles.headquarters]
+scheme = "https" # Default when omitted. HTTP REST is selected with "http".
 host = "192.0.2.10"
-port = 443
+port = 443 # Omitted ports default to 443 for HTTPS or 80 for HTTP.
 username = "mcp"
 password_env = "MIKROTIK_HQ_PASSWORD"
 # ca_file = "certs/mikrotik-ca.pem" # Omit to use the system trust store.
@@ -33,10 +34,11 @@ timeout_seconds = 30
 max_output_bytes = 4194304
 
 [profiles.branch]
+# scheme = "http" # Sends Basic credentials unencrypted; use a trusted network/tunnel.
 host = "192.0.2.20"
 username = "mcp"
 password_env = "MIKROTIK_BRANCH_PASSWORD"
-# ca_file = "certs/mikrotik-ca.pem" # Omit to use the system trust store.
+# ca_file = "certs/mikrotik-ca.pem" # HTTPS only; omit when scheme="http".
 read_only = true
 groups = ["system", "interface", "route", "log"]
 
