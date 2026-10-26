@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-10-16T19:50:32.891142+00:00",
+  "retrieved_at": "2026-10-26T13:18:55.822807+00:00",
   "pages": [
     {
       "title": "CLI/Cert",
@@ -2980,10 +2980,10 @@
     {
       "title": "UTM/APP/Reverse Proxy",
       "page_id": 17192,
-      "revision": 111136,
-      "timestamp": "2026-08-03T06:16:19Z",
-      "sha256": "5423a6c4eec80b4f82ca8f047fcf5205c85833f0bc6923632ba6c06d157a95fd",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FReverse+Proxy&oldid=111136",
+      "revision": 115504,
+      "timestamp": "2026-10-21T07:12:06Z",
+      "sha256": "1a15775440ff6db3aa3b011fb6091f87b43d94128b4297a7302c859206eb2704",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FReverse+Proxy&oldid=115504",
       "classification": "current",
       "linked_pages": [
         "UTM/APP/Reverse_Proxy v11.7 ",
@@ -3215,10 +3215,10 @@
     {
       "title": "UTM/APP/Reverse Proxy.lang",
       "page_id": 14264,
-      "revision": 109675,
-      "timestamp": "2026-06-05T13:11:45Z",
-      "sha256": "e7ece0cf07400e74094966cc78b37ce60593f8a45ca77376cb63ff16987f80fa",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FReverse+Proxy.lang&oldid=109675",
+      "revision": 115501,
+      "timestamp": "2026-10-21T07:11:41Z",
+      "sha256": "f8c3f7dd1b22b19ff9e54926079f5d608d780e486f8d4aef50f856765aeec68c",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FReverse+Proxy.lang&oldid=115501",
       "classification": "translation",
       "linked_pages": [
         "UTM/AUTH/Zertifikate",
@@ -3327,10 +3327,10 @@
     {
       "title": "UTM/APP/TI Proxy",
       "page_id": 21707,
-      "revision": 112918,
-      "timestamp": "2026-09-03T06:54:26Z",
-      "sha256": "28f3a4135f6658b1f2675e47a93cf591dcd08e0e6258a7cd502e5d80f7a04edb",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FTI+Proxy&oldid=112918",
+      "revision": 115441,
+      "timestamp": "2026-10-19T08:42:27Z",
+      "sha256": "847efe3be4af4ffca8fd4de64615cb288a3b95c8c41ef2959652ab804a337a08",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FTI+Proxy&oldid=115441",
       "classification": "current",
       "linked_pages": [
         "UTM/APP/TI_Proxy_v14.0 ",
@@ -7366,10 +7366,10 @@
     {
       "title": "UTM/CONFIG/ErsteSchritteAnmeldung",
       "page_id": 15000,
-      "revision": 110473,
-      "timestamp": "2026-07-16T13:07:41Z",
-      "sha256": "65eff0dfd2a58e5cf0dfda883f3359d343718aab804edc41e9d0589af2727b1b",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FErsteSchritteAnmeldung&oldid=110473",
+      "revision": 116089,
+      "timestamp": "2026-10-22T14:25:37Z",
+      "sha256": "c20ef6a506dee0e3118e344f1ab3599f97e02fc7e2ad08ec5d7032e243d7f876",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FErsteSchritteAnmeldung&oldid=116089",
       "classification": "current",
       "linked_pages": [
         "UTM/CONFIG/ErsteSchritteAnmeldung_v12.2 ",
@@ -7482,10 +7482,10 @@
     {
       "title": "UTM/CONFIG/ErsteSchritteAnmeldung.lang",
       "page_id": 14999,
-      "revision": 110461,
-      "timestamp": "2026-07-16T12:57:49Z",
-      "sha256": "fe112653b8603bb6404e64c81947da94abd0b3bc68ea20bedd066d1dc24d59de",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FErsteSchritteAnmeldung.lang&oldid=110461",
+      "revision": 116239,
+      "timestamp": "2026-10-22T14:26:29Z",
+      "sha256": "9783eb0b4389cd2c226a317012ef235393af0fc822b9ade0ebb5a93377ec207f",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FErsteSchritteAnmeldung.lang&oldid=116239",
       "classification": "translation",
       "linked_pages": [
         "USC/Websession ",
@@ -7531,10 +7531,10 @@
     {
       "title": "UTM/CONFIG/Installationsassistent",
       "page_id": 15787,
-      "revision": 110476,
-      "timestamp": "2026-07-16T14:08:27Z",
-      "sha256": "016ef8f40a5411de2cf12c4b1fdf1dcd5186daca79ebd55969b279c8234ea509",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent&oldid=110476",
+      "revision": 116095,
+      "timestamp": "2026-10-22T14:25:40Z",
+      "sha256": "2f623dd694b925a749cd017e1b30c85e3d6ea8a21d7a42d456b061ed1d0268ec",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent&oldid=116095",
       "classification": "current",
       "linked_pages": [
         "Installationsassistent_V11.6 ",
@@ -7966,10 +7966,10 @@
     {
       "title": "UTM/CONFIG/Installationsassistent.lang",
       "page_id": 15576,
-      "revision": 110488,
-      "timestamp": "2026-07-16T14:09:23Z",
-      "sha256": "d41ddd1573b239663842502148a6a7d669f695a172d7468afccfab4d08a69c53",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent.lang&oldid=110488",
+      "revision": 116245,
+      "timestamp": "2026-10-22T14:26:29Z",
+      "sha256": "af2f8a61142c475986cd71f27e66eaa1db1fb4a2c1414650bbb26d6e3cca6340",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent.lang&oldid=116245",
       "classification": "translation",
       "linked_pages": [
         "UTM/APP/Nameserver",
@@ -8405,10 +8405,10 @@
     {
       "title": "UTM/CONFIG/Setup",
       "page_id": 15610,
-      "revision": 101653,
-      "timestamp": "2026-03-11T10:56:23Z",
-      "sha256": "c6eeed608acf93f5d57da3ea9556d7a5cb90880e3338ee1f67a92d6dfccbf7ca",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FSetup&oldid=101653",
+      "revision": 116011,
+      "timestamp": "2026-10-22T14:25:15Z",
+      "sha256": "ac43bf246aba729c8d659cb9b4410e93bfbc154ad1ba5b25ef7e4e18b3b14104",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FSetup&oldid=116011",
       "classification": "current",
       "linked_pages": [
         "Datei:Bdaas-front.png",
@@ -8417,6 +8417,19 @@
         "Datei:rc100-rc200-front.png",
         "Datei:rc1000r-front.png",
         "Datei:rc300s-front-start.png",
+        "UTM/Installation/G6-RC350R "
+      ],
+      "retrieval_error": null
+    },
+    {
+      "title": "UTM/CONFIG/Setup.lang",
+      "page_id": 15609,
+      "revision": 116191,
+      "timestamp": "2026-10-22T14:26:24Z",
+      "sha256": "c01f657b37ed840d61ceeef00d7dde14a23b9bc47298cb7bc5d3d6c056ed2c12",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FSetup.lang&oldid=116191",
+      "classification": "translation",
+      "linked_pages": [
         "UTM/CONFIG/Restore-G5-BlackDwarf ",
         "UTM/CONFIG/Restore-G5-BlackDwarfPro ",
         "UTM/CONFIG/Restore-G5-RC100 ",
@@ -8444,17 +8457,6 @@
         "UTM/Installation/G6-RC350R ",
         "UTM/Installation/G6-RC400R "
       ],
-      "retrieval_error": null
-    },
-    {
-      "title": "UTM/CONFIG/Setup.lang",
-      "page_id": 15609,
-      "revision": 109639,
-      "timestamp": "2026-05-28T11:47:13Z",
-      "sha256": "b0a3abc319d997624345a18353b70fb18c23397449be74faba31054b591e18d9",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FSetup.lang&oldid=109639",
-      "classification": "translation",
-      "linked_pages": [],
       "retrieval_error": null
     },
     {
@@ -8686,10 +8688,10 @@
     {
       "title": "UTM/Changelog.lang",
       "page_id": 14292,
-      "revision": 114967,
-      "timestamp": "2026-10-14T13:00:15Z",
-      "sha256": "c67e5fdd38473682735750fbd3f8359c017ebd7ef88eae7082fcba203e341036",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FChangelog.lang&oldid=114967",
+      "revision": 116143,
+      "timestamp": "2026-10-22T14:26:20Z",
+      "sha256": "0d6b1180976f536c9259e47b528e486ee4bde69797b88ecf7c54ef2c7cbf3dc3",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FChangelog.lang&oldid=116143",
       "classification": "translation",
       "linked_pages": [
         "SUB/Konfiguration",
@@ -10216,10 +10218,10 @@
     {
       "title": "UTM/Inbetriebnahme-Vorbereitung",
       "page_id": 15607,
-      "revision": 109738,
-      "timestamp": "2026-04-29T09:05:59Z",
-      "sha256": "435c0d8bcd5d0aad3237048017ed1891f9d24169d15e5abf797e43e1e494a546",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FInbetriebnahme-Vorbereitung&oldid=109738",
+      "revision": 116005,
+      "timestamp": "2026-10-22T14:25:14Z",
+      "sha256": "c009de31fb7ac246bbae272456fb9961c1ad473476c33870390fd30fa3f134bc",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FInbetriebnahme-Vorbereitung&oldid=116005",
       "classification": "current",
       "linked_pages": [],
       "retrieval_error": null
@@ -10227,10 +10229,10 @@
     {
       "title": "UTM/Installation",
       "page_id": 15622,
-      "revision": 101799,
-      "timestamp": "2026-03-11T11:03:56Z",
-      "sha256": "a0fd75bb1598ca9f8a0ed96a47aa5306ae155390468f5dda478086b51d27ed75",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FInstallation&oldid=101799",
+      "revision": 116017,
+      "timestamp": "2026-10-22T14:25:17Z",
+      "sha256": "571b60c0ee677450f8ed23dd4d348670869ddbc6eb06fee798c1824af40894f4",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FInstallation&oldid=116017",
       "classification": "current",
       "linked_pages": [
         "UTM/Installation_v11.6 ",
@@ -10284,10 +10286,10 @@
     {
       "title": "UTM/Installation.lang",
       "page_id": 15623,
-      "revision": 101801,
-      "timestamp": "2026-03-11T11:03:56Z",
-      "sha256": "ebcf25f74ee804b671c6ea038ebca49fcdd2d1cde62cf4dd8cec517193b90b44",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FInstallation.lang&oldid=101801",
+      "revision": 116197,
+      "timestamp": "2026-10-22T14:26:24Z",
+      "sha256": "df24588aefa0fe607e38f6a4d6bf900809d9bcd0bc01ed66ace1aa54cddd5277",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FInstallation.lang&oldid=116197",
       "classification": "translation",
       "linked_pages": [
         "UTM/Systemvoraussetzungen "
@@ -11618,10 +11620,10 @@
     {
       "title": "UTM/NET/DHCP Server-v4",
       "page_id": 15254,
-      "revision": 100304,
-      "timestamp": "2026-01-20T11:20:12Z",
-      "sha256": "344d38ceecd8c67333fd5fb1eb9165dd00a82d31eff6b861ae989393b12fae7f",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Server-v4&oldid=100304",
+      "revision": 116260,
+      "timestamp": "2026-10-23T10:11:42Z",
+      "sha256": "131690aeaeaa6c746bb711232fbfc4b468de9677bb292d869b55fcd98de3d529",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Server-v4&oldid=116260",
       "classification": "current",
       "linked_pages": [
         "UTM/NET/DHCP_Server-v4_v11.7 ",
@@ -11733,23 +11735,23 @@
     {
       "title": "UTM/NET/DHCP Server-v4.lang",
       "page_id": 13378,
-      "revision": 100318,
-      "timestamp": "2026-01-20T11:20:21Z",
-      "sha256": "288cae55101e7629127013792e940fe9880bfb297fbc27bd79c4faeb67120c52",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Server-v4.lang&oldid=100318",
+      "revision": 116257,
+      "timestamp": "2026-10-23T10:11:27Z",
+      "sha256": "b9e15df17a3f43ca49b5bdbd08abb3a901eb43ba63068828fc5c8f34704835a9",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Server-v4.lang&oldid=116257",
       "classification": "translation",
       "linked_pages": [
-        "UTM/Widgets "
+        "UTM/RULE/Netzwerktopologie "
       ],
       "retrieval_error": null
     },
     {
       "title": "UTM/NET/DHCP Server-v6",
       "page_id": 20429,
-      "revision": 100308,
-      "timestamp": "2026-01-20T11:20:16Z",
-      "sha256": "ca308fe8423a9fb7d138c4bd6d13c0889be3edba0e546bca20b79dde01b1a8f3",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Server-v6&oldid=100308",
+      "revision": 116287,
+      "timestamp": "2026-10-23T14:09:09Z",
+      "sha256": "92a31c7e88644c58806551946eca53638c6afc2420858e0316121f3ce022b195",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Server-v6&oldid=116287",
       "classification": "current",
       "linked_pages": [
         "UTM/NET/DHCP_Server-v6_v11.7 ",
@@ -11848,14 +11850,14 @@
     {
       "title": "UTM/NET/DHCP Server-v6.lang",
       "page_id": 12987,
-      "revision": 100320,
-      "timestamp": "2026-01-20T11:20:22Z",
-      "sha256": "83e328f14551225903eaee79edb60fba49046295e325500148a10af168169f23",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Server-v6.lang&oldid=100320",
+      "revision": 116284,
+      "timestamp": "2026-10-23T14:08:56Z",
+      "sha256": "83c885304b24b4aa61464c063a2486be76608e347eb7f4349f20518949d6746b",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Server-v6.lang&oldid=116284",
       "classification": "translation",
       "linked_pages": [
         "Grundlegendes_zu_IPv6",
-        "UTM/Widgets "
+        "UTM/RULE/Netzwerktopologie "
       ],
       "retrieval_error": null
     },
@@ -14099,10 +14101,10 @@
     {
       "title": "UTM/Portbelegung",
       "page_id": 4609,
-      "revision": 105418,
-      "timestamp": "2026-06-05T12:03:18Z",
-      "sha256": "eb8dda7cd55392cecabe8b0c3b69e86e52c59c30b7072ec27115d3c2f0cbd0d0",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung&oldid=105418",
+      "revision": 116023,
+      "timestamp": "2026-10-22T14:25:19Z",
+      "sha256": "27454ececd5b440e406c9b70f1e9a29d5c163fbd73c023b3c1531db8e26e0fc8",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung&oldid=116023",
       "classification": "current",
       "linked_pages": [
         "Datei:RC_340_-_Portbelegung.png ",
@@ -14120,10 +14122,10 @@
     {
       "title": "UTM/Portbelegung-G5-BlackDwarf",
       "page_id": 15611,
-      "revision": 105430,
-      "timestamp": "2026-06-05T12:03:20Z",
-      "sha256": "209a917bf8ae04a1e9b49acbf6b3f201f90c079af674bec38c5350e3fdb536cd",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung-G5-BlackDwarf&oldid=105430",
+      "revision": 116029,
+      "timestamp": "2026-10-22T14:25:20Z",
+      "sha256": "17b4df7d67f5b33984fbb6d22e4b7217522448d613df5533a83f15fea20150fc",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung-G5-BlackDwarf&oldid=116029",
       "classification": "current",
       "linked_pages": [
         "Datei:bdaas G5 back 2D.png"
@@ -14133,10 +14135,10 @@
     {
       "title": "UTM/Portbelegung-G5-BlackDwarfPro",
       "page_id": 15614,
-      "revision": 105436,
-      "timestamp": "2026-06-05T12:03:21Z",
-      "sha256": "b25517017f19c1687dff9eab1e582f5b3cdfedae8642ec39dfa1dddab9ab817f",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung-G5-BlackDwarfPro&oldid=105436",
+      "revision": 116035,
+      "timestamp": "2026-10-22T14:25:22Z",
+      "sha256": "4d168084ab2465e152bf8955f7ea94a2a11944a46570f6ac85e7eb8195d2502d",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung-G5-BlackDwarfPro&oldid=116035",
       "classification": "current",
       "linked_pages": [
         "Datei:black-dwarf-pro G5 back 2D.png"
@@ -14146,10 +14148,10 @@
     {
       "title": "UTM/Portbelegung-G5-RC100",
       "page_id": 15616,
-      "revision": 105442,
-      "timestamp": "2026-06-05T12:03:23Z",
-      "sha256": "34ba668c9213aa16a661f92c8b6a5cdc3b261cb11382681ecd4a09384578fa49",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung-G5-RC100&oldid=105442",
+      "revision": 116041,
+      "timestamp": "2026-10-22T14:25:23Z",
+      "sha256": "2a57964df23424ceba08d4c202c55918eef06b4c2124edb7d4eab97256884e87",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung-G5-RC100&oldid=116041",
       "classification": "current",
       "linked_pages": [
         "Datei:rc100-g5-back 2D.png"
@@ -14159,10 +14161,10 @@
     {
       "title": "UTM/Portbelegung-G5-RC1000R",
       "page_id": 15620,
-      "revision": 105424,
-      "timestamp": "2026-06-05T12:03:19Z",
-      "sha256": "92ea184e24ecc647ca6d5abf3e39e42db03014cf415dc29e4430428a954789db",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung-G5-RC1000R&oldid=105424",
+      "revision": 116065,
+      "timestamp": "2026-10-22T14:25:28Z",
+      "sha256": "73e522d618e29b86ff26b8c0ca8147865f44876f5bf16b85463371f101ae8fe2",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung-G5-RC1000R&oldid=116065",
       "classification": "current",
       "linked_pages": [
         "Datei:RC 350-1000 Slot A+B+C4.png",
@@ -14176,10 +14178,10 @@
     {
       "title": "UTM/Portbelegung-G5-RC200",
       "page_id": 15618,
-      "revision": 105448,
-      "timestamp": "2026-06-05T12:03:24Z",
-      "sha256": "2d4302d36ed49494a115ead974f6676637d25818e0a24293b08d134276d1aafa",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung-G5-RC200&oldid=105448",
+      "revision": 116047,
+      "timestamp": "2026-10-22T14:25:24Z",
+      "sha256": "209699db45d660ec32a228de29f084c63549268189da669332d708b353e6a51e",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung-G5-RC200&oldid=116047",
       "classification": "current",
       "linked_pages": [
         "Datei:rc200 g5-back 2D.png"
@@ -14189,10 +14191,10 @@
     {
       "title": "UTM/Portbelegung-G5-RC300S",
       "page_id": 15619,
-      "revision": 105454,
-      "timestamp": "2026-06-05T12:03:25Z",
-      "sha256": "544b0d6a4787da6a70fa514a88dfb1034b143677ee7dbe4e2218e45a2388e6bb",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung-G5-RC300S&oldid=105454",
+      "revision": 116059,
+      "timestamp": "2026-10-22T14:25:27Z",
+      "sha256": "78ad9cf3579b2d8bb2a07ec476bb828e02257a89161dba897362ad6ba610837d",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung-G5-RC300S&oldid=116059",
       "classification": "current",
       "linked_pages": [
         "Datei:RC 300 Slot A+B8.png",
@@ -14203,10 +14205,10 @@
     {
       "title": "UTM/Portbelegung-G6-RC350R",
       "page_id": 23016,
-      "revision": 105406,
-      "timestamp": "2026-06-05T12:03:16Z",
-      "sha256": "bfc46f10640c2768c0b82fb8cee31760cd7021804ff3c847ca77ab149c4edf10",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung-G6-RC350R&oldid=105406",
+      "revision": 116053,
+      "timestamp": "2026-10-22T14:25:26Z",
+      "sha256": "da79c27a3ac4fbab08f173015a97101286b6a6188441ac183ff5b2342cc70dde",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung-G6-RC350R&oldid=116053",
       "classification": "current",
       "linked_pages": [
         "Datei:G6 RC350R Slot A+B8+C2.png",
@@ -14222,10 +14224,10 @@
     {
       "title": "UTM/Portbelegung.lang",
       "page_id": 13476,
-      "revision": 105412,
-      "timestamp": "2026-06-05T12:03:16Z",
-      "sha256": "5c0361f421f5d9e7b13d70658399653746791971ac7b3c254a0b5e992a800c94",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung.lang&oldid=105412",
+      "revision": 116203,
+      "timestamp": "2026-10-22T14:26:24Z",
+      "sha256": "fba3bbb430c969243cec09456234b3fdb4d74d0ce88b7e75a72406b3f401b386",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FPortbelegung.lang&oldid=116203",
       "classification": "translation",
       "linked_pages": [],
       "retrieval_error": null
@@ -16034,10 +16036,10 @@
     {
       "title": "UTM/USB Booten",
       "page_id": 14797,
-      "revision": 92813,
-      "timestamp": "2024-08-21T14:50:54Z",
-      "sha256": "214b978a7446365034847b2570d667b715bda39e970079cc0eab8541cde4325a",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FUSB+Booten&oldid=92813",
+      "revision": 116071,
+      "timestamp": "2026-10-22T14:25:30Z",
+      "sha256": "7390537e14cb07a10798b1b12986d42377d6969d59f6d8a4cab7504a5df0f6f8",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FUSB+Booten&oldid=116071",
       "classification": "current",
       "linked_pages": [
         "UTM/USB_Booten_v11.6 ",
@@ -16087,10 +16089,10 @@
     {
       "title": "UTM/USB Booten.lang",
       "page_id": 14796,
-      "revision": 109735,
-      "timestamp": "2026-05-12T14:52:44Z",
-      "sha256": "5ff2024f6d417ce5ec47f9b765bc0b0682cf34f077d592d5bfad0f18b8fe9986",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FUSB+Booten.lang&oldid=109735",
+      "revision": 116209,
+      "timestamp": "2026-10-22T14:26:25Z",
+      "sha256": "69ba5c242669143efa63d17b895b8475724367d4ac5aeb029c8bec8f09526fe4",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FUSB+Booten.lang&oldid=116209",
       "classification": "translation",
       "linked_pages": [],
       "retrieval_error": null
@@ -16266,10 +16268,10 @@
     {
       "title": "UTM/VPN/ClientlessVPN",
       "page_id": 16613,
-      "revision": 109501,
-      "timestamp": "2026-06-23T07:23:48Z",
-      "sha256": "7bfdbb79e1260f4e004e6311666bbe7e1e723e66fcabdc0e7bda6c42a46b2b0c",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FClientlessVPN&oldid=109501",
+      "revision": 115477,
+      "timestamp": "2026-10-20T09:40:25Z",
+      "sha256": "a1f51eb1f342d755ffa2e89ae26af58612e9c9b54c0892a01c9d9cb640f25d63",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FClientlessVPN&oldid=115477",
       "classification": "current",
       "linked_pages": [
         "UTM/VPN/ClientlessVPN_v11.6.11 ",
@@ -16389,10 +16391,10 @@
     {
       "title": "UTM/VPN/ClientlessVPN.lang",
       "page_id": 16623,
-      "revision": 109726,
-      "timestamp": "2026-06-18T07:13:44Z",
-      "sha256": "cd9572404a48cf33cace22948189df2d93a4c73484367269ecf453e909e02a4e",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FClientlessVPN.lang&oldid=109726",
+      "revision": 115474,
+      "timestamp": "2026-10-20T09:40:13Z",
+      "sha256": "758110987ad42dfed983ddbf484f5bf0094d34b48c1e81cd33d99d1fd8e86750",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FClientlessVPN.lang&oldid=115474",
       "classification": "translation",
       "linked_pages": [],
       "retrieval_error": null
@@ -16838,10 +16840,10 @@
     {
       "title": "UTM/VPN/IPSec-Phase1-2",
       "page_id": 15824,
-      "revision": 98123,
-      "timestamp": "2025-08-27T14:20:09Z",
-      "sha256": "b41c0d3d55541d9d9a71eb8388466d490b4730dfd44ed8fcfb01af8e2071da74",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-Phase1-2&oldid=98123",
+      "revision": 116215,
+      "timestamp": "2026-10-22T14:26:26Z",
+      "sha256": "6d25a9b1a4d029c58c6ecb68eacca511414b224a75e1f54892e6901d65fabbc7",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-Phase1-2&oldid=116215",
       "classification": "current",
       "linked_pages": [
         "UTM/VPN/IPSec-Phase1-2_v12.2.3 ",
@@ -16933,10 +16935,10 @@
     {
       "title": "UTM/VPN/IPSec-Phase1-2.lang",
       "page_id": 15823,
-      "revision": 100205,
-      "timestamp": "2026-01-14T11:43:36Z",
-      "sha256": "d8bdc4df28545f6bfc62ddd7ab499c8207527c43b41e49361cae1cf40c658a1c",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-Phase1-2.lang&oldid=100205",
+      "revision": 116221,
+      "timestamp": "2026-10-22T14:26:26Z",
+      "sha256": "00abf5194f5753d16adb5b6a02664d8ab6d9dcb6ad768eb252fd5aabdf9e19f4",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-Phase1-2.lang&oldid=116221",
       "classification": "translation",
       "linked_pages": [
         "UTM/VPN/IPSec-DHCP ",
@@ -17172,10 +17174,10 @@
     {
       "title": "UTM/VPN/IPSec-S2S",
       "page_id": 15831,
-      "revision": 112969,
-      "timestamp": "2026-09-08T10:27:33Z",
+      "revision": 116077,
+      "timestamp": "2026-10-22T14:25:31Z",
       "sha256": "d81f8078c190357200a12ed4955de6d0b658b932836f1e7d78ca901b8e781b9c",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-S2S&oldid=112969",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-S2S&oldid=116077",
       "classification": "current",
       "linked_pages": [
         "UTM/VPN/IPSec-S2S_v11.6 ",
@@ -17538,10 +17540,10 @@
     {
       "title": "UTM/VPN/IPSec-S2S.lang",
       "page_id": 14562,
-      "revision": 109699,
-      "timestamp": "2026-03-10T16:14:13Z",
-      "sha256": "5f186b0d743860cde2eafaabb63d0526fff4e38927c113be36edf1a20beeab29",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-S2S.lang&oldid=109699",
+      "revision": 116227,
+      "timestamp": "2026-10-22T14:26:27Z",
+      "sha256": "8987e49a2f1df3094e5373b7fe22c78104057c46ffdc1a75b4febfa47742c5cc",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-S2S.lang&oldid=116227",
       "classification": "translation",
       "linked_pages": [
         ":UTM/AUTH/Zertifikate",
@@ -17928,10 +17930,10 @@
     {
       "title": "UTM/VPN/SSL VPN-Roadwarrior",
       "page_id": 14455,
-      "revision": 115156,
-      "timestamp": "2026-10-16T07:13:16Z",
-      "sha256": "10bcce733ed88c09d45513c0abf3b4a188f83dfe3aab346c8948432e349d21a0",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-Roadwarrior&oldid=115156",
+      "revision": 115993,
+      "timestamp": "2026-10-22T14:25:06Z",
+      "sha256": "5dca09a31c32e0611cdcde9e36cac89288b3c0334ead002371a208961a9e7049",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-Roadwarrior&oldid=115993",
       "classification": "current",
       "linked_pages": [
         "UTM/VPN/SSL VPN-Roadwarrior_v11.7.1 ",
@@ -17944,8 +17946,7 @@
         "UTM/VPN/SSL_VPN-Roadwarrior_v12.5.1 ",
         "UTM/VPN/SSL_VPN-Roadwarrior_v12.6.2 ",
         "UTM/VPN/SSL_VPN-Roadwarrior_v12.7 ",
-        "UTM/VPN/SSL_VPN-Roadwarrior_v14.0.3 ",
-        "UTM/VPN/SSL_VPN-Roadwarrior_v14.1.3 "
+        "UTM/VPN/SSL_VPN-Roadwarrior_v14.0.3 "
       ],
       "retrieval_error": null
     },
@@ -18254,36 +18255,6 @@
       "retrieval_error": null
     },
     {
-      "title": "UTM/VPN/SSL VPN-Roadwarrior v14.1.3",
-      "page_id": 25462,
-      "revision": 109453,
-      "timestamp": "2026-06-04T15:50:11Z",
-      "sha256": "1223553383bfc0b462cdbf5626f43a2e883f3e19f4fd29bd224b4b1a7d5214a9",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-Roadwarrior+v14.1.3&oldid=109453",
-      "classification": "archive",
-      "linked_pages": [
-        "Datei:SSL-VPN-Client-Doppelpfeil.png",
-        "Plik:SSL-VPN-Client-Doppelpfeil.png",
-        "UTM/AUTH/Benutzerverwaltung ",
-        "UTM/AUTH/Zertifikate",
-        "UTM/AUTH/Zertifikate ",
-        "UTM/RULE/ibf ",
-        "UTM/VPN/SSL VPN-Roadwarrior_v11.7.1 ",
-        "UTM/VPN/SSL_VPN-Roadwarrior_v11.6 ",
-        "UTM/VPN/SSL_VPN-Roadwarrior_v11.7 ",
-        "UTM/VPN/SSL_VPN-Roadwarrior_v11.8.7 ",
-        "UTM/VPN/SSL_VPN-Roadwarrior_v12.2 ",
-        "UTM/VPN/SSL_VPN-Roadwarrior_v12.2.2 ",
-        "UTM/VPN/SSL_VPN-Roadwarrior_v12.4 ",
-        "UTM/VPN/SSL_VPN-Roadwarrior_v12.5.1 ",
-        "UTM/VPN/SSL_VPN-Roadwarrior_v12.6.2 ",
-        "UTM/VPN/SSL_VPN-Roadwarrior_v12.7 ",
-        "UTM/VPN/SSL_VPN-Roadwarrior_v14.0.3 ",
-        "VPN "
-      ],
-      "retrieval_error": null
-    },
-    {
       "title": "UTM/VPN/SSL VPN-Roadwarrior-MacOS",
       "page_id": 518,
       "revision": 94897,
@@ -18478,10 +18449,10 @@
     {
       "title": "UTM/VPN/SSL VPN-Roadwarrior.lang",
       "page_id": 14441,
-      "revision": 115153,
-      "timestamp": "2026-10-16T07:13:06Z",
-      "sha256": "2faacb0acee914ef135862d0b560ac9adb0b3d0747dc37cd93a55224192991e4",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-Roadwarrior.lang&oldid=115153",
+      "revision": 116173,
+      "timestamp": "2026-10-22T14:26:22Z",
+      "sha256": "f64c51352eb31c6cfd333c38d3de7abb80548a292c2743b89ce690ad4a482fb3",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-Roadwarrior.lang&oldid=116173",
       "classification": "translation",
       "linked_pages": [
         "Datei:SSL-VPN-Client-Doppelpfeil.png",
@@ -18497,10 +18468,10 @@
     {
       "title": "UTM/VPN/SSL VPN-S2S",
       "page_id": 10182,
-      "revision": 114391,
-      "timestamp": "2026-10-12T12:41:36Z",
-      "sha256": "2e1f59dfad8655c8e2d5644d3ebd151b95f68006fc4af9e09ba8556388de96c2",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-S2S&oldid=114391",
+      "revision": 116083,
+      "timestamp": "2026-10-22T14:25:35Z",
+      "sha256": "fea68784d24b8c337a4ca1c2ad2c28a58a8566f535ea41a1def545279a286aeb",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-S2S&oldid=116083",
       "classification": "current",
       "linked_pages": [
         "UTM/VPN/SSL VPN-S2S_v11.7.3 ",
@@ -18648,6 +18619,25 @@
       "retrieval_error": null
     },
     {
+      "title": "UTM/VPN/SSL VPN-S2S v14.1.5",
+      "page_id": 28978,
+      "revision": 115453,
+      "timestamp": "2026-10-19T13:21:51Z",
+      "sha256": "6246af40cb2b955ed1789917cd6ba84d104c12d289c0623af512ddc21e40581e",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-S2S+v14.1.5&oldid=115453",
+      "classification": "archive",
+      "linked_pages": [
+        "UTM/AUTH/Zertifikate ",
+        "UTM/VPN/SSL VPN-S2S_v11.7.3 ",
+        "UTM/VPN/SSL VPN-S2S_v11.8.7 ",
+        "UTM/VPN/SSL VPN-S2S_v12.4.1 ",
+        "UTM/VPN/SSL VPN-S2S_v12.7 ",
+        "UTM/VPN/SSL_VPN-S2S_v11.6 ",
+        "UTM/VPN/SSL_VPN-S2S_v11.7 "
+      ],
+      "retrieval_error": null
+    },
+    {
       "title": "UTM/VPN/SSL VPN-S2S-Fallback",
       "page_id": 16717,
       "revision": 84974,
@@ -18711,10 +18701,10 @@
     {
       "title": "UTM/VPN/SSL VPN-S2S.lang",
       "page_id": 16090,
-      "revision": 114535,
-      "timestamp": "2026-10-12T12:42:14Z",
-      "sha256": "7d453f4899e95e47e7027701a298149ef5a69210edf921cde89c324d57d785e5",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-S2S.lang&oldid=114535",
+      "revision": 116233,
+      "timestamp": "2026-10-22T14:26:27Z",
+      "sha256": "08b46d1faea93270b9d5b2368639fb68ecc12e78cf5d945fb2d55a4e18ab95a8",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-S2S.lang&oldid=116233",
       "classification": "translation",
       "linked_pages": [
         "UTM/AUTH/Zertifikate "
@@ -18859,10 +18849,10 @@
     {
       "title": "UTM/VPN/WireGuard-BestPractice",
       "page_id": 21567,
-      "revision": 111148,
-      "timestamp": "2026-08-05T06:44:12Z",
-      "sha256": "f52af80425842408bf796b7c0f2c03dd5bf6ed865b09f9d9607df0b7d104066e",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-BestPractice&oldid=111148",
+      "revision": 115999,
+      "timestamp": "2026-10-22T14:25:12Z",
+      "sha256": "a5da74dfbd7aa21841484a2818389b9bf65e77cb5a4168e54485430762f33cf1",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-BestPractice&oldid=115999",
       "classification": "current",
       "linked_pages": [],
       "retrieval_error": null
@@ -18870,10 +18860,10 @@
     {
       "title": "UTM/VPN/WireGuard-BestPractice.lang",
       "page_id": 21566,
-      "revision": 94029,
-      "timestamp": "2024-12-10T08:20:25Z",
-      "sha256": "e67a477a92cf4dcd5f8a6d40db6502190cc31a3d7ffb381780240c018f93584e",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-BestPractice.lang&oldid=94029",
+      "revision": 116185,
+      "timestamp": "2026-10-22T14:26:24Z",
+      "sha256": "7f33c1b1ff49b2fd70d920f46077d2b2f85e28e0b5a02ef75249432eb1a10fe8",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-BestPractice.lang&oldid=116185",
       "classification": "translation",
       "linked_pages": [
         "VPN/VPN-Client"
@@ -18883,10 +18873,10 @@
     {
       "title": "UTM/VPN/WireGuard-Konfig",
       "page_id": 17392,
-      "revision": 114493,
-      "timestamp": "2026-10-12T12:42:09Z",
-      "sha256": "f05d0a3839f16cd1382d25e3dbdb3cee62896f18d93a3699113c05342adffa1c",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-Konfig&oldid=114493",
+      "revision": 116179,
+      "timestamp": "2026-10-22T14:26:23Z",
+      "sha256": "bc30512553059ffe40f1301b7f4981b26ffd0749e230ba4c228303adfd0e1799",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-Konfig&oldid=116179",
       "classification": "current",
       "linked_pages": [
         "UTM/VPN/WireGuard-S2E_v12.2.5 ",
@@ -19417,10 +19407,10 @@
     {
       "title": "UTM/VoIP BestPractice",
       "page_id": 23710,
-      "revision": 98636,
-      "timestamp": "2025-09-11T15:41:17Z",
-      "sha256": "3f910f53a7f7d2595999663cef408596664f0ceb22ebb5f426818c5341cfc8ac",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVoIP+BestPractice&oldid=98636",
+      "revision": 115498,
+      "timestamp": "2026-10-21T07:03:29Z",
+      "sha256": "3f4258572a1d242d3c6181641a44eb1ed975129ca086972b05bee90078a2b1fd",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVoIP+BestPractice&oldid=115498",
       "classification": "current",
       "linked_pages": [],
       "retrieval_error": null
@@ -19428,10 +19418,10 @@
     {
       "title": "UTM/VoIP BestPractice.lang",
       "page_id": 23712,
-      "revision": 102532,
-      "timestamp": "2026-04-09T13:29:27Z",
-      "sha256": "aac6d263a94265a6383fff67b25017ec719b0e925a558028d146283410ddf6c7",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVoIP+BestPractice.lang&oldid=102532",
+      "revision": 115495,
+      "timestamp": "2026-10-21T07:03:16Z",
+      "sha256": "6a620550a43d32cd8d5c6381b68835250fbe81678f14817314ab2843abe636f4",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVoIP+BestPractice.lang&oldid=115495",
       "classification": "translation",
       "linked_pages": [
         "UTM/FAQ-VoIP"
@@ -19473,10 +19463,10 @@
     {
       "title": "UTM/Widgets",
       "page_id": 17343,
-      "revision": 109321,
-      "timestamp": "2026-06-22T10:17:36Z",
-      "sha256": "3a4bf007ed98664e994cc13edf9edb62f4f95ebb7e923698dda3e2995c3f9268",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FWidgets&oldid=109321",
+      "revision": 116281,
+      "timestamp": "2026-10-23T13:52:44Z",
+      "sha256": "5dea7fcc6286a29f99d8589eecb318b3d450b4afe0b2c0d435f5b810c8933dcd",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FWidgets&oldid=116281",
       "classification": "current",
       "linked_pages": [
         "Datei:Port-active-v101.svg",
@@ -19587,10 +19577,10 @@
     {
       "title": "UTM/Widgets.lang",
       "page_id": 17342,
-      "revision": 109594,
-      "timestamp": "2026-06-08T10:37:00Z",
-      "sha256": "9081a02269a2cc9c60726241260725e81b31168ab8a134b104c564150b214ed8",
-      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FWidgets.lang&oldid=109594",
+      "revision": 116278,
+      "timestamp": "2026-10-23T13:50:36Z",
+      "sha256": "aac4f3ac6774a7384eca0d25c5bea25ec520a31fe546db5dcbabada1171bfc2f",
+      "url": "https://wiki.securepoint.de/index.php?title=UTM%2FWidgets.lang&oldid=116278",
       "classification": "translation",
       "linked_pages": [
         "UTM/APP/Anwendungsstatus",
