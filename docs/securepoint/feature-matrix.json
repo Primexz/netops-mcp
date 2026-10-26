@@ -371,8 +371,8 @@
   },
   {
     "title": "UTM/APP/Reverse Proxy",
-    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FReverse+Proxy&oldid=111136",
-    "revision": 111136,
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FReverse+Proxy&oldid=115504",
+    "revision": 115504,
     "operation_ids": [],
     "referenced_command_groups": [],
     "review_status": "guide_retrieved"
@@ -395,8 +395,8 @@
   },
   {
     "title": "UTM/APP/TI Proxy",
-    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FTI+Proxy&oldid=112918",
-    "revision": 112918,
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FAPP%2FTI+Proxy&oldid=115441",
+    "revision": 115441,
     "operation_ids": [],
     "referenced_command_groups": [],
     "review_status": "guide_retrieved"
@@ -1521,8 +1521,8 @@
   },
   {
     "title": "UTM/CONFIG/ErsteSchritteAnmeldung",
-    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FErsteSchritteAnmeldung&oldid=110473",
-    "revision": 110473,
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FErsteSchritteAnmeldung&oldid=116089",
+    "revision": 116089,
     "operation_ids": [],
     "referenced_command_groups": [],
     "review_status": "guide_retrieved"
@@ -1537,8 +1537,8 @@
   },
   {
     "title": "UTM/CONFIG/Installationsassistent",
-    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent&oldid=110476",
-    "revision": 110476,
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FInstallationsassistent&oldid=116095",
+    "revision": 116095,
     "operation_ids": [],
     "referenced_command_groups": [],
     "review_status": "guide_retrieved"
@@ -1921,8 +1921,8 @@
   },
   {
     "title": "UTM/CONFIG/Setup",
-    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FSetup&oldid=101653",
-    "revision": 101653,
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FCONFIG%2FSetup&oldid=116011",
+    "revision": 116011,
     "operation_ids": [],
     "referenced_command_groups": [],
     "review_status": "guide_retrieved"
@@ -2104,16 +2104,16 @@
   },
   {
     "title": "UTM/NET/DHCP Server-v4",
-    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Server-v4&oldid=100304",
-    "revision": 100304,
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Server-v4&oldid=116260",
+    "revision": 116260,
     "operation_ids": [],
     "referenced_command_groups": [],
     "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/NET/DHCP Server-v6",
-    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Server-v6&oldid=100308",
-    "revision": 100308,
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FNET%2FDHCP+Server-v6&oldid=116287",
+    "revision": 116287,
     "operation_ids": [],
     "referenced_command_groups": [],
     "review_status": "guide_retrieved"
@@ -2622,8 +2622,8 @@
   },
   {
     "title": "UTM/VPN/ClientlessVPN",
-    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FClientlessVPN&oldid=109501",
-    "revision": 109501,
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FClientlessVPN&oldid=115477",
+    "revision": 115477,
     "operation_ids": [],
     "referenced_command_groups": [],
     "review_status": "guide_retrieved"
@@ -2710,8 +2710,8 @@
   },
   {
     "title": "UTM/VPN/IPSec-Phase1-2",
-    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-Phase1-2&oldid=98123",
-    "revision": 98123,
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-Phase1-2&oldid=116215",
+    "revision": 116215,
     "operation_ids": [],
     "referenced_command_groups": [],
     "review_status": "guide_retrieved"
@@ -2734,8 +2734,8 @@
   },
   {
     "title": "UTM/VPN/IPSec-S2S",
-    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-S2S&oldid=112969",
-    "revision": 112969,
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FIPSec-S2S&oldid=116077",
+    "revision": 116077,
     "operation_ids": [],
     "referenced_command_groups": [],
     "review_status": "guide_retrieved"
@@ -2822,8 +2822,8 @@
   },
   {
     "title": "UTM/VPN/SSL VPN-Roadwarrior",
-    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-Roadwarrior&oldid=115156",
-    "revision": 115156,
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-Roadwarrior&oldid=115993",
+    "revision": 115993,
     "operation_ids": [],
     "referenced_command_groups": [],
     "review_status": "guide_retrieved"
@@ -2854,8 +2854,8 @@
   },
   {
     "title": "UTM/VPN/SSL VPN-S2S",
-    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-S2S&oldid=114391",
-    "revision": 114391,
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FSSL+VPN-S2S&oldid=116083",
+    "revision": 116083,
     "operation_ids": [],
     "referenced_command_groups": [
       "openvpn"
@@ -2896,16 +2896,16 @@
   },
   {
     "title": "UTM/VPN/WireGuard-BestPractice",
-    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-BestPractice&oldid=111148",
-    "revision": 111148,
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-BestPractice&oldid=115999",
+    "revision": 115999,
     "operation_ids": [],
     "referenced_command_groups": [],
     "review_status": "guide_retrieved"
   },
   {
     "title": "UTM/VPN/WireGuard-Konfig",
-    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-Konfig&oldid=114493",
-    "revision": 114493,
+    "url": "https://wiki.securepoint.de/index.php?title=UTM%2FVPN%2FWireGuard-Konfig&oldid=116179",
+    "revision": 116179,
     "operation_ids": [],
     "referenced_command_groups": [],
     "review_status": "guide_retrieved"

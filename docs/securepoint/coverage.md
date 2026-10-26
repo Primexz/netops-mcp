@@ -1,6 +1,6 @@
 # Documentation coverage
 
-Research snapshot: 2026-10-16T19:50:32.891142+00:00. Retrieved 1257 pages: 573 archive, 410 current, 274 translation.
+Research snapshot: 2026-10-26T13:18:55.822807+00:00. Retrieved 1257 pages: 573 archive, 410 current, 274 translation.
 
 The catalog contains 474 typed operations across 37 groups. 3 entries are unavailable because the vendor documentation does not establish usable 14.x syntax.
 
