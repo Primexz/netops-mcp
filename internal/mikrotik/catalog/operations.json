@@ -3,176 +3,176 @@
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/interface/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "8d9802f7baf944fd6ee76b214557865bda59c7f55d79a4cd98ab37fa5335afea"
+      "retrieved_at": "2026-10-26T13:18:46Z",
+      "sha256": "00864baec5978ac33c3099ad85393c6c3b46eac3fd87b0bfc544c76f1b5512a1"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/interface/bridge/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "9805cc690d190e213e180db0b02398393132c5ad6286c9c1dff21fdde6bd41fe"
+      "retrieved_at": "2026-10-26T13:18:45Z",
+      "sha256": "42791ea047d9569b1fc88743f209520821c49409b51307a9575812af536e8bf7"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/interface/bridge/port/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "a2b843bc2cd13b76a1d4e5986e3f256e7b5c76a0b8ebd40f1b22598f71f18895"
+      "retrieved_at": "2026-10-26T13:18:45Z",
+      "sha256": "7609a5c5d2390c40810bf738469866b85d4122aceffd2e8b5e44dcf1ce2a3655"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/interface/bridge/vlan/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "4c4d6ea81d888d2554aec160901925fc510cf2af98927be0e7fc1ca5e0e21a44"
+      "retrieved_at": "2026-10-26T13:18:45Z",
+      "sha256": "8efe500c64ee4ca55a8a4b03e41467c3117215bfef199ac6960b810a99b7f55e"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/interface/vlan/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "fc3fe51e476498f1d54299ee68269357886b0e37c081faae309697e8725b577e"
+      "retrieved_at": "2026-10-26T13:18:45Z",
+      "sha256": "bd9fde78a3f5446ae1bacab34fa106765565905a132712485ab81f4171f0a12e"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/address/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "512bb758079d61f58e808c895b0f84ad06dff9c73762378859fc5e846c25b250"
+      "retrieved_at": "2026-10-26T13:18:45Z",
+      "sha256": "4c7ad2bb7157a4837e28803ec9fc97268e61dcc0fa08d342dee91e88061c22e6"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/dhcp-server/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "7c67ed68355d373c0ef96b73aebe84f2cd0c43f9ac9aa3bf07069bafed3aee0a"
+      "retrieved_at": "2026-10-26T13:18:45Z",
+      "sha256": "c962a1bc5c2b4342b432011f46b948a995796dfe67b77794cb7f92139ffcce79"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/dhcp-server/lease/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "18cb4b11d3fa9d64455bcaa80d0a59dd172afed9b3d41a65ddaefccee7b0825d"
+      "retrieved_at": "2026-10-26T13:18:45Z",
+      "sha256": "f35c4de03d09dab883ddbe9e0d77248418bf54890ef873f3b8880686fedc8c26"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/dns/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "e44d69f60e65364411bb37925ebb97d5c52ceb3b678658f5dffb1478e2cff128"
+      "retrieved_at": "2026-10-26T13:18:46Z",
+      "sha256": "95c2405c452f8446d2c79e4efaad42dc850fa0bc897d89577616164fc6ad3c32"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/dns/static/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "9b7aff0e690a7c45a1f4f04d52461c31593cd81e5db1ec087d4dd0b0014d6c9e"
+      "retrieved_at": "2026-10-26T13:18:45Z",
+      "sha256": "495e3b1d54881090b1d08893c67dac10080f8b5cd10bbb524a5cf0cbf241473b"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/firewall/address-list/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "4b68c51c330d3c7d18fb28cf2ed1af570192ef24646f5aa3d9c530903805f505"
+      "retrieved_at": "2026-10-26T13:18:45Z",
+      "sha256": "3ff2c1e12de6a00b44a67c2a51a7e682bb349edefc9c3e64f73c395e9ae7e814"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/firewall/filter/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "8fde38c8d22198f37b2fdcec7fc5999ca086da353e81a58caef3e6be8e13dd0b"
+      "retrieved_at": "2026-10-26T13:18:45Z",
+      "sha256": "872ff2e5662af88342e3f4c6e54c7c7a0a47ce7a65170789f34b42461a561c27"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/firewall/mangle/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "2d880e80f801dc823ab59dfd7bd6d32ef5564fe3d573f3c7ed80316d30d09359"
+      "retrieved_at": "2026-10-26T13:18:45Z",
+      "sha256": "f97013fcf12d9c135b47572fd5d53209eb1bff403dc4e226768f04faa2f8d521"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/firewall/nat/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "8571839f0d9150c58235f9d0c28152548bff8307cbe60d7f5455a4641dde9e62"
+      "retrieved_at": "2026-10-26T13:18:46Z",
+      "sha256": "aaebf5d739033e6fe6d307345586c954777c5bd81ac3a853bd6962dd399118de"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/firewall/raw/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "0b697151173d54ee936948459bd045ed5211c175896212dce606b52f3a8ddc5c"
+      "retrieved_at": "2026-10-26T13:18:46Z",
+      "sha256": "746e498a57958d0f848812286b21233da9757f60f57f060edd5c82befb00518e"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/route/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "f25de64ea6205e4e3e7932521f757ef3b5b49bd52bbaa536e1be6459938d082b"
+      "retrieved_at": "2026-10-26T13:18:46Z",
+      "sha256": "d74dc15974e65a22018f212b06691868f2860eb57d7a686212338627c6cc00bd"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/address/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "ec2839d0e3f33b5f628ce5ec433e169a443bcc2feb4aee68e3663e97cabd5e09"
+      "retrieved_at": "2026-10-26T13:18:45Z",
+      "sha256": "14f3e264b5c76cdc9bc5b9d927d33d26ea5272282a10f33eb2b02c5a805c8cb3"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/firewall/address-list/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "197b4758087072010b891be0717189c8bb5d0d5d5f81f2edc7964676c2981108"
+      "retrieved_at": "2026-10-26T13:18:46Z",
+      "sha256": "70ff46ccc91077adf45237feef6be1fc408537295a49df8aa75caaadcd476ded"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/firewall/filter/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "c8b941ce20aab77e02de085602d73db1a2b47ce4304782cc3e45032f17c22cf7"
+      "retrieved_at": "2026-10-26T13:18:46Z",
+      "sha256": "7a94211ece0852f47305e21d417a7e12e33420024f73f3179d840ff78da7d456"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/firewall/mangle/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "1994a25e3c4282f69e347298cceaf63d719282623cb3077e79e31979cf279094"
+      "retrieved_at": "2026-10-26T13:18:46Z",
+      "sha256": "53ddc5cc473b4b44d07189cca5ce1085d29fa2b41bf5ccce4ddd3b3445e32034"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/firewall/nat/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "6f6a9ddf0b30714739794d6cbfb620cfba1d687e984b643e59d9ca7b2c27ce11"
+      "retrieved_at": "2026-10-26T13:18:46Z",
+      "sha256": "aa79b677f407437d1006b91297eb03dcc2fbe4887c816fcb40cd8733b6ec3412"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/firewall/raw/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "30faab58d11861e63ea93ca0b52876f5d2dd8c8f32c113afc7df4ca32b318b36"
+      "retrieved_at": "2026-10-26T13:18:46Z",
+      "sha256": "fc8c19a53dc35d68739cfe41a875fa7f3c4e69f07ab240eb645ddf1d7a2181b0"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/route/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "e6c2edb9f98fc443941acd12c70bfd8669cfbf2456f9395a905e98ec693bc821"
+      "retrieved_at": "2026-10-26T13:18:45Z",
+      "sha256": "8ab69938507f7c3f4d3db1f74e31a03db4b50811d173bb164bb7e103cdb11c51"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/log/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "fd6b42430372aa88935fd0f849b931c56d0742ff2529cd717ab07fc6b49db5f4"
+      "retrieved_at": "2026-10-26T13:18:46Z",
+      "sha256": "e7bbafa29adb6a53fdebf77b4a24b8ecc5593ee4c4fa27e3ffe588eccf6757cd"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/system/health/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "1f3302d6609168acb840030f2922e3edbed773920e1eba60d445677cfa77eb5d"
+      "retrieved_at": "2026-10-26T13:18:46Z",
+      "sha256": "43fb011da94473e0bb4e43fe4d1070d46d4735547950a51bd42ee6dd446d9e8e"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/system/identity/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "97ca007dfea8557942a0ad5d561a5ca9b050119392c5e666162e45221ef87159"
+      "retrieved_at": "2026-10-26T13:18:46Z",
+      "sha256": "0b0573ed1d2d7b395ee02b61342fbf41c6163857bf6678ee30822df725991bfc"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/system/package/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "a32017b7c2b966c3cc8ad2b5bdb94c535e33a0e306ffe103406369143f32e7eb"
+      "retrieved_at": "2026-10-26T13:18:46Z",
+      "sha256": "a9c91b85f414a37c3db8f1418c98cc89d1bd9f2e66c68c19cc6821429b8ab1fe"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/system/resource/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "08b05426b04eb2bf22ea90f287208451a4a73d6a47a05f5947c81ca68853156f"
+      "retrieved_at": "2026-10-26T13:18:46Z",
+      "sha256": "319ea186521c5ebbf961ee414bea40e37ff390e028a1ba26b2ef41f2669a2879"
     },
     {
       "url": "https://manual.mikrotik.com/docs/developer-guides/rest-api/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "7ccb3c9af36904e8131cfd86fb8a5dd40b42684188acba0b34e58ac377c5b359"
+      "retrieved_at": "2026-10-26T13:18:45Z",
+      "sha256": "3fabb9b174ba4737884eb1829b5d6d1fe70fa3a6d993266df8a83a73308585fc"
     }
   ],
   "operations": [
@@ -757,9 +757,9 @@
         {
           "name": "mlag-init-delay",
           "cli_type": "time",
-          "description": "RouterOS mlag-init-delay property.",
+          "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute.",
           "schema": {
-            "description": "RouterOS mlag-init-delay property. CLI type: time",
+            "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute. CLI type: time",
             "maxLength": 4096,
             "type": "string"
           }
@@ -767,7 +767,7 @@
         {
           "name": "mlag-lacp-fallback",
           "cli_type": "bool",
-          "description": "RouterOS mlag-lacp-fallback property.",
+          "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes.",
           "schema": {
             "anyOf": [
               {
@@ -783,7 +783,7 @@
                 "type": "string"
               }
             ],
-            "description": "RouterOS mlag-lacp-fallback property."
+            "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes."
           }
         },
         {
@@ -1755,9 +1755,9 @@
         {
           "name": "mlag-init-delay",
           "cli_type": "time",
-          "description": "RouterOS mlag-init-delay property.",
+          "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute.",
           "schema": {
-            "description": "RouterOS mlag-init-delay property. CLI type: time",
+            "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute. CLI type: time",
             "maxLength": 4096,
             "type": "string"
           }
@@ -1765,7 +1765,7 @@
         {
           "name": "mlag-lacp-fallback",
           "cli_type": "bool",
-          "description": "RouterOS mlag-lacp-fallback property.",
+          "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes.",
           "schema": {
             "anyOf": [
               {
@@ -1781,7 +1781,7 @@
                 "type": "string"
               }
             ],
-            "description": "RouterOS mlag-lacp-fallback property."
+            "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes."
           }
         },
         {
@@ -2753,9 +2753,9 @@
         {
           "name": "mlag-init-delay",
           "cli_type": "time",
-          "description": "RouterOS mlag-init-delay property.",
+          "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute.",
           "schema": {
-            "description": "RouterOS mlag-init-delay property. CLI type: time",
+            "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute. CLI type: time",
             "maxLength": 4096,
             "type": "string"
           }
@@ -2763,7 +2763,7 @@
         {
           "name": "mlag-lacp-fallback",
           "cli_type": "bool",
-          "description": "RouterOS mlag-lacp-fallback property.",
+          "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes.",
           "schema": {
             "anyOf": [
               {
@@ -2779,7 +2779,7 @@
                 "type": "string"
               }
             ],
-            "description": "RouterOS mlag-lacp-fallback property."
+            "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes."
           }
         },
         {
@@ -8571,9 +8571,9 @@
         {
           "name": "mlag-init-delay",
           "cli_type": "time",
-          "description": "RouterOS mlag-init-delay property.",
+          "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute.",
           "schema": {
-            "description": "RouterOS mlag-init-delay property. CLI type: time",
+            "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute. CLI type: time",
             "maxLength": 4096,
             "type": "string"
           }
@@ -8581,7 +8581,7 @@
         {
           "name": "mlag-lacp-fallback",
           "cli_type": "bool",
-          "description": "RouterOS mlag-lacp-fallback property.",
+          "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes.",
           "schema": {
             "anyOf": [
               {
@@ -8597,7 +8597,7 @@
                 "type": "string"
               }
             ],
-            "description": "RouterOS mlag-lacp-fallback property."
+            "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes."
           }
         },
         {
