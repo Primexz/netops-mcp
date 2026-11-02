@@ -2,175 +2,175 @@
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/interface/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "8d9802f7baf944fd6ee76b214557865bda59c7f55d79a4cd98ab37fa5335afea"
+    "retrieved_at": "2026-11-02T16:16:34Z",
+    "sha256": "a57c11ffc6d5f5389daf6aa1a3dbe400068005e226fa4c19df119d6619f4dbf3"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/interface/bridge/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "9805cc690d190e213e180db0b02398393132c5ad6286c9c1dff21fdde6bd41fe"
+    "retrieved_at": "2026-11-02T16:16:36Z",
+    "sha256": "b5ee376889a13c8c23ba817562ef6b95ec4d73833f6b8001616a3306077bce5e"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/interface/bridge/port/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "a2b843bc2cd13b76a1d4e5986e3f256e7b5c76a0b8ebd40f1b22598f71f18895"
+    "retrieved_at": "2026-11-02T16:16:34Z",
+    "sha256": "6ebd3ed7b32561653a411846554791e270e5ed62be4543a7d29ff642f65f3c0e"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/interface/bridge/vlan/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "4c4d6ea81d888d2554aec160901925fc510cf2af98927be0e7fc1ca5e0e21a44"
+    "retrieved_at": "2026-11-02T16:16:34Z",
+    "sha256": "1feca4f81f6e4457200a7b5e7350eeb1ca01e046ab3bf7ec813e4389556a1319"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/interface/vlan/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:39Z",
-    "sha256": "fc3fe51e476498f1d54299ee68269357886b0e37c081faae309697e8725b577e"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "413a461f0ab0f9245f50c7be36657f38640784b5684ff8a7dc31204d0a7f4a9e"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ip/address/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "512bb758079d61f58e808c895b0f84ad06dff9c73762378859fc5e846c25b250"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "7d8869ffff717dd5ed9f22781770bff2374aab7ac16ba8e8855b5e005d1a8176"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ip/dhcp-server/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "7c67ed68355d373c0ef96b73aebe84f2cd0c43f9ac9aa3bf07069bafed3aee0a"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "c96093392c93d2cb9e18536e2d32194f2a9b7f0c8fcc266a153444ac53e21b38"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ip/dhcp-server/lease/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "18cb4b11d3fa9d64455bcaa80d0a59dd172afed9b3d41a65ddaefccee7b0825d"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "6fab9eecb91a0e16f32fb768fc0f363b906039717c2eee62b2a4a330fce10bf5"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ip/dns/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "e44d69f60e65364411bb37925ebb97d5c52ceb3b678658f5dffb1478e2cff128"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "b0f8ac283b6c963da4029c02903da9372d870e1d56265d9578c865a213f5be03"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ip/dns/static/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:39Z",
-    "sha256": "9b7aff0e690a7c45a1f4f04d52461c31593cd81e5db1ec087d4dd0b0014d6c9e"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "db526fa33ffcdc9008ee95b2478084e4be9f9388a3881153738c44c8ee06426d"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ip/firewall/address-list/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "4b68c51c330d3c7d18fb28cf2ed1af570192ef24646f5aa3d9c530903805f505"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "92b3dd0a663ea82b4224531489a3112bde6c55b63e5a5c4c01799197524d7a31"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ip/firewall/filter/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "8fde38c8d22198f37b2fdcec7fc5999ca086da353e81a58caef3e6be8e13dd0b"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "13641cd6011510c47eca506c69400d1feb0fd03bda6720a9cb8bea09d05f68b6"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ip/firewall/mangle/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "2d880e80f801dc823ab59dfd7bd6d32ef5564fe3d573f3c7ed80316d30d09359"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "0f81b5eeafdaa812af1d8d46ba985b64052c94643323a91c9bb68cd8c147a6af"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ip/firewall/nat/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "8571839f0d9150c58235f9d0c28152548bff8307cbe60d7f5455a4641dde9e62"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "d4c5dd6a14b6977dbe1e0cd47c8b9ca6c06e1456637f4289d28032718789af34"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ip/firewall/raw/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "0b697151173d54ee936948459bd045ed5211c175896212dce606b52f3a8ddc5c"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "b1182e971c58b3ca17293bd1f8846171edd4cb55f3f731ff05ffa8ee49164fcc"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ip/route/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "f25de64ea6205e4e3e7932521f757ef3b5b49bd52bbaa536e1be6459938d082b"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "b04d1c26d68bf68381d584ba56770fe53a4f184277c3bbd7a7098e6ecdbc213a"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/address/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "ec2839d0e3f33b5f628ce5ec433e169a443bcc2feb4aee68e3663e97cabd5e09"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "f25b3fb3625ea8d5b0c694639d0da668ffb5951bf69f57cd6dee31c0e20c1c5a"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/firewall/address-list/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "197b4758087072010b891be0717189c8bb5d0d5d5f81f2edc7964676c2981108"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "ce50ab1d87b65130fcc649091803dcb554da949cbf269ada9d7ffa8e473b755e"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/firewall/filter/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:39Z",
-    "sha256": "c8b941ce20aab77e02de085602d73db1a2b47ce4304782cc3e45032f17c22cf7"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "0fd6b3c0ef5f7d46964fb39c6973eb3785e4aa913d269dac5eff8ceab133fe66"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/firewall/mangle/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:39Z",
-    "sha256": "1994a25e3c4282f69e347298cceaf63d719282623cb3077e79e31979cf279094"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "9380f0913b3a8bdcec91f4aeef8131ab9f791dc54267313566b1542d78ef9ee8"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/firewall/nat/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:39Z",
-    "sha256": "6f6a9ddf0b30714739794d6cbfb620cfba1d687e984b643e59d9ca7b2c27ce11"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "dd64bc8bf1deef4792744439076902b57fa5c66541626135b5a6b6718b461f83"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/firewall/raw/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:39Z",
-    "sha256": "30faab58d11861e63ea93ca0b52876f5d2dd8c8f32c113afc7df4ca32b318b36"
+    "retrieved_at": "2026-11-02T16:16:35Z",
+    "sha256": "8c4695162c1ddc3a25190d4f9867ba97506051a473384824b58fa2ae7a01eb30"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/route/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:39Z",
-    "sha256": "e6c2edb9f98fc443941acd12c70bfd8669cfbf2456f9395a905e98ec693bc821"
+    "retrieved_at": "2026-11-02T16:16:36Z",
+    "sha256": "a7451a20b94a688c8594b5da02ece2440710c75b9f5f944dd939333ba270920a"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/log/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:39Z",
-    "sha256": "fd6b42430372aa88935fd0f849b931c56d0742ff2529cd717ab07fc6b49db5f4"
+    "retrieved_at": "2026-11-02T16:16:36Z",
+    "sha256": "d0bfc706fcd248bf1e7ac0125277cbc7d03dbf2af630e498c32d779cda10564a"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/system/health/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "1f3302d6609168acb840030f2922e3edbed773920e1eba60d445677cfa77eb5d"
+    "retrieved_at": "2026-11-02T16:16:36Z",
+    "sha256": "56f029d07f2f4d10f3fcfbc2c51ede0e5278b257ebc3c4b9aff7dad3bf4340e3"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/system/identity/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "97ca007dfea8557942a0ad5d561a5ca9b050119392c5e666162e45221ef87159"
+    "retrieved_at": "2026-11-02T16:16:36Z",
+    "sha256": "01b916084bfb4872e78bcbba47bd5c094e09cf66425f4b17397ffe8c793ebdeb"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/system/package/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "a32017b7c2b966c3cc8ad2b5bdb94c535e33a0e306ffe103406369143f32e7eb"
+    "retrieved_at": "2026-11-02T16:16:36Z",
+    "sha256": "32f16ea9b4f6e906f31fa61dc5b076336287865bf10b8e04aaa66b5d370eeff5"
   },
   {
     "url": "https://manual.mikrotik.com/docs/cli-reference/system/resource/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:40Z",
-    "sha256": "08b05426b04eb2bf22ea90f287208451a4a73d6a47a05f5947c81ca68853156f"
+    "retrieved_at": "2026-11-02T16:16:36Z",
+    "sha256": "d8e946300f8e46ce20c20ff51eceeb7af6254b2007ef77e8c778129d35b07c96"
   },
   {
     "url": "https://manual.mikrotik.com/docs/developer-guides/rest-api/",
     "version": "7.26",
-    "retrieved_at": "2026-10-16T19:49:39Z",
-    "sha256": "7ccb3c9af36904e8131cfd86fb8a5dd40b42684188acba0b34e58ac377c5b359"
+    "retrieved_at": "2026-11-02T16:16:34Z",
+    "sha256": "67512e777e314ffb1eea90252b84e2f0b009c75438ff676199bd55a918443ca5"
   }
 ]
