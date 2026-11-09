@@ -3651,8 +3651,8 @@
         "required": true
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_address_delete",
     "group": "interface",
     "kind": "change",
@@ -3672,8 +3672,8 @@
     "command": "interface address get",
     "description": "Read interface address get from the selected UTM.",
     "parameters": [],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_address_get",
     "group": "interface",
     "kind": "read",
@@ -3689,8 +3689,8 @@
     "command": "interface address get_old_list",
     "description": "Read interface address get_old_list from the selected UTM.",
     "parameters": [],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_address_get_old_list",
     "group": "interface",
     "kind": "read",
@@ -3719,8 +3719,8 @@
         "required": true
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_address_new",
     "group": "interface",
     "kind": "change",
@@ -3759,8 +3759,8 @@
         "required": false
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_address_set",
     "group": "interface",
     "kind": "change",
@@ -3787,8 +3787,8 @@
         "required": true
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_delete",
     "group": "interface",
     "kind": "change",
@@ -3808,8 +3808,8 @@
     "command": "interface get",
     "description": "Read interface get from the selected UTM.",
     "parameters": [],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_get",
     "group": "interface",
     "kind": "read",
@@ -3832,8 +3832,8 @@
         "required": false
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_bearer_delete",
     "group": "interface",
     "kind": "change",
@@ -3853,8 +3853,8 @@
     "command": "interface mobile bearer get",
     "description": "Read interface mobile bearer get from the selected UTM.",
     "parameters": [],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_bearer_get",
     "group": "interface",
     "kind": "read",
@@ -3931,8 +3931,8 @@
         "required": false
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_bearer_new",
     "group": "interface",
     "kind": "change",
@@ -4019,8 +4019,8 @@
         "required": false
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_bearer_set",
     "group": "interface",
     "kind": "change",
@@ -4047,8 +4047,8 @@
         "required": false
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_modem_delete",
     "group": "interface",
     "kind": "change",
@@ -4076,8 +4076,8 @@
         "positional": true
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_modem_disable",
     "group": "interface",
     "kind": "change",
@@ -4105,8 +4105,8 @@
         "positional": true
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_modem_enable",
     "group": "interface",
     "kind": "change",
@@ -4126,8 +4126,8 @@
     "command": "interface mobile modem get",
     "description": "Read interface mobile modem get from the selected UTM.",
     "parameters": [],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_modem_get",
     "group": "interface",
     "kind": "read",
@@ -4168,8 +4168,8 @@
         "description": "Securepoint CLI parameter equipmentid."
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_modem_new",
     "group": "interface",
     "kind": "change",
@@ -4220,8 +4220,8 @@
         "description": "Securepoint CLI parameter equipmentid."
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_modem_set",
     "group": "interface",
     "kind": "change",
@@ -4260,8 +4260,8 @@
         "required": false
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_sim_change",
     "group": "interface",
     "kind": "change",
@@ -4294,8 +4294,8 @@
         "required": false
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_sim_disable",
     "group": "interface",
     "kind": "change",
@@ -4328,8 +4328,8 @@
         "required": false
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_sim_enable",
     "group": "interface",
     "kind": "change",
@@ -4362,8 +4362,8 @@
         "required": false
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_sim_sendpin",
     "group": "interface",
     "kind": "change",
@@ -4402,8 +4402,8 @@
         "required": false
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_sim_sendpuk",
     "group": "interface",
     "kind": "change",
@@ -4423,8 +4423,8 @@
     "command": "interface mobile status",
     "description": "Read interface mobile status from the selected UTM.",
     "parameters": [],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_mobile_status",
     "group": "interface",
     "kind": "read",
@@ -4440,8 +4440,8 @@
     "command": "interface neighbor get",
     "description": "Read interface neighbor get from the selected UTM.",
     "parameters": [],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_neighbor_get",
     "group": "interface",
     "kind": "read",
@@ -4500,8 +4500,8 @@
         "required": false
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_new",
     "group": "interface",
     "kind": "change",
@@ -4534,8 +4534,8 @@
         "required": true
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_rename",
     "group": "interface",
     "kind": "change",
@@ -4592,8 +4592,8 @@
         "description": "Securepoint CLI parameter qos."
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_set",
     "group": "interface",
     "kind": "change",
@@ -4620,8 +4620,8 @@
         "required": true
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_zone_delete",
     "group": "interface",
     "kind": "change",
@@ -4641,8 +4641,8 @@
     "command": "interface zone get",
     "description": "Read interface zone get from the selected UTM.",
     "parameters": [],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_zone_get",
     "group": "interface",
     "kind": "read",
@@ -4665,8 +4665,8 @@
         "required": true
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_zone_new",
     "group": "interface",
     "kind": "change",
@@ -4711,8 +4711,8 @@
         "required": false
       }
     ],
-    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=115132",
-    "revision": 115132,
+    "source": "https://wiki.securepoint.de/index.php?title=UTM%2FCLI%2FInterface&oldid=116599",
+    "revision": 116599,
     "id": "utm_interface_zone_set",
     "group": "interface",
     "kind": "change",
