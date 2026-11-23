@@ -3,176 +3,176 @@
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/interface/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "8d9802f7baf944fd6ee76b214557865bda59c7f55d79a4cd98ab37fa5335afea"
+      "retrieved_at": "2026-11-23T18:28:31Z",
+      "sha256": "a89d8d527215e4381ebd362d3986494737eba4f4eb99888f1264b7fc7b93b000"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/interface/bridge/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "9805cc690d190e213e180db0b02398393132c5ad6286c9c1dff21fdde6bd41fe"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "f03a2be914f45d722fa701e1e006bb1342ff06d16c961ce23553d1adac409546"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/interface/bridge/port/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "a2b843bc2cd13b76a1d4e5986e3f256e7b5c76a0b8ebd40f1b22598f71f18895"
+      "retrieved_at": "2026-11-23T18:28:31Z",
+      "sha256": "2e922797813db277a06522128d8332bb1d113e58ac05cedfdf888ccf7f12db95"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/interface/bridge/vlan/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "4c4d6ea81d888d2554aec160901925fc510cf2af98927be0e7fc1ca5e0e21a44"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "1ccd50d9e507436adcb57b51370f03e1c75637239d1c52b3c3744173fd10f749"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/interface/vlan/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "fc3fe51e476498f1d54299ee68269357886b0e37c081faae309697e8725b577e"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "e9393785a961b5937e29614664a9f04592f71310ddc6ed5b60029be60fc9668c"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/address/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "512bb758079d61f58e808c895b0f84ad06dff9c73762378859fc5e846c25b250"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "c69c1d66e80ee245e82378b086bd4469369ff2f3684dba3a752c6ad8f09dd9b9"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/dhcp-server/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "7c67ed68355d373c0ef96b73aebe84f2cd0c43f9ac9aa3bf07069bafed3aee0a"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "eb1b2eefde959f8c5f961f61f3797345100f692096fbc1ef269f5f141e492d74"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/dhcp-server/lease/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "18cb4b11d3fa9d64455bcaa80d0a59dd172afed9b3d41a65ddaefccee7b0825d"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "ea6d436a5f2ac9f5df6fecc8013d3c1eca6bf69f76300a4dab653b7f3a2d59d7"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/dns/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "e44d69f60e65364411bb37925ebb97d5c52ceb3b678658f5dffb1478e2cff128"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "73beaa3d1c93b957ae92c34d5a97388bb0d821f55769f2d60f180525f4651df4"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/dns/static/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "9b7aff0e690a7c45a1f4f04d52461c31593cd81e5db1ec087d4dd0b0014d6c9e"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "3b3c4353fe11cd15a9e978b513529c5f4c4b6a8495854b1c600112eaedab251e"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/firewall/address-list/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "4b68c51c330d3c7d18fb28cf2ed1af570192ef24646f5aa3d9c530903805f505"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "5d3024af135579a98f221fc3f7fde88c21b013cc13f2bf0e9bbefc4681228c42"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/firewall/filter/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "8fde38c8d22198f37b2fdcec7fc5999ca086da353e81a58caef3e6be8e13dd0b"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "f24f44ff4d88d1333418863cd0205f1de00c5796bf317d39b1aae4f695ec0254"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/firewall/mangle/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "2d880e80f801dc823ab59dfd7bd6d32ef5564fe3d573f3c7ed80316d30d09359"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "1049e5b188db696f5f331d94aa0149bf04d331d12bbdbce3afab15972e4de314"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/firewall/nat/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "8571839f0d9150c58235f9d0c28152548bff8307cbe60d7f5455a4641dde9e62"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "c2a9024da87202a27c3ed223b5f4049f2c0405170ce0ec332b4bf61fbf025e00"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/firewall/raw/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "0b697151173d54ee936948459bd045ed5211c175896212dce606b52f3a8ddc5c"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "46f7d82ebb0b22a436245493fe471e2a482088ccbf3fc55eb1d05f16a1f6c9a6"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ip/route/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "f25de64ea6205e4e3e7932521f757ef3b5b49bd52bbaa536e1be6459938d082b"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "4d91e7957e361ef7987ab98287a14679b9d592831981eccb06d921b5b11e2de0"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/address/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "ec2839d0e3f33b5f628ce5ec433e169a443bcc2feb4aee68e3663e97cabd5e09"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "9b7eba5fd7de14e5df504c73991ea4d3ec737759d481d828041ade471d1cb65c"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/firewall/address-list/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "197b4758087072010b891be0717189c8bb5d0d5d5f81f2edc7964676c2981108"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "76c96e909b8ecb8757d51f0b59a171a6642b66566ff3dbea361f632c0c2664e0"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/firewall/filter/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "c8b941ce20aab77e02de085602d73db1a2b47ce4304782cc3e45032f17c22cf7"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "fe395bb4cc7d18f4df7df10fd8d72d4b11397bd316ff090cde7c29e6cc4700c4"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/firewall/mangle/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "1994a25e3c4282f69e347298cceaf63d719282623cb3077e79e31979cf279094"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "2b39166fc9dc219e7535c6b2f395c232312e83f17de9792239f3f4e746695602"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/firewall/nat/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "6f6a9ddf0b30714739794d6cbfb620cfba1d687e984b643e59d9ca7b2c27ce11"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "8f1eaf34bd027ec1a10d5c0a28a29482c8fea9425aa9ee57cbb31ce3fe7dd050"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/firewall/raw/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "30faab58d11861e63ea93ca0b52876f5d2dd8c8f32c113afc7df4ca32b318b36"
+      "retrieved_at": "2026-11-23T18:28:33Z",
+      "sha256": "677a60439d1f3fc05e89f34976e1fc192aa5cc5474a3769f3ff754e6ffe16097"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/ipv6/route/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "e6c2edb9f98fc443941acd12c70bfd8669cfbf2456f9395a905e98ec693bc821"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "5ee86fd6c5ab9695f53728b3a42092e0f9a689a0a114a94ae12e86aca45616d7"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/log/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "fd6b42430372aa88935fd0f849b931c56d0742ff2529cd717ab07fc6b49db5f4"
+      "retrieved_at": "2026-11-23T18:28:33Z",
+      "sha256": "c60e62d03c2477d892c58c00430cd0686913c4c77ff4a2abb874ec1bfd55ec26"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/system/health/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "1f3302d6609168acb840030f2922e3edbed773920e1eba60d445677cfa77eb5d"
+      "retrieved_at": "2026-11-23T18:28:33Z",
+      "sha256": "c75f39477b428c7404fa3767957eed2bd4619bc8b140db9bcfeba874c929f252"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/system/identity/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "97ca007dfea8557942a0ad5d561a5ca9b050119392c5e666162e45221ef87159"
+      "retrieved_at": "2026-11-23T18:28:33Z",
+      "sha256": "871d96fd4dd31fc067164f01dfe2fb66495173dec2767e0e2152e090fd414bed"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/system/package/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "a32017b7c2b966c3cc8ad2b5bdb94c535e33a0e306ffe103406369143f32e7eb"
+      "retrieved_at": "2026-11-23T18:28:33Z",
+      "sha256": "2754d5aafecbc89b09532262eba224852ffb9667483c8d15cf3872c4be0c9b6a"
     },
     {
       "url": "https://manual.mikrotik.com/docs/cli-reference/system/resource/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:40Z",
-      "sha256": "08b05426b04eb2bf22ea90f287208451a4a73d6a47a05f5947c81ca68853156f"
+      "retrieved_at": "2026-11-23T18:28:33Z",
+      "sha256": "083398951d3505745105ef6dddc53a8d2ce5077edc7a2b7ad248725226db20a8"
     },
     {
       "url": "https://manual.mikrotik.com/docs/developer-guides/rest-api/",
       "version": "7.26",
-      "retrieved_at": "2026-10-16T19:49:39Z",
-      "sha256": "7ccb3c9af36904e8131cfd86fb8a5dd40b42684188acba0b34e58ac377c5b359"
+      "retrieved_at": "2026-11-23T18:28:32Z",
+      "sha256": "3b3bcb0d873e4881f39546c687685e0cd512f04734dc7ecf6c5697c90fb7f6eb"
     }
   ],
   "operations": [
@@ -353,11 +353,26 @@
           }
         },
         {
+          "name": "dhcp-snooping-option82-policy",
+          "cli_type": "enum (drop | keep | replace)",
+          "description": "Action for DHCP client messages that arrive on an untrusted bridge port with Option 82 already present: drop discards the message, keep forwards it with the original option, replace overwrites the option with the values set in dhcp-agent-circuit-id and dhcp-agent-remote-id . Messages received on trusted ports are always forwarded unchanged. The replace policy requires at least one of the agent ID properties to be configured. Default: drop. This property only has an effect when dhcp-snooping is set to yes .",
+          "schema": {
+            "description": "Action for DHCP client messages that arrive on an untrusted bridge port with Option 82 already present: drop discards the message, keep forwards it with the original option, replace overwrites the option with the values set in dhcp-agent-circuit-id and dhcp-agent-remote-id . Messages received on trusted ports are always forwarded unchanged. The replace policy requires at least one of the agent ID properties to be configured. Default: drop. This property only has an effect when dhcp-snooping is set to yes . CLI type: enum (drop | keep | replace)",
+            "enum": [
+              "drop",
+              "keep",
+              "replace"
+            ],
+            "maxLength": 4096,
+            "type": "string"
+          }
+        },
+        {
           "name": "dhcp-snooping-vlan-ids",
           "cli_type": "multi { vlan-id-range: range [1 .. 4094] }",
-          "description": "RouterOS dhcp-snooping-vlan-ids property.",
+          "description": "VLAN IDs on which DHCP snooping is applied. VLANs outside the list are forwarded without snooping. By default, all VLANs are snooped. This property only has an effect when dhcp-snooping and vlan-filtering are set to yes .",
           "schema": {
-            "description": "RouterOS dhcp-snooping-vlan-ids property. CLI type: multi { vlan-id-range: range [1 .. 4094] }",
+            "description": "VLAN IDs on which DHCP snooping is applied. VLANs outside the list are forwarded without snooping. By default, all VLANs are snooped. This property only has an effect when dhcp-snooping and vlan-filtering are set to yes . CLI type: multi { vlan-id-range: range [1 .. 4094] }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -757,9 +772,9 @@
         {
           "name": "mlag-init-delay",
           "cli_type": "time",
-          "description": "RouterOS mlag-init-delay property.",
+          "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute.",
           "schema": {
-            "description": "RouterOS mlag-init-delay property. CLI type: time",
+            "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute. CLI type: time",
             "maxLength": 4096,
             "type": "string"
           }
@@ -767,7 +782,7 @@
         {
           "name": "mlag-lacp-fallback",
           "cli_type": "bool",
-          "description": "RouterOS mlag-lacp-fallback property.",
+          "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes.",
           "schema": {
             "anyOf": [
               {
@@ -783,7 +798,7 @@
                 "type": "string"
               }
             ],
-            "description": "RouterOS mlag-lacp-fallback property."
+            "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes."
           }
         },
         {
@@ -1351,11 +1366,26 @@
           }
         },
         {
+          "name": "dhcp-snooping-option82-policy",
+          "cli_type": "enum (drop | keep | replace)",
+          "description": "Action for DHCP client messages that arrive on an untrusted bridge port with Option 82 already present: drop discards the message, keep forwards it with the original option, replace overwrites the option with the values set in dhcp-agent-circuit-id and dhcp-agent-remote-id . Messages received on trusted ports are always forwarded unchanged. The replace policy requires at least one of the agent ID properties to be configured. Default: drop. This property only has an effect when dhcp-snooping is set to yes .",
+          "schema": {
+            "description": "Action for DHCP client messages that arrive on an untrusted bridge port with Option 82 already present: drop discards the message, keep forwards it with the original option, replace overwrites the option with the values set in dhcp-agent-circuit-id and dhcp-agent-remote-id . Messages received on trusted ports are always forwarded unchanged. The replace policy requires at least one of the agent ID properties to be configured. Default: drop. This property only has an effect when dhcp-snooping is set to yes . CLI type: enum (drop | keep | replace)",
+            "enum": [
+              "drop",
+              "keep",
+              "replace"
+            ],
+            "maxLength": 4096,
+            "type": "string"
+          }
+        },
+        {
           "name": "dhcp-snooping-vlan-ids",
           "cli_type": "multi { vlan-id-range: range [1 .. 4094] }",
-          "description": "RouterOS dhcp-snooping-vlan-ids property.",
+          "description": "VLAN IDs on which DHCP snooping is applied. VLANs outside the list are forwarded without snooping. By default, all VLANs are snooped. This property only has an effect when dhcp-snooping and vlan-filtering are set to yes .",
           "schema": {
-            "description": "RouterOS dhcp-snooping-vlan-ids property. CLI type: multi { vlan-id-range: range [1 .. 4094] }",
+            "description": "VLAN IDs on which DHCP snooping is applied. VLANs outside the list are forwarded without snooping. By default, all VLANs are snooped. This property only has an effect when dhcp-snooping and vlan-filtering are set to yes . CLI type: multi { vlan-id-range: range [1 .. 4094] }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -1755,9 +1785,9 @@
         {
           "name": "mlag-init-delay",
           "cli_type": "time",
-          "description": "RouterOS mlag-init-delay property.",
+          "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute.",
           "schema": {
-            "description": "RouterOS mlag-init-delay property. CLI type: time",
+            "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute. CLI type: time",
             "maxLength": 4096,
             "type": "string"
           }
@@ -1765,7 +1795,7 @@
         {
           "name": "mlag-lacp-fallback",
           "cli_type": "bool",
-          "description": "RouterOS mlag-lacp-fallback property.",
+          "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes.",
           "schema": {
             "anyOf": [
               {
@@ -1781,7 +1811,7 @@
                 "type": "string"
               }
             ],
-            "description": "RouterOS mlag-lacp-fallback property."
+            "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes."
           }
         },
         {
@@ -2349,11 +2379,26 @@
           }
         },
         {
+          "name": "dhcp-snooping-option82-policy",
+          "cli_type": "enum (drop | keep | replace)",
+          "description": "Action for DHCP client messages that arrive on an untrusted bridge port with Option 82 already present: drop discards the message, keep forwards it with the original option, replace overwrites the option with the values set in dhcp-agent-circuit-id and dhcp-agent-remote-id . Messages received on trusted ports are always forwarded unchanged. The replace policy requires at least one of the agent ID properties to be configured. Default: drop. This property only has an effect when dhcp-snooping is set to yes .",
+          "schema": {
+            "description": "Action for DHCP client messages that arrive on an untrusted bridge port with Option 82 already present: drop discards the message, keep forwards it with the original option, replace overwrites the option with the values set in dhcp-agent-circuit-id and dhcp-agent-remote-id . Messages received on trusted ports are always forwarded unchanged. The replace policy requires at least one of the agent ID properties to be configured. Default: drop. This property only has an effect when dhcp-snooping is set to yes . CLI type: enum (drop | keep | replace)",
+            "enum": [
+              "drop",
+              "keep",
+              "replace"
+            ],
+            "maxLength": 4096,
+            "type": "string"
+          }
+        },
+        {
           "name": "dhcp-snooping-vlan-ids",
           "cli_type": "multi { vlan-id-range: range [1 .. 4094] }",
-          "description": "RouterOS dhcp-snooping-vlan-ids property.",
+          "description": "VLAN IDs on which DHCP snooping is applied. VLANs outside the list are forwarded without snooping. By default, all VLANs are snooped. This property only has an effect when dhcp-snooping and vlan-filtering are set to yes .",
           "schema": {
-            "description": "RouterOS dhcp-snooping-vlan-ids property. CLI type: multi { vlan-id-range: range [1 .. 4094] }",
+            "description": "VLAN IDs on which DHCP snooping is applied. VLANs outside the list are forwarded without snooping. By default, all VLANs are snooped. This property only has an effect when dhcp-snooping and vlan-filtering are set to yes . CLI type: multi { vlan-id-range: range [1 .. 4094] }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -2753,9 +2798,9 @@
         {
           "name": "mlag-init-delay",
           "cli_type": "time",
-          "description": "RouterOS mlag-init-delay property.",
+          "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute.",
           "schema": {
-            "description": "RouterOS mlag-init-delay property. CLI type: time",
+            "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute. CLI type: time",
             "maxLength": 4096,
             "type": "string"
           }
@@ -2763,7 +2808,7 @@
         {
           "name": "mlag-lacp-fallback",
           "cli_type": "bool",
-          "description": "RouterOS mlag-lacp-fallback property.",
+          "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes.",
           "schema": {
             "anyOf": [
               {
@@ -2779,7 +2824,7 @@
                 "type": "string"
               }
             ],
-            "description": "RouterOS mlag-lacp-fallback property."
+            "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes."
           }
         },
         {
@@ -3604,6 +3649,27 @@
           }
         },
         {
+          "name": "host-moves",
+          "cli_type": "num",
+          "description": "RouterOS host-moves property.",
+          "read_only": true,
+          "schema": {
+            "anyOf": [
+              {
+                "maximum": 9007199254740991,
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "description": "RouterOS numeric syntax.",
+                "maxLength": 4096,
+                "type": "string"
+              }
+            ],
+            "description": "RouterOS host-moves property. CLI type: num"
+          }
+        },
+        {
           "name": "hw",
           "cli_type": "bool",
           "description": "RouterOS hw property.",
@@ -4255,6 +4321,28 @@
               }
             ],
             "description": "RouterOS trusted-dhcpv6 property."
+          }
+        },
+        {
+          "name": "trusted-ipsg",
+          "cli_type": "bool",
+          "description": "RouterOS trusted-ipsg property.",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "enum": [
+                  "true",
+                  "false",
+                  "yes",
+                  "no"
+                ],
+                "type": "string"
+              }
+            ],
+            "description": "RouterOS trusted-ipsg property."
           }
         },
         {
@@ -4809,6 +4897,27 @@
           }
         },
         {
+          "name": "host-moves",
+          "cli_type": "num",
+          "description": "RouterOS host-moves property.",
+          "read_only": true,
+          "schema": {
+            "anyOf": [
+              {
+                "maximum": 9007199254740991,
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "description": "RouterOS numeric syntax.",
+                "maxLength": 4096,
+                "type": "string"
+              }
+            ],
+            "description": "RouterOS host-moves property. CLI type: num"
+          }
+        },
+        {
           "name": "hw",
           "cli_type": "bool",
           "description": "RouterOS hw property.",
@@ -5460,6 +5569,28 @@
               }
             ],
             "description": "RouterOS trusted-dhcpv6 property."
+          }
+        },
+        {
+          "name": "trusted-ipsg",
+          "cli_type": "bool",
+          "description": "RouterOS trusted-ipsg property.",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "enum": [
+                  "true",
+                  "false",
+                  "yes",
+                  "no"
+                ],
+                "type": "string"
+              }
+            ],
+            "description": "RouterOS trusted-ipsg property."
           }
         },
         {
@@ -6014,6 +6145,27 @@
           }
         },
         {
+          "name": "host-moves",
+          "cli_type": "num",
+          "description": "RouterOS host-moves property.",
+          "read_only": true,
+          "schema": {
+            "anyOf": [
+              {
+                "maximum": 9007199254740991,
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "description": "RouterOS numeric syntax.",
+                "maxLength": 4096,
+                "type": "string"
+              }
+            ],
+            "description": "RouterOS host-moves property. CLI type: num"
+          }
+        },
+        {
           "name": "hw",
           "cli_type": "bool",
           "description": "RouterOS hw property.",
@@ -6665,6 +6817,28 @@
               }
             ],
             "description": "RouterOS trusted-dhcpv6 property."
+          }
+        },
+        {
+          "name": "trusted-ipsg",
+          "cli_type": "bool",
+          "description": "RouterOS trusted-ipsg property.",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "enum": [
+                  "true",
+                  "false",
+                  "yes",
+                  "no"
+                ],
+                "type": "string"
+              }
+            ],
+            "description": "RouterOS trusted-ipsg property."
           }
         },
         {
@@ -7219,6 +7393,27 @@
           }
         },
         {
+          "name": "host-moves",
+          "cli_type": "num",
+          "description": "RouterOS host-moves property.",
+          "read_only": true,
+          "schema": {
+            "anyOf": [
+              {
+                "maximum": 9007199254740991,
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "description": "RouterOS numeric syntax.",
+                "maxLength": 4096,
+                "type": "string"
+              }
+            ],
+            "description": "RouterOS host-moves property. CLI type: num"
+          }
+        },
+        {
           "name": "hw",
           "cli_type": "bool",
           "description": "RouterOS hw property.",
@@ -7873,6 +8068,28 @@
           }
         },
         {
+          "name": "trusted-ipsg",
+          "cli_type": "bool",
+          "description": "RouterOS trusted-ipsg property.",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "enum": [
+                  "true",
+                  "false",
+                  "yes",
+                  "no"
+                ],
+                "type": "string"
+              }
+            ],
+            "description": "RouterOS trusted-ipsg property."
+          }
+        },
+        {
           "name": "trusted-ra",
           "cli_type": "bool",
           "description": "RouterOS trusted-ra property.",
@@ -8167,11 +8384,26 @@
           }
         },
         {
+          "name": "dhcp-snooping-option82-policy",
+          "cli_type": "enum (drop | keep | replace)",
+          "description": "Action for DHCP client messages that arrive on an untrusted bridge port with Option 82 already present: drop discards the message, keep forwards it with the original option, replace overwrites the option with the values set in dhcp-agent-circuit-id and dhcp-agent-remote-id . Messages received on trusted ports are always forwarded unchanged. The replace policy requires at least one of the agent ID properties to be configured. Default: drop. This property only has an effect when dhcp-snooping is set to yes .",
+          "schema": {
+            "description": "Action for DHCP client messages that arrive on an untrusted bridge port with Option 82 already present: drop discards the message, keep forwards it with the original option, replace overwrites the option with the values set in dhcp-agent-circuit-id and dhcp-agent-remote-id . Messages received on trusted ports are always forwarded unchanged. The replace policy requires at least one of the agent ID properties to be configured. Default: drop. This property only has an effect when dhcp-snooping is set to yes . CLI type: enum (drop | keep | replace)",
+            "enum": [
+              "drop",
+              "keep",
+              "replace"
+            ],
+            "maxLength": 4096,
+            "type": "string"
+          }
+        },
+        {
           "name": "dhcp-snooping-vlan-ids",
           "cli_type": "multi { vlan-id-range: range [1 .. 4094] }",
-          "description": "RouterOS dhcp-snooping-vlan-ids property.",
+          "description": "VLAN IDs on which DHCP snooping is applied. VLANs outside the list are forwarded without snooping. By default, all VLANs are snooped. This property only has an effect when dhcp-snooping and vlan-filtering are set to yes .",
           "schema": {
-            "description": "RouterOS dhcp-snooping-vlan-ids property. CLI type: multi { vlan-id-range: range [1 .. 4094] }",
+            "description": "VLAN IDs on which DHCP snooping is applied. VLANs outside the list are forwarded without snooping. By default, all VLANs are snooped. This property only has an effect when dhcp-snooping and vlan-filtering are set to yes . CLI type: multi { vlan-id-range: range [1 .. 4094] }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -8571,9 +8803,9 @@
         {
           "name": "mlag-init-delay",
           "cli_type": "time",
-          "description": "RouterOS mlag-init-delay property.",
+          "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute.",
           "schema": {
-            "description": "RouterOS mlag-init-delay property. CLI type: time",
+            "description": "After the device reboots, keep the slave interfaces of dual-connected (MLAG) bonds out of the LACP bond for the specified time, or until the MLAG peers synchronize their system IDs, whichever happens first. Set the delay longer than the time the device needs to boot and reconnect to the MLAG peer. This prevents the bond from activating with a locally generated system ID before the MLAG system ID is synchronized, which would otherwise reset the LACP session on the partner. Default: 1 minute. CLI type: time",
             "maxLength": 4096,
             "type": "string"
           }
@@ -8581,7 +8813,7 @@
         {
           "name": "mlag-lacp-fallback",
           "cli_type": "bool",
-          "description": "RouterOS mlag-lacp-fallback property.",
+          "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes.",
           "schema": {
             "anyOf": [
               {
@@ -8597,7 +8829,7 @@
                 "type": "string"
               }
             ],
-            "description": "RouterOS mlag-lacp-fallback property."
+            "description": "Specify what happens to the LACP system ID of dual-connected (MLAG) bonds when the MLAG peer link is lost. When set to yes , the bond reverts to its own LACP system ID. When set to no , the bond keeps the MLAG system ID, which prevents the LACP partner from renegotiating the bond when one MLAG node reboots or its peer link fails. Default: yes."
           }
         },
         {
@@ -11038,7 +11270,7 @@
         {
           "name": "arp-accept",
           "cli_type": "bool",
-          "description": "RouterOS arp-accept property.",
+          "description": "Whether to accept gratuitous ARP replies.",
           "schema": {
             "anyOf": [
               {
@@ -11054,7 +11286,7 @@
                 "type": "string"
               }
             ],
-            "description": "RouterOS arp-accept property."
+            "description": "Whether to accept gratuitous ARP replies."
           }
         },
         {
@@ -11423,7 +11655,7 @@
         {
           "name": "arp-accept",
           "cli_type": "bool",
-          "description": "RouterOS arp-accept property.",
+          "description": "Whether to accept gratuitous ARP replies.",
           "schema": {
             "anyOf": [
               {
@@ -11439,7 +11671,7 @@
                 "type": "string"
               }
             ],
-            "description": "RouterOS arp-accept property."
+            "description": "Whether to accept gratuitous ARP replies."
           }
         },
         {
@@ -11808,7 +12040,7 @@
         {
           "name": "arp-accept",
           "cli_type": "bool",
-          "description": "RouterOS arp-accept property.",
+          "description": "Whether to accept gratuitous ARP replies.",
           "schema": {
             "anyOf": [
               {
@@ -11824,7 +12056,7 @@
                 "type": "string"
               }
             ],
-            "description": "RouterOS arp-accept property."
+            "description": "Whether to accept gratuitous ARP replies."
           }
         },
         {
@@ -12193,7 +12425,7 @@
         {
           "name": "arp-accept",
           "cli_type": "bool",
-          "description": "RouterOS arp-accept property.",
+          "description": "Whether to accept gratuitous ARP replies.",
           "schema": {
             "anyOf": [
               {
@@ -12209,7 +12441,7 @@
                 "type": "string"
               }
             ],
-            "description": "RouterOS arp-accept property."
+            "description": "Whether to accept gratuitous ARP replies."
           }
         },
         {
@@ -13484,9 +13716,9 @@
         {
           "name": "address-lists",
           "cli_type": "multi { array-id, address-list: string }",
-          "description": "Firewall address lists to which the address of the lease is added while the lease is bound.",
+          "description": "Firewall address lists to which the address of the lease is added while the lease is bound. When set, these lists override the address-lists of the DHCP server for this lease: only the lists of the lease are used.",
           "schema": {
-            "description": "Firewall address lists to which the address of the lease is added while the lease is bound. CLI type: multi { array-id, address-list: string }",
+            "description": "Firewall address lists to which the address of the lease is added while the lease is bound. When set, these lists override the address-lists of the DHCP server for this lease: only the lists of the lease are used. CLI type: multi { array-id, address-list: string }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -14054,9 +14286,9 @@
         {
           "name": "address-lists",
           "cli_type": "multi { array-id, address-list: string }",
-          "description": "Firewall address lists to which the address of the lease is added while the lease is bound.",
+          "description": "Firewall address lists to which the address of the lease is added while the lease is bound. When set, these lists override the address-lists of the DHCP server for this lease: only the lists of the lease are used.",
           "schema": {
-            "description": "Firewall address lists to which the address of the lease is added while the lease is bound. CLI type: multi { array-id, address-list: string }",
+            "description": "Firewall address lists to which the address of the lease is added while the lease is bound. When set, these lists override the address-lists of the DHCP server for this lease: only the lists of the lease are used. CLI type: multi { array-id, address-list: string }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -14624,9 +14856,9 @@
         {
           "name": "address-lists",
           "cli_type": "multi { array-id, address-list: string }",
-          "description": "Firewall address lists to which the address of the lease is added while the lease is bound.",
+          "description": "Firewall address lists to which the address of the lease is added while the lease is bound. When set, these lists override the address-lists of the DHCP server for this lease: only the lists of the lease are used.",
           "schema": {
-            "description": "Firewall address lists to which the address of the lease is added while the lease is bound. CLI type: multi { array-id, address-list: string }",
+            "description": "Firewall address lists to which the address of the lease is added while the lease is bound. When set, these lists override the address-lists of the DHCP server for this lease: only the lists of the lease are used. CLI type: multi { array-id, address-list: string }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -15194,9 +15426,9 @@
         {
           "name": "address-lists",
           "cli_type": "multi { array-id, address-list: string }",
-          "description": "Firewall address lists to which the address of the lease is added while the lease is bound.",
+          "description": "Firewall address lists to which the address of the lease is added while the lease is bound. When set, these lists override the address-lists of the DHCP server for this lease: only the lists of the lease are used.",
           "schema": {
-            "description": "Firewall address lists to which the address of the lease is added while the lease is bound. CLI type: multi { array-id, address-list: string }",
+            "description": "Firewall address lists to which the address of the lease is added while the lease is bound. When set, these lists override the address-lists of the DHCP server for this lease: only the lists of the lease are used. CLI type: multi { array-id, address-list: string }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -15718,9 +15950,9 @@
         {
           "name": "address-lists",
           "cli_type": "multi { array-id, address-list: string }",
-          "description": "Firewall address lists to which the address of each bound lease is added as a dynamic entry. The entry is removed when the lease ends.",
+          "description": "Firewall address lists to which the address of each bound lease is added as a dynamic entry. The entry is removed when the lease ends. The address-lists of a static lease override these lists for that lease.",
           "schema": {
-            "description": "Firewall address lists to which the address of each bound lease is added as a dynamic entry. The entry is removed when the lease ends. CLI type: multi { array-id, address-list: string }",
+            "description": "Firewall address lists to which the address of each bound lease is added as a dynamic entry. The entry is removed when the lease ends. The address-lists of a static lease override these lists for that lease. CLI type: multi { array-id, address-list: string }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -18716,7 +18948,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -19460,7 +19692,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -20204,7 +20436,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -20948,7 +21180,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -21692,7 +21924,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -22436,7 +22668,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -23300,7 +23532,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -24164,7 +24396,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -25028,7 +25260,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -25892,7 +26124,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -26736,7 +26968,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -27502,7 +27734,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -28268,7 +28500,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -29034,7 +29266,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -29800,7 +30032,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -30372,10 +30604,10 @@
         {
           "name": "action",
           "cli_type": "enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
-          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send a packet to connection tracking. Useful when you still need to use regular firewall, but do not require connection tracking.",
+          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules.",
           "required": true,
           "schema": {
-            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send a packet to connection tracking. Useful when you still need to use regular firewall, but do not require connection tracking. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
+            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -30516,7 +30748,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -30539,9 +30771,9 @@
         {
           "name": "fragment",
           "cli_type": "super { fragment: bool }",
-          "description": "Matches fragmented packets. The first (starting) fragment does not count. If connection tracking is enabled there will be no fragments as the system automatically assembles every packet. IPv4 only.",
+          "description": "Matches fragmented packets. The first (starting) fragment does not count. Packets are not assembled before the RAW rules run, so fragments are visible also when connection tracking is enabled; packets that bypass connection tracking with notrack stay fragmented. IPv4 only.",
           "schema": {
-            "description": "Matches fragmented packets. The first (starting) fragment does not count. If connection tracking is enabled there will be no fragments as the system automatically assembles every packet. IPv4 only. CLI type: super { fragment: bool }",
+            "description": "Matches fragmented packets. The first (starting) fragment does not count. Packets are not assembled before the RAW rules run, so fragments are visible also when connection tracking is enabled; packets that bypass connection tracking with notrack stay fragmented. IPv4 only. CLI type: super { fragment: bool }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -30589,9 +30821,9 @@
         {
           "name": "in-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet has entered the router.",
+          "description": "Interface the packet has entered the router. Not valid in the output chain.",
           "schema": {
-            "description": "Interface the packet has entered the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet has entered the router. Not valid in the output chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -30619,9 +30851,9 @@
         {
           "name": "ipsec-policy",
           "cli_type": "super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
-          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
+          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
           "schema": {
-            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
+            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -30721,9 +30953,9 @@
         {
           "name": "out-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet is leaving the router.",
+          "description": "Interface the packet is leaving the router. Not valid in the prerouting chain.",
           "schema": {
-            "description": "Interface the packet is leaving the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet is leaving the router. Not valid in the prerouting chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -30921,9 +31153,9 @@
         {
           "name": "tos",
           "cli_type": "super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
-          "description": "RouterOS tos property.",
+          "description": "Matches the Type of Service (ToS) field of the IP header. An optional mask selects the bits to compare, in the format value/mask .",
           "schema": {
-            "description": "RouterOS tos property. CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
+            "description": "Matches the Type of Service (ToS) field of the IP header. An optional mask selects the bits to compare, in the format value/mask . CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -30974,10 +31206,10 @@
         {
           "name": "action",
           "cli_type": "enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
-          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send a packet to connection tracking. Useful when you still need to use regular firewall, but do not require connection tracking.",
+          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules.",
           "required": true,
           "schema": {
-            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send a packet to connection tracking. Useful when you still need to use regular firewall, but do not require connection tracking. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
+            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -31118,7 +31350,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -31141,9 +31373,9 @@
         {
           "name": "fragment",
           "cli_type": "super { fragment: bool }",
-          "description": "Matches fragmented packets. The first (starting) fragment does not count. If connection tracking is enabled there will be no fragments as the system automatically assembles every packet. IPv4 only.",
+          "description": "Matches fragmented packets. The first (starting) fragment does not count. Packets are not assembled before the RAW rules run, so fragments are visible also when connection tracking is enabled; packets that bypass connection tracking with notrack stay fragmented. IPv4 only.",
           "schema": {
-            "description": "Matches fragmented packets. The first (starting) fragment does not count. If connection tracking is enabled there will be no fragments as the system automatically assembles every packet. IPv4 only. CLI type: super { fragment: bool }",
+            "description": "Matches fragmented packets. The first (starting) fragment does not count. Packets are not assembled before the RAW rules run, so fragments are visible also when connection tracking is enabled; packets that bypass connection tracking with notrack stay fragmented. IPv4 only. CLI type: super { fragment: bool }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -31191,9 +31423,9 @@
         {
           "name": "in-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet has entered the router.",
+          "description": "Interface the packet has entered the router. Not valid in the output chain.",
           "schema": {
-            "description": "Interface the packet has entered the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet has entered the router. Not valid in the output chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -31221,9 +31453,9 @@
         {
           "name": "ipsec-policy",
           "cli_type": "super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
-          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
+          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
           "schema": {
-            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
+            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -31323,9 +31555,9 @@
         {
           "name": "out-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet is leaving the router.",
+          "description": "Interface the packet is leaving the router. Not valid in the prerouting chain.",
           "schema": {
-            "description": "Interface the packet is leaving the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet is leaving the router. Not valid in the prerouting chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -31523,9 +31755,9 @@
         {
           "name": "tos",
           "cli_type": "super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
-          "description": "RouterOS tos property.",
+          "description": "Matches the Type of Service (ToS) field of the IP header. An optional mask selects the bits to compare, in the format value/mask .",
           "schema": {
-            "description": "RouterOS tos property. CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
+            "description": "Matches the Type of Service (ToS) field of the IP header. An optional mask selects the bits to compare, in the format value/mask . CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -31576,10 +31808,10 @@
         {
           "name": "action",
           "cli_type": "enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
-          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send a packet to connection tracking. Useful when you still need to use regular firewall, but do not require connection tracking.",
+          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules.",
           "required": true,
           "schema": {
-            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send a packet to connection tracking. Useful when you still need to use regular firewall, but do not require connection tracking. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
+            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -31720,7 +31952,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -31743,9 +31975,9 @@
         {
           "name": "fragment",
           "cli_type": "super { fragment: bool }",
-          "description": "Matches fragmented packets. The first (starting) fragment does not count. If connection tracking is enabled there will be no fragments as the system automatically assembles every packet. IPv4 only.",
+          "description": "Matches fragmented packets. The first (starting) fragment does not count. Packets are not assembled before the RAW rules run, so fragments are visible also when connection tracking is enabled; packets that bypass connection tracking with notrack stay fragmented. IPv4 only.",
           "schema": {
-            "description": "Matches fragmented packets. The first (starting) fragment does not count. If connection tracking is enabled there will be no fragments as the system automatically assembles every packet. IPv4 only. CLI type: super { fragment: bool }",
+            "description": "Matches fragmented packets. The first (starting) fragment does not count. Packets are not assembled before the RAW rules run, so fragments are visible also when connection tracking is enabled; packets that bypass connection tracking with notrack stay fragmented. IPv4 only. CLI type: super { fragment: bool }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -31793,9 +32025,9 @@
         {
           "name": "in-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet has entered the router.",
+          "description": "Interface the packet has entered the router. Not valid in the output chain.",
           "schema": {
-            "description": "Interface the packet has entered the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet has entered the router. Not valid in the output chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -31823,9 +32055,9 @@
         {
           "name": "ipsec-policy",
           "cli_type": "super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
-          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
+          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
           "schema": {
-            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
+            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -31925,9 +32157,9 @@
         {
           "name": "out-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet is leaving the router.",
+          "description": "Interface the packet is leaving the router. Not valid in the prerouting chain.",
           "schema": {
-            "description": "Interface the packet is leaving the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet is leaving the router. Not valid in the prerouting chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -32125,9 +32357,9 @@
         {
           "name": "tos",
           "cli_type": "super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
-          "description": "RouterOS tos property.",
+          "description": "Matches the Type of Service (ToS) field of the IP header. An optional mask selects the bits to compare, in the format value/mask .",
           "schema": {
-            "description": "RouterOS tos property. CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
+            "description": "Matches the Type of Service (ToS) field of the IP header. An optional mask selects the bits to compare, in the format value/mask . CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -32178,10 +32410,10 @@
         {
           "name": "action",
           "cli_type": "enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
-          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send a packet to connection tracking. Useful when you still need to use regular firewall, but do not require connection tracking.",
+          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules.",
           "required": true,
           "schema": {
-            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send a packet to connection tracking. Useful when you still need to use regular firewall, but do not require connection tracking. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
+            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -32322,7 +32554,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -32345,9 +32577,9 @@
         {
           "name": "fragment",
           "cli_type": "super { fragment: bool }",
-          "description": "Matches fragmented packets. The first (starting) fragment does not count. If connection tracking is enabled there will be no fragments as the system automatically assembles every packet. IPv4 only.",
+          "description": "Matches fragmented packets. The first (starting) fragment does not count. Packets are not assembled before the RAW rules run, so fragments are visible also when connection tracking is enabled; packets that bypass connection tracking with notrack stay fragmented. IPv4 only.",
           "schema": {
-            "description": "Matches fragmented packets. The first (starting) fragment does not count. If connection tracking is enabled there will be no fragments as the system automatically assembles every packet. IPv4 only. CLI type: super { fragment: bool }",
+            "description": "Matches fragmented packets. The first (starting) fragment does not count. Packets are not assembled before the RAW rules run, so fragments are visible also when connection tracking is enabled; packets that bypass connection tracking with notrack stay fragmented. IPv4 only. CLI type: super { fragment: bool }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -32395,9 +32627,9 @@
         {
           "name": "in-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet has entered the router.",
+          "description": "Interface the packet has entered the router. Not valid in the output chain.",
           "schema": {
-            "description": "Interface the packet has entered the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet has entered the router. Not valid in the output chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -32425,9 +32657,9 @@
         {
           "name": "ipsec-policy",
           "cli_type": "super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
-          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
+          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
           "schema": {
-            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
+            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -32527,9 +32759,9 @@
         {
           "name": "out-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet is leaving the router.",
+          "description": "Interface the packet is leaving the router. Not valid in the prerouting chain.",
           "schema": {
-            "description": "Interface the packet is leaving the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet is leaving the router. Not valid in the prerouting chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -32727,9 +32959,9 @@
         {
           "name": "tos",
           "cli_type": "super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
-          "description": "RouterOS tos property.",
+          "description": "Matches the Type of Service (ToS) field of the IP header. An optional mask selects the bits to compare, in the format value/mask .",
           "schema": {
-            "description": "RouterOS tos property. CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
+            "description": "Matches the Type of Service (ToS) field of the IP header. An optional mask selects the bits to compare, in the format value/mask . CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -32780,10 +33012,10 @@
         {
           "name": "action",
           "cli_type": "enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
-          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send a packet to connection tracking. Useful when you still need to use regular firewall, but do not require connection tracking.",
+          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules.",
           "required": true,
           "schema": {
-            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send a packet to connection tracking. Useful when you still need to use regular firewall, but do not require connection tracking. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
+            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -32924,7 +33156,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -32947,9 +33179,9 @@
         {
           "name": "fragment",
           "cli_type": "super { fragment: bool }",
-          "description": "Matches fragmented packets. The first (starting) fragment does not count. If connection tracking is enabled there will be no fragments as the system automatically assembles every packet. IPv4 only.",
+          "description": "Matches fragmented packets. The first (starting) fragment does not count. Packets are not assembled before the RAW rules run, so fragments are visible also when connection tracking is enabled; packets that bypass connection tracking with notrack stay fragmented. IPv4 only.",
           "schema": {
-            "description": "Matches fragmented packets. The first (starting) fragment does not count. If connection tracking is enabled there will be no fragments as the system automatically assembles every packet. IPv4 only. CLI type: super { fragment: bool }",
+            "description": "Matches fragmented packets. The first (starting) fragment does not count. Packets are not assembled before the RAW rules run, so fragments are visible also when connection tracking is enabled; packets that bypass connection tracking with notrack stay fragmented. IPv4 only. CLI type: super { fragment: bool }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -32997,9 +33229,9 @@
         {
           "name": "in-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet has entered the router.",
+          "description": "Interface the packet has entered the router. Not valid in the output chain.",
           "schema": {
-            "description": "Interface the packet has entered the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet has entered the router. Not valid in the output chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -33027,9 +33259,9 @@
         {
           "name": "ipsec-policy",
           "cli_type": "super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
-          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
+          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
           "schema": {
-            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
+            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -33129,9 +33361,9 @@
         {
           "name": "out-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet is leaving the router.",
+          "description": "Interface the packet is leaving the router. Not valid in the prerouting chain.",
           "schema": {
-            "description": "Interface the packet is leaving the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet is leaving the router. Not valid in the prerouting chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -33329,9 +33561,9 @@
         {
           "name": "tos",
           "cli_type": "super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
-          "description": "RouterOS tos property.",
+          "description": "Matches the Type of Service (ToS) field of the IP header. An optional mask selects the bits to compare, in the format value/mask .",
           "schema": {
-            "description": "RouterOS tos property. CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
+            "description": "Matches the Type of Service (ToS) field of the IP header. An optional mask selects the bits to compare, in the format value/mask . CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -45302,7 +45534,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -45953,7 +46185,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -46604,7 +46836,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -47255,7 +47487,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -47906,7 +48138,7 @@
         {
           "name": "dynamic",
           "cli_type": "bool",
-          "description": "RouterOS dynamic property.",
+          "description": "Switch of print : list only the dynamic rules, which are the rules that the router adds itself.",
           "read_only": true,
           "schema": {
             "anyOf": [
@@ -48353,10 +48585,10 @@
         {
           "name": "action",
           "cli_type": "enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
-          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. drop - drop the packet. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . notrack - skip connection tracking for the packet. passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place.",
+          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules.",
           "required": true,
           "schema": {
-            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. drop - drop the packet. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . notrack - skip connection tracking for the packet. passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
+            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -48570,9 +48802,9 @@
         {
           "name": "in-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet has entered the router.",
+          "description": "Interface the packet has entered the router. Not valid in the output chain.",
           "schema": {
-            "description": "Interface the packet has entered the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet has entered the router. Not valid in the output chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -48600,9 +48832,9 @@
         {
           "name": "ipsec-policy",
           "cli_type": "super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
-          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
+          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
           "schema": {
-            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
+            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -48692,9 +48924,9 @@
         {
           "name": "out-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet is leaving the router.",
+          "description": "Interface the packet is leaving the router. Not valid in the prerouting chain.",
           "schema": {
-            "description": "Interface the packet is leaving the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet is leaving the router. Not valid in the prerouting chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -48882,9 +49114,9 @@
         {
           "name": "tos",
           "cli_type": "super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
-          "description": "RouterOS tos property.",
+          "description": "Matches the Traffic Class field of the IPv6 header. An optional mask selects the bits to compare, in the format value/mask .",
           "schema": {
-            "description": "RouterOS tos property. CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
+            "description": "Matches the Traffic Class field of the IPv6 header. An optional mask selects the bits to compare, in the format value/mask . CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -48924,10 +49156,10 @@
         {
           "name": "action",
           "cli_type": "enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
-          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. drop - drop the packet. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . notrack - skip connection tracking for the packet. passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place.",
+          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules.",
           "required": true,
           "schema": {
-            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. drop - drop the packet. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . notrack - skip connection tracking for the packet. passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
+            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -49141,9 +49373,9 @@
         {
           "name": "in-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet has entered the router.",
+          "description": "Interface the packet has entered the router. Not valid in the output chain.",
           "schema": {
-            "description": "Interface the packet has entered the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet has entered the router. Not valid in the output chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -49171,9 +49403,9 @@
         {
           "name": "ipsec-policy",
           "cli_type": "super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
-          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
+          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
           "schema": {
-            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
+            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -49263,9 +49495,9 @@
         {
           "name": "out-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet is leaving the router.",
+          "description": "Interface the packet is leaving the router. Not valid in the prerouting chain.",
           "schema": {
-            "description": "Interface the packet is leaving the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet is leaving the router. Not valid in the prerouting chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -49453,9 +49685,9 @@
         {
           "name": "tos",
           "cli_type": "super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
-          "description": "RouterOS tos property.",
+          "description": "Matches the Traffic Class field of the IPv6 header. An optional mask selects the bits to compare, in the format value/mask .",
           "schema": {
-            "description": "RouterOS tos property. CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
+            "description": "Matches the Traffic Class field of the IPv6 header. An optional mask selects the bits to compare, in the format value/mask . CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -49495,10 +49727,10 @@
         {
           "name": "action",
           "cli_type": "enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
-          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. drop - drop the packet. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . notrack - skip connection tracking for the packet. passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place.",
+          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules.",
           "required": true,
           "schema": {
-            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. drop - drop the packet. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . notrack - skip connection tracking for the packet. passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
+            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -49712,9 +49944,9 @@
         {
           "name": "in-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet has entered the router.",
+          "description": "Interface the packet has entered the router. Not valid in the output chain.",
           "schema": {
-            "description": "Interface the packet has entered the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet has entered the router. Not valid in the output chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -49742,9 +49974,9 @@
         {
           "name": "ipsec-policy",
           "cli_type": "super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
-          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
+          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
           "schema": {
-            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
+            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -49834,9 +50066,9 @@
         {
           "name": "out-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet is leaving the router.",
+          "description": "Interface the packet is leaving the router. Not valid in the prerouting chain.",
           "schema": {
-            "description": "Interface the packet is leaving the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet is leaving the router. Not valid in the prerouting chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -50024,9 +50256,9 @@
         {
           "name": "tos",
           "cli_type": "super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
-          "description": "RouterOS tos property.",
+          "description": "Matches the Traffic Class field of the IPv6 header. An optional mask selects the bits to compare, in the format value/mask .",
           "schema": {
-            "description": "RouterOS tos property. CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
+            "description": "Matches the Traffic Class field of the IPv6 header. An optional mask selects the bits to compare, in the format value/mask . CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -50066,10 +50298,10 @@
         {
           "name": "action",
           "cli_type": "enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
-          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. drop - drop the packet. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . notrack - skip connection tracking for the packet. passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place.",
+          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules.",
           "required": true,
           "schema": {
-            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. drop - drop the packet. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . notrack - skip connection tracking for the packet. passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
+            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -50283,9 +50515,9 @@
         {
           "name": "in-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet has entered the router.",
+          "description": "Interface the packet has entered the router. Not valid in the output chain.",
           "schema": {
-            "description": "Interface the packet has entered the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet has entered the router. Not valid in the output chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -50313,9 +50545,9 @@
         {
           "name": "ipsec-policy",
           "cli_type": "super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
-          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
+          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
           "schema": {
-            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
+            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -50405,9 +50637,9 @@
         {
           "name": "out-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet is leaving the router.",
+          "description": "Interface the packet is leaving the router. Not valid in the prerouting chain.",
           "schema": {
-            "description": "Interface the packet is leaving the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet is leaving the router. Not valid in the prerouting chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -50595,9 +50827,9 @@
         {
           "name": "tos",
           "cli_type": "super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
-          "description": "RouterOS tos property.",
+          "description": "Matches the Traffic Class field of the IPv6 header. An optional mask selects the bits to compare, in the format value/mask .",
           "schema": {
-            "description": "RouterOS tos property. CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
+            "description": "Matches the Traffic Class field of the IPv6 header. An optional mask selects the bits to compare, in the format value/mask . CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -50637,10 +50869,10 @@
         {
           "name": "action",
           "cli_type": "enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
-          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. drop - drop the packet. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . notrack - skip connection tracking for the packet. passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place.",
+          "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules.",
           "required": true,
           "schema": {
-            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. A packet is not passed to the next firewall rule. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. drop - drop the packet. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . notrack - skip connection tracking for the packet. passthrough - if a packet is matched by the rule, increase the counter and go to the next rule (useful for statistics). return - passes control back to the chain from where the jump took place. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
+            "description": "Action to take if a packet is matched by the rule: accept - accept the packet. The packet is not passed to the next RAW rule and goes on to connection tracking. add-dst-to-address-list - add the destination address to the address list specified by the address-list parameter. add-src-to-address-list - add the source address to the address list specified by the address-list parameter. jump - jump to the user-defined chain specified by the value of the jump-target parameter. log - add a message to the system log containing the following data: in-interface, out-interface, src-mac, protocol, src-ip:port-\u003edst-ip :port , and length of the packet. After a packet is matched it is passed to the next rule in the list, similar to passthrough . passthrough - if a packet is matched by the rule, increase the counter and go to the next rule. return - passes control back to the chain from where the jump took place. drop - drop the packet. notrack - do not send the packet to connection tracking. The packet goes on to the next RAW rule and has the connection state untracked in the mangle and filter rules. CLI type: enum (accept | jump | return | log | passthrough | add-src-to-address-list | add-dst-to-address-list | drop | notrack) { accept:0, jump:1, return:2, log:3, passthrough:4, add-src-to-address-list:5, add-dst-to-address-list:6, drop:10, notrack:42 }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -50854,9 +51086,9 @@
         {
           "name": "in-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet has entered the router.",
+          "description": "Interface the packet has entered the router. Not valid in the output chain.",
           "schema": {
-            "description": "Interface the packet has entered the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet has entered the router. Not valid in the output chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -50884,9 +51116,9 @@
         {
           "name": "ipsec-policy",
           "cli_type": "super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
-          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
+          "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing.",
           "schema": {
-            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the PREROUTING, INPUT, and FORWARD chains. out - valid in the POSTROUTING, OUTPUT, and FORWARD chains. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
+            "description": "Matches the policy used by IPsec. Value is written in the following format: direction, policy . in - valid in the prerouting chain. out - valid in the output chain. ipsec - matches if the packet is subject to IPsec processing. none - matches packets that are not subject to IPsec processing. CLI type: super { direction: enum (in | out) { in:0, out:1 } , [policy] ,enum (none | ipsec) { none:0, ipsec:1 } }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -50976,9 +51208,9 @@
         {
           "name": "out-interface",
           "cli_type": "super { ! , interface: iface_enum }",
-          "description": "Interface the packet is leaving the router.",
+          "description": "Interface the packet is leaving the router. Not valid in the prerouting chain.",
           "schema": {
-            "description": "Interface the packet is leaving the router. CLI type: super { ! , interface: iface_enum }",
+            "description": "Interface the packet is leaving the router. Not valid in the prerouting chain. CLI type: super { ! , interface: iface_enum }",
             "maxLength": 4096,
             "type": "string"
           }
@@ -51166,9 +51398,9 @@
         {
           "name": "tos",
           "cli_type": "super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
-          "description": "RouterOS tos property.",
+          "description": "Matches the Traffic Class field of the IPv6 header. An optional mask selects the bits to compare, in the format value/mask .",
           "schema": {
-            "description": "RouterOS tos property. CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
+            "description": "Matches the Traffic Class field of the IPv6 header. An optional mask selects the bits to compare, in the format value/mask . CLI type: super { ! , tos: num [0 .. 255] , [mask] [ /num [0 .. 255]] }",
             "maxLength": 4096,
             "type": "string"
           }
